@@ -1,0 +1,11 @@
+---
+title: "Bienvenida usuaRi@s!"
+author: "Bastián Olea Herrera"
+date: "2026-02-17"
+image: "cordillera.jpeg"
+categories: [noticias]
+---
+
+Este será el blog de la comunidad de usuarias y usuarios de R en Chile!
+
+![](cordillera.jpeg)

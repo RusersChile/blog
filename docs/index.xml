@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>R Chile</title>
+<link>https://ruserschile.github.io/</link>
+<atom:link href="https://ruserschile.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>Sitio web de la comunidad de usuarias y usuarios de R en Chile</description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Tue, 17 Feb 2026 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Bienvenida usuaRi@s!</title>
+  <dc:creator>Bastián Olea Herrera</dc:creator>
+  <link>https://ruserschile.github.io/posts/bienvenida/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Este será el blog de la comunidad de usuarias y usuarios de R en Chile!</p>
+<p><img src="https://ruserschile.github.io/posts/bienvenida/cordillera.jpeg" class="img-fluid"></p>
+
+
+
+ ]]></description>
+  <category>noticias</category>
+  <guid>https://ruserschile.github.io/posts/bienvenida/</guid>
+  <pubDate>Tue, 17 Feb 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://ruserschile.github.io/posts/bienvenida/cordillera.jpeg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

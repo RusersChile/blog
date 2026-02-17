@@ -4,7 +4,7 @@ project:
 
 website:
   description: "Sitio web de la comunidad de usuarias y usuarios de R en Chile"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
+  site-url: https://ruserschile.github.io
   title: "R Chile"
   navbar:
     right:
@@ -12,11 +12,12 @@ website:
         href: index.qmd
       - about.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/RusersChile
       - icon: twitter
         href: https://twitter.com/RusersChile
 format:
   html:
+    lang: "es"
     theme:
       - litera
       - brand
