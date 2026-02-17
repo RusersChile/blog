@@ -1,0 +1,18 @@
+---
+title: "Acerca de"
+image: profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/RusersChile
+    - icon: github
+      text: Github
+      href: https://github.com
+
+---
+
+Sitio web de la comunidad de usuarias y usuarios de R en Chile.
+
+Organizado por [Bastián Olea](https://bastianolea.rbind.io) y [Carolina Morales](linkedin.com/in/carolinabelenmorales)
