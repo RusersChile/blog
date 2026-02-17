@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "Acerca de",
     "section": "",
-    "text": "Sitio web de la comunidad de usuarias y usuarios de R en Chile.\nOrganizado por Bastián Olea y Carolina Morales"
+    "text": "Sitio web de la comunidad de usuarias y usuarios de R en Chile.\nOrganizado por Bastián Olea y Carolina Morales\nCódigo del sitio en Github"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -40,5 +40,12 @@
     "title": "Introducción",
     "section": "",
     "text": "Sitio web de la comunidad de usuarias y usuarios de R en Chile."
+  },
+  {
+    "objectID": "about.html#código-de-conducta",
+    "href": "about.html#código-de-conducta",
+    "title": "Acerca de",
+    "section": "Código de conducta",
+    "text": "Código de conducta\nPlease note that the grupo_usuarios_r project is released with a Contributor Code of Conduct. By contributing to this project, you agree to abide by its terms."
   }
 ]

@@ -16,3 +16,10 @@ about:
 Sitio web de la comunidad de usuarias y usuarios de R en Chile.
 
 Organizado por [Bastián Olea](https://bastianolea.rbind.io) y [Carolina Morales](linkedin.com/in/carolinabelenmorales)
+
+
+Código del sitio [en Github](https://github.com/RusersChile/blog)
+
+## Código de conducta
+
+Please note that the grupo_usuarios_r project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
