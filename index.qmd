@@ -1,5 +1,5 @@
 ---
-title: "Grupo de usuari@s de R: Chile"
+title: "Grupo de usuari@s de R en Chile"
 listing:
   contents: posts
   feed: true
