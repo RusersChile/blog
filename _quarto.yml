@@ -8,6 +8,8 @@ website:
   title: "R Chile"
   navbar:
     right:
+      - text: Introducción
+        href: introduccion.qmd
       - text: Blog
         href: index.qmd
       - about.qmd
