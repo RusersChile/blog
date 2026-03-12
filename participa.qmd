@@ -24,7 +24,7 @@ Si te interesa participar, incríbete a continuación:
 
 <div
 style = "padding: 4px; border-radius: 5px; padding-left: 24px; 
-background-color: #6A3274; margin-top: 24px;
+background-color: #6A3274; margin-top: 24px; margin-bottom: 24px;
 width: 180px;"
 >
 
@@ -38,3 +38,11 @@ target = "_blank">
 </a>
 
 </div>
+
+### Próxima reunión:
+- 18 de marzo de 2026, 19:30 hrs. (Santiago), online
+
+::: {style="opacity: 0.3;"}
+### Reuniones pasadas:
+- Ninguna!
+:::
