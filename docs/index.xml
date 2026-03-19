@@ -10,7 +10,33 @@
 <atom:link href="https://santiagoRusers.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Sitio web de la comunidad de usuarias y usuarios de R en Santiago de Chile</description>
 <generator>quarto-1.8.25</generator>
-<lastBuildDate>Thu, 12 Mar 2026 03:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 18 Mar 2026 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Junta de usuari@s de R: 18 de marzo, 2026</title>
+  <dc:creator>Grupo de usuari@s de R</dc:creator>
+  <link>https://santiagoRusers.github.io/posts/2026-03-18/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Ya fue nuestra primera junta online de usuarios/as de R! 👩🏻‍💻👨🏽‍💻</p>
+<p>Vimos usos de R en disciplinas tan distintas como <strong>biología, sociología</strong> y <strong>física</strong>, y en temas tan diversos como comercio y salmonicultura 🐟</p>
+<p>Más de 10 usuarias y usuarios de R participaron contando sus experiencias con la programación, mostrando sus proyectos en R, y jugando a la trivia 🤓</p>
+<p>Nos vemos en la junta del próximo mes, y atención a nuestras redes sociales para más formas de crear comunidad ✨</p>
+<div class="galeria">
+<p><a href="santiago_r_users1.png" class="lightbox" data-gallery="galeria"><img src="https://santiagoRusers.github.io/posts/2026-03-18/santiago_r_users1.png" class="fotito img-fluid"></a> <a href="santiago_r_users3.png" class="lightbox" data-gallery="galeria"><img src="https://santiagoRusers.github.io/posts/2026-03-18/santiago_r_users3.png" class="fotito img-fluid"></a> <a href="santiago_r_users2.png" class="lightbox" data-gallery="galeria"><img src="https://santiagoRusers.github.io/posts/2026-03-18/santiago_r_users2.png" class="fotito img-fluid"></a> <a href="santiago_r_users4.png" class="lightbox" data-gallery="galeria"><img src="https://santiagoRusers.github.io/posts/2026-03-18/santiago_r_users4.png" class="fotito img-fluid"></a> <a href="santiago_r_users6.png" class="lightbox" data-gallery="galeria"><img src="https://santiagoRusers.github.io/posts/2026-03-18/santiago_r_users6.png" class="fotito img-fluid"></a> <a href="santiago_r_users5.png" class="lightbox" data-gallery="galeria"><img src="https://santiagoRusers.github.io/posts/2026-03-18/santiago_r_users5.png" class="fotito img-fluid"></a></p>
+</div>
+
+
+
+ ]]></description>
+  <category>reuniones</category>
+  <guid>https://santiagoRusers.github.io/posts/2026-03-18/</guid>
+  <pubDate>Wed, 18 Mar 2026 03:00:00 GMT</pubDate>
+  <media:content url="https://santiagoRusers.github.io/posts/2026-03-18/santiago_r_users3.png" medium="image" type="image/png" height="96" width="144"/>
+</item>
 <item>
   <title>Primera reunión</title>
   <dc:creator>Carolina Morales y Bastián Olea</dc:creator>

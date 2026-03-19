@@ -23,12 +23,12 @@ website:
         href: https://www.linkedin.com/company/santiagorusers
       - icon: twitter
         href: https://twitter.com/santiagoRusers
-  announcement: 
-    icon: exclamation-circle-fill
-    dismissable: true
-    content: "[**Inscríbete** a la primera junta del grupo!](participa.html) Hoy!"
-    type: primary
-    position: below-navbar
+  # announcement: 
+  #   icon: exclamation-circle-fill
+  #   dismissable: true
+  #   content: "[**Inscríbete** a la primera junta del grupo!](participa.html) Hoy!"
+  #   type: primary
+  #   position: below-navbar
 format:
   html:
     lang: "es"
