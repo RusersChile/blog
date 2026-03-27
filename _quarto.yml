@@ -11,12 +11,14 @@ website:
   twitter-card: true
   navbar:
     right:
-      - text: <strong>Participa</strong>
+      - text: "**Participa**"
         href: participa.qmd
       - text: Blog
         href: index.qmd
       - text: Acerca de
         href: about.qmd
+      - text: "{{< fa brands meetup size=xl >}}"
+        href: https://www.meetup.com/es-es/santiagorusers/
       - icon: github
         href: https://github.com/santiagoRusers
       - icon: linkedin
