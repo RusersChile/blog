@@ -9,7 +9,7 @@
 <link>https://santiagoRusers.github.io/</link>
 <atom:link href="https://santiagoRusers.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Sitio web de la comunidad de usuarias y usuarios de R en Santiago de Chile</description>
-<generator>quarto-1.9.38</generator>
+<generator>quarto-1.9.37</generator>
 <lastBuildDate>Wed, 29 Jul 2026 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Taller: Crea tu propia página web con Quarto y R</title>
@@ -30,14 +30,21 @@
 <ul>
 <li><strong>R</strong> y <strong>RStudio</strong> instalados (<a href="https://bastianolea.github.io/aprende_r/#obtener-r">ver instrucciones aquí</a>)</li>
 <li>El paquete de R <strong>Quarto</strong> instalado: <code>install.packages("quarto")</code></li>
+<li><strong>Git</strong> instalado (<a href="https://git-scm.com">ver instrucciones aquí</a>)</li>
 <li>Una cuenta de <strong>GitHub</strong> creada, ya que la utilizaremos para publicar nuestra página web!</li>
 </ul>
 <p>¡Nos vemos el miércoles 29 de julio! <i class="fa-solid fa-heart fa-2x" aria-label="heart"></i></p>
 <section id="taller-de-julio" class="level3">
 <h3 class="anchored" data-anchor-id="taller-de-julio">Taller de julio:</h3>
 <ul>
-<li>29 de julio de 2026, 19:30 hrs. (Santiago), online</li>
+<li><strong>29 de julio de 2026, 19:30 hrs.</strong> (Santiago), online</li>
 </ul>
+<div class="boton">
+<p><a href="https://us06web.zoom.us/j/87800697219?pwd=zhMlOjGnAkG001JbO1S1oMVkdgU63m.1" target="_blank"> <i class="fa-solid fa-video fa-2x" aria-label="video"></i> Conéctate por Zoom </a></p>
+</div>
+<div class="boton">
+<p><a href="https://santiagorusers.github.io/taller_quarto_blog/" target="_blank"> <i class="fa-solid fa-chalkboard-user fa-2x" aria-label="chalkboard-user"></i> Ver diapositivas </a></p>
+</div>
 <p><a href="https://us06web.zoom.us/j/87800697219?pwd=zhMlOjGnAkG001JbO1S1oMVkdgU63m.1">Conéctate a la reunión por Zoom en este enlace</a>, y/o agrégala a tu calendario:</p>
 <!-- botón de google calendar --->
 <div class="boton">

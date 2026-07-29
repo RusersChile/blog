@@ -21,12 +21,28 @@ Durante el taller aprenderás a crear una página web utilizando Quarto, una her
 
 * **R** y **RStudio** instalados ([ver instrucciones aquí](https://bastianolea.github.io/aprende_r/#obtener-r))
 * El paquete de R **Quarto** instalado: `install.packages("quarto")`
+* **Git** instalado ([ver instrucciones aquí](https://git-scm.com))
 * Una cuenta de **GitHub** creada, ya que la utilizaremos para publicar nuestra página web!
 
 ¡Nos vemos el miércoles 29 de julio! {{< fa heart size=2x >}}
 
 ### Taller de julio:
-- 29 de julio de 2026, 19:30 hrs. (Santiago), online
+- **29 de julio de 2026, 19:30 hrs.** (Santiago), online
+
+:::{.boton}
+<a href = "https://us06web.zoom.us/j/87800697219?pwd=zhMlOjGnAkG001JbO1S1oMVkdgU63m.1" target = "_blank">
+{{< fa video size=2x >}} Conéctate por Zoom
+</a>
+:::
+
+:::{.boton}
+<a href = "https://santiagorusers.github.io/taller_quarto_blog/" target = "_blank">
+{{< fa chalkboard-user size=2x >}} Ver diapositivas
+</a>
+:::
+
+
+
 
 
 [Conéctate a la reunión por Zoom en este enlace](https://us06web.zoom.us/j/87800697219?pwd=zhMlOjGnAkG001JbO1S1oMVkdgU63m.1
