@@ -46,30 +46,30 @@ target = "_blank">
 
 La siguiente reunión del grupo será el:
 
-- [**29 de julio** de 2026, 19:30 hrs. (Santiago), online](/posts/taller_julio_2026/)
+- **26 de agosto** de 2026, 19:30 hrs. (Santiago), online
+
+_Pronto más información_
 
 <!-- botón de google calendar --->
+<!--
 :::{.boton}
 <a href = "https://calendar.app.google/sdBpWQPjWXvHT6qy5" 
 target = "_blank">
-
 {{< fa calendar size=2x >}} Agregar a Google Calendar
-
 </a>
 :::
-
+-->
 <!-- botón de descargar calendario --->
+<!--
 :::{.boton}
 <a href="evento_r_chile.ics" 
 download="evento_r_chile.ics">
-
 {{< fa calendar-plus size=2x >}} Descargar para Calendario
-
 </a>
 :::
+-->
 
 ### Reuniones siguientes:
-- **26 de agosto** de 2026, 19:30 hrs. (Santiago), online
 - **23 de septiembre** de 2026, 19:30 hrs. (Santiago), **presencial!** 🎉
 - **28 de octubre** de 2026, 19:30 hrs. (Santiago), online
 - **25 de noviembre** de 2026, 19:30 hrs. (Santiago), online
@@ -80,6 +80,7 @@ En el intertanto, podemos [conversar por Slack! {{< fa brands slack >}}](https:/
 
 ::: {style="opacity: 0.5;"}
 ### Reuniones pasadas:
+- [29 de julio de 2026, 19:30 hrs. (Santiago), online](/posts/taller_julio_2026/)
 - [27 de mayo de 2026, 19:30 hrs. (Santiago), online](/posts/2026-05-27/)
 - [28 de abril de 2026, 19:30 hrs. (Santiago), online](/posts/2026-04-28/)
 - [18 de marzo de 2026, 19:30 hrs. (Santiago), online](/posts/2026-03-18/)
