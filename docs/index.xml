@@ -9,7 +9,7 @@
 <link>https://santiagoRusers.github.io/</link>
 <atom:link href="https://santiagoRusers.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Sitio web de la comunidad de usuarias y usuarios de R en Santiago de Chile</description>
-<generator>quarto-1.9.38</generator>
+<generator>quarto-1.9.37</generator>
 <lastBuildDate>Wed, 29 Jul 2026 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Taller: Crea tu propia página web con Quarto y R</title>
@@ -50,7 +50,7 @@
 <p><a href="https://santiagorusers.github.io/taller_quarto_blog/" target="_blank"> <i class="fa-solid fa-chalkboard-user fa-2x" aria-label="chalkboard-user"></i> Ver diapositivas </a></p>
 </div>
 <div class="boton">
-<p><a href="https://www.youtube.com/watch?v=S76UQMeUTuE" target="_blank"> <i class="fa-solid fa-chalkboard-user fa-2x" aria-label="chalkboard-user"></i> Ver video en Youtube </a></p>
+<p><a href="https://www.youtube.com/watch?v=S76UQMeUTuE" target="_blank"> <i class="fa-solid fa-video fa-2x" aria-label="video"></i> Ver video en Youtube </a></p>
 </div>
 <section id="grabación-del-taller" class="level3">
 <h3 class="anchored" data-anchor-id="grabación-del-taller">Grabación del taller</h3>

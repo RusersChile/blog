@@ -46,7 +46,7 @@ Durante el taller aprenderás a crear una página web utilizando Quarto, una her
 
 :::{.boton}
 <a href = "https://www.youtube.com/watch?v=S76UQMeUTuE" target = "_blank">
-{{< fa chalkboard-user size=2x >}} Ver video en Youtube
+{{< fa video size=2x >}} Ver video en Youtube
 </a>
 :::
 
