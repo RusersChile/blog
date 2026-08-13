@@ -50,6 +50,12 @@ Durante el taller aprenderás a crear una página web utilizando Quarto, una her
 </a>
 :::
 
+:::{.boton}
+<a href = "https://bastianolea.rbind.io/blog/quarto_blog/" target = "_blank">
+{{< fa laptop-code size=2x >}} Leer tutorial completo
+</a>
+:::
+
 ### Grabación del taller
 
 <iframe width="100%" height="420" style="border-radius:6px;" src="https://www.youtube.com/embed/S76UQMeUTuE?si=7vLtHwu_aA_cQYfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

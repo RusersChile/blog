@@ -55,6 +55,24 @@ code {
   margin-bottom: 4px !important;
 }
 
+// subtítulos en lista de posts
+div.quarto-post .body .listing-subtitle {
+  font-size: 1.1em;
+  line-height: 1.2;
+  font-style: italic;
+  font-weight: bold !important;
+}
+
+// subtítulos en post
+p.subtitle {
+  margin-top: .25em;
+  margin-bottom: .5em;
+  font-style: italic;
+  color: color(srgb 0.3499 0.2245 0.3399);
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
 // etiquetas de posts
 .listing-category, .quarto-category {
   border-color: #8b4b93 !important;
@@ -125,4 +143,15 @@ h4 {
   border: none !important;
   background-color: #fbd0e4;
   border-bottom: solid 1px #eebcd3 !important;
+}
+
+iframe {
+  border: 0;
+  border-radius: 5px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

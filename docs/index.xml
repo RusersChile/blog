@@ -10,7 +10,82 @@
 <atom:link href="https://santiagoRusers.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Sitio web de la comunidad de usuarias y usuarios de R en Santiago de Chile</description>
 <generator>quarto-1.9.37</generator>
-<lastBuildDate>Wed, 29 Jul 2026 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 26 Aug 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>CensoLab: plataforma de exploración de datos geográficos y censales con inteligencia artificial en R</title>
+  <dc:creator>Joshua Kunst y Matías Parra</dc:creator>
+  <link>https://santiagoRusers.github.io/posts/taller_agosto_2026/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>La reunión mensual de agosto cuenta con la presentación de <a href="http://censolab.cl"><strong>CensoLab</strong></a>, una plataforma interactiva desarrollada en R que permite explorar información geográfica del Censo por medio de mapas interactivos, un dashboard, y lenguaje natural mediante inteligencia artificial.</p>
+<p><img src="https://santiagoRusers.github.io/posts/taller_agosto_2026/afiche_rusers_stgo_agosto.jpg" class="img-fluid"></p>
+<p>Los autores de <strong>CensoLab</strong>, <a href="https://www.linkedin.com/in/joshuakunst/">Joshua Kunst</a> (estadístico y <em>Risk Specialist</em>) y <a href="https://www.linkedin.com/in/matias-parra-rojas">Matías Parra</a> (antropólogo y programador), presentarán la plataforma comentando su arquitectura, implementación y los desafíos que enfrentaron, usando ejemplos prácticos sobre los paquetes de R <a href="https://shiny.posit.co">Shiny</a> y <a href="https://ellmer.tidyverse.org"><code>{ellmer}</code>.</a></p>
+<p>Puedes ver una presentación de la plataforma aquí:</p>
+<div class="center">
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7492655335128821760?compact=1" height="400" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada">
+</iframe>
+</div>
+<p>¡Lxs dejamos cordialmente invitados a esta nueva reunión de <em>R Users Santiago</em>!</p>
+<!---
+ Antes de la reunión, asegúrate de tener:
+
+* **R** y **RStudio** instalados ([ver instrucciones aquí](https://bastianolea.github.io/aprende_r/#obtener-r))
+* El paquete de R **Quarto** instalado: `install.packages("quarto")`
+* **Git** instalado ([ver instrucciones aquí](https://git-scm.com))
+* Una cuenta de **GitHub** creada, ya que la utilizaremos para publicar nuestra página web!
+--->
+<p>¡Nos vemos el miércoles 26 de agosto! <i class="fa-solid fa-heart fa-2x" aria-label="heart"></i></p>
+<section id="taller-de-agosto" class="level3">
+<h3 class="anchored" data-anchor-id="taller-de-agosto">Taller de agosto:</h3>
+<ul>
+<li><strong>26 de agosto de 2026, 19:30 hrs.</strong> (Santiago), online</li>
+</ul>
+<div class="boton">
+<p><a href="https://us06web.zoom.us/j/87107671788?pwd=4kPLbSr4ZaWc1HX1XfbMeOWIkrVWah.1" target="_blank"> <i class="fa-solid fa-video fa-2x" aria-label="video"></i> Conéctate por Zoom </a></p>
+</div>
+<!-- botón de google calendar --->
+<div class="boton">
+<p><a href="https://calendar.app.google/NTxLqdsF71ixHKq59" target="_blank"></a></p><a href="https://calendar.app.google/NTxLqdsF71ixHKq59" target="_blank">
+<p><i class="fa-solid fa-calendar fa-2x" aria-label="calendar"></i> Agregar a Google Calendar</p>
+</a><p><a href="https://calendar.app.google/NTxLqdsF71ixHKq59" target="_blank"></a></p>
+</div>
+<!-- botón de descargar calendario --->
+<div class="boton">
+<p><a href="evento_r_chile.ics" download="evento_r_chile.ics"></a></p><a href="evento_r_chile.ics" download="evento_r_chile.ics">
+<p><i class="fa-solid fa-calendar-plus fa-2x" aria-label="calendar-plus"></i> Descargar para Calendario</p>
+</a><p><a href="evento_r_chile.ics" download="evento_r_chile.ics"></a></p>
+</div>
+<p>Nos puedes ayudar difundiendo el aviso de la reunión <a href="https://www.linkedin.com/company/santiagorusers">en LinkedIn <i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a> y en <a href="https://x.com/SantiagoRusers/">Twitter/X <i class="fa-brands fa-twitter" aria-label="twitter"></i></a></p>
+<hr>
+<p>Por mientras, puedes unirte al <strong>chat grupal</strong> para conversar y ayudar a coordinar la reunión!</p>
+<div id="boton" style="padding: 4px; border-radius: 5px; padding-left: 24px; background-color: #6A3274; margin-top: 24px; margin-bottom: 24px;
+width: 320px;">
+<p><a href="https://join.slack.com/t/santiagorusers/shared_invite/zt-3tzmsdyat-gNAUz5mjPij0xFgNLtXeKA" style="text-decoration: none; color: #FDF4F8;" target="_blank"></a></p><a href="https://join.slack.com/t/santiagorusers/shared_invite/zt-3tzmsdyat-gNAUz5mjPij0xFgNLtXeKA" style="text-decoration: none; color: #FDF4F8;" target="_blank">
+<p><i class="fa-brands fa-slack fa-2x" aria-label="slack"></i> Únete al chat grupal en Slack</p>
+</a><p><a href="https://join.slack.com/t/santiagorusers/shared_invite/zt-3tzmsdyat-gNAUz5mjPij0xFgNLtXeKA" style="text-decoration: none; color: #FDF4F8;" target="_blank"></a></p>
+</div>
+<!---
+::: {style="margin-top: 42px;"}
+
+![](reu_santiagorusers_1_afiche.png)
+
+:::
+--->
+<p><em>Recuerda que al participar en las reuniones de la comunidad de usuarias y usuarios de R, estás aceptando el <a href="https://ropensci.org/es/código-de-conducta/">código de conducta</a>, que busca asegurar un espacio seguro e inclusivo para todas las personas.</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>talleres</category>
+  <guid>https://santiagoRusers.github.io/posts/taller_agosto_2026/</guid>
+  <pubDate>Wed, 26 Aug 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://santiagoRusers.github.io/posts/taller_agosto_2026/afiche_rusers_stgo_agosto.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Taller: Crea tu propia página web con Quarto y R</title>
   <dc:creator>Carolina Morales y Bastián Olea</dc:creator>
@@ -51,6 +126,9 @@
 </div>
 <div class="boton">
 <p><a href="https://www.youtube.com/watch?v=S76UQMeUTuE" target="_blank"> <i class="fa-solid fa-video fa-2x" aria-label="video"></i> Ver video en Youtube </a></p>
+</div>
+<div class="boton">
+<p><a href="https://bastianolea.rbind.io/blog/quarto_blog/" target="_blank"> <i class="fa-solid fa-laptop-code fa-2x" aria-label="laptop-code"></i> Leer tutorial completo </a></p>
 </div>
 <section id="grabación-del-taller" class="level3">
 <h3 class="anchored" data-anchor-id="grabación-del-taller">Grabación del taller</h3>

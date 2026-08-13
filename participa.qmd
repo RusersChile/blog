@@ -46,28 +46,25 @@ target = "_blank">
 
 La siguiente reunión del grupo será el:
 
-- **26 de agosto** de 2026, 19:30 hrs. (Santiago), online
+- [**26 de agosto** de 2026, 19:30 hrs.](/posts/taller_agosto_2026/) (Santiago), online
 
-_Pronto más información_
 
 <!-- botón de google calendar --->
-<!--
 :::{.boton}
-<a href = "https://calendar.app.google/sdBpWQPjWXvHT6qy5" 
+<a href = "https://calendar.app.google/NTxLqdsF71ixHKq59" 
 target = "_blank">
 {{< fa calendar size=2x >}} Agregar a Google Calendar
 </a>
 :::
--->
+
 <!-- botón de descargar calendario --->
-<!--
 :::{.boton}
 <a href="evento_r_chile.ics" 
 download="evento_r_chile.ics">
 {{< fa calendar-plus size=2x >}} Descargar para Calendario
 </a>
 :::
--->
+
 
 ### Reuniones siguientes:
 - **23 de septiembre** de 2026, 19:30 hrs. (Santiago), **presencial!** 🎉
