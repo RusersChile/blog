@@ -13,6 +13,15 @@ La reunión mensual de agosto cuenta con la presentación de [**CensoLab**](http
 
 Los autores de **CensoLab**, [Joshua Kunst](https://www.linkedin.com/in/joshuakunst/) (estadístico y _Risk Specialist_) y [Matías Parra](https://www.linkedin.com/in/matias-parra-rojas) (antropólogo y programador), presentarán la plataforma comentando su arquitectura, implementación y los desafíos que enfrentaron, usando ejemplos prácticos sobre los paquetes de R [Shiny](https://shiny.posit.co) y [`{ellmer}`.](https://ellmer.tidyverse.org)
 
+::: {.galeria}
+![](censolab_3.jpeg){.fotito .lightbox group="galeria"}
+![](censolab_1.jpeg){.fotito .lightbox group="galeria"}
+![](censolab_2.jpeg){.fotito .lightbox group="galeria"}
+![](censolab_4.jpeg){.fotito .lightbox group="galeria"}
+![](censolab_5.jpeg){.fotito .lightbox group="galeria"}
+:::
+
+La plataforma combina _dashboards_, visores de mapas, y una interfaz de _chatbot_ de inteligencia artificial que te permite interactuar con el visor de mapas y otros elementos de la plataforma.
 
 Puedes ver una presentación de la plataforma aquí:
 

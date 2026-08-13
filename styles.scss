@@ -113,6 +113,18 @@ h4 {
   border: solid 1px #E4D5DB;
 }
 
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galeria p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 
 .menu-text .fa-brands {
   margin-left: -4px;
