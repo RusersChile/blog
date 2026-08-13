@@ -155,3 +155,58 @@ iframe {
   justify-content: center;
   align-items: center;
 }
+
+div.quarto-post {
+  border-bottom: 1px solid #ebccda !important;
+}
+
+.blockquote {
+  border-left: solid 5px $secondary !important;
+}
+
+div.sourceCode {
+  background-color: rgba(249, 213, 229, 1) !important;
+  border: 1px solid rgba(237, 191, 211, 1) !important;
+}
+
+
+pre > code.sourceCode > span {
+color: #593957;
+}
+code span.co {
+color: #d789ab;
+font-style: inherit;
+}
+code span.in {
+color: #d889ab;
+font-style: inherit;
+}
+code span.fu {
+color: #ab478b;
+font-style: inherit;
+}
+code span.sc {
+color: #e3467c;
+font-style: inherit;
+}
+code span.ot {
+color: #e3467c;
+font-style: inherit;
+}
+code span.dv {
+color: #0085ad;
+font-style: inherit;
+}
+code span.at {
+color: #226e74;
+font-style: inherit;
+}
+code span.kw {
+color: #593957;
+font-weight: bold;
+font-style: inherit;
+}
+code span.st {
+color: #593957;
+font-style: inherit;
+}

@@ -87,6 +87,1042 @@ width: 320px;">
   <media:content url="https://santiagoRusers.github.io/posts/taller_agosto_2026/afiche_rusers_stgo_agosto.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Tutorial: Crea y publica tu propio blog con Quarto y RStudio</title>
+  <dc:creator>Bastián Olea Herrera</dc:creator>
+  <link>https://santiagoRusers.github.io/posts/tutorial_quarto_blog/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<blockquote class="blockquote">
+<p><em>Este tutorial es la versión en texto<sup>1</sup> del <a href="https://santiagorusers.github.io/posts/taller_julio_2026/">taller</a> que dictamos en vivo para el <a href="https://santiagorusers.github.io">Grupo de Usuari@s de R de Santiago</a> el 29 de julio de 2026, ante más de 50 personas de toda Latinoamérica. Muchas gracias a quienes participaron!</em></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Tutorial publicado originalmente en el <a href="https://bastianolea.rbind.io/blog/quarto_blog/">sitio web de Bastián Olea Herrera</a></p>
+</blockquote>
+<p>En una época en que casi toda nuestra vida digital ocurre dentro de redes sociales y plataformas que no controlamos (y que pueden cerrar, bloquearte, o simplemente desaparecer), contar con un <strong>sitio web personal</strong> te permite reunir tus proyectos, aprendizajes y estudios en un lugar que no depende de nadie más que de ti.</p>
+<p>Además, un blog te sirve para <strong>aprender haciendo</strong>, para armar un <strong>portafolio</strong> de tu trabajo, y para conectar con la <strong>comunidad</strong> de personas que usan R: seguramente todo lo que sabes de R lo aprendiste gracias a que alguien más compartió su conocimiento de forma abierta y gratuita, así que compartir lo que tú aprendes es una forma de devolver la mano!</p>
+<p>Lo mejor es que armar un blog con Quarto, RStudio y GitHub Pages no cuesta nada!</p>
+<p>En este tutorial armaremos un blog de principio a fin, lo personalizaremos, y lo publicaremos en internet, usando sólo <strong>herramientas gratuitas y de código abierto</strong>.</p>
+<section id="herramientas" class="level2">
+<h2 class="anchored" data-anchor-id="herramientas">Herramientas</h2>
+<p>Para construir el blog necesitamos combinar cuatro herramientas, todas gratuitas:</p>
+<ul>
+<li><strong><a href="https://quarto.org">Quarto</a></strong>: sistema de publicación que transformará nuestros documentos en páginas web. Quarto combina texto en formato <a href="https://es.wikipedia.org/wiki/Markdown">Markdown</a> con bloques de código de R (u otros lenguajes), y también puede generar como resultado documentos PDF, documentos Word, sitios web, blogs, libros y diapositivas.</li>
+<li><strong><a href="https://posit.co/products/open-source/rstudio/">RStudio</a></strong>: el entorno de desarrollo (IDE) donde vamos a escribir el contenido del blog.</li>
+<li><strong><a href="https://git-scm.com">Git</a></strong>: un sistema de control de versiones que registra los cambios que hacemos a nuestros archivos a través del tiempo.</li>
+<li><strong><a href="https://github.com">GitHub</a></strong> y <strong><a href="https://pages.github.com">GitHub Pages</a></strong>: una plataforma online donde subiremos nuestro proyecto, y que además nos permite publicarlo como una página web gratis.</li>
+</ul>
+<blockquote class="blockquote">
+<p>Quarto es el <em>sucesor</em> de R Markdown: si ya conoces R Markdown, la sintaxis de Quarto te va a resultar prácticamente idéntica.</p>
+</blockquote>
+</section>
+<section id="ejemplos-de-blogs-quarto" class="level2">
+<h2 class="anchored" data-anchor-id="ejemplos-de-blogs-quarto">Ejemplos de blogs Quarto</h2>
+<p>Algunos sitios web hechos con Quarto:</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li><a href="https://santiagorusers.github.io/">santiagorusers.github.io</a>, el sitio del Grupo de Usuari@s de R donde se dictó <a href="https://santiagorusers.github.io/posts/taller_julio_2026/">este taller!</a></li>
+<li><a href="https://quarto.org">quarto.org</a>, el sitio de documentación de Quarto</li>
+<li><a href="https://nrennie.rbind.io">nrennie.rbind.io</a></li>
+<li><a href="https://emilhvitfeldt.com">emilhvitfeldt.com</a></li>
+<li><a href="https://brodrigues.co">brodrigues.co</a></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li><a href="https://www.noahweidig.com">noahweidig.com</a></li>
+<li><a href="https://karaman.is">karaman.is</a></li>
+<li><a href="https://www.andrewheiss.com/blog/">andrewheiss.com</a></li>
+<li><a href="https://ellakaye.co.uk">ellakaye.co.uk</a></li>
+<li><a href="https://rainbowr.org">rainbowr.org</a></li>
+<li><a href="https://alejandroromerog.github.io">alejandroromerog.github.io</a></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="configurar-git-y-github" class="level2">
+<h2 class="anchored" data-anchor-id="configurar-git-y-github">Configurar Git y GitHub</h2>
+<p>Como vamos a publicar nuestro blog a través de GitHub, el primer paso es tener Git andando, y preparar nuestra cuenta y conectarla con RStudio.</p>
+<blockquote class="blockquote">
+<p>Si ya usas Git y GitHub con R, puedes saltarte esta sección. Si no sabes nada de esto, puedes verlo en detalle <a href="https://bastianolea.rbind.io/blog/r_introduccion/tutorial_github/">en esta publicación.</a></p>
+</blockquote>
+<p><a href="https://git-scm.com"><strong>Git</strong></a> es un software de código abierto que instalas en tu computador para llevar un registro de las versiones de tu código: cada vez que guardas un avance (un <em>commit</em>), Git recuerda ese estado de tus archivos, de modo que siempre puedes volver atrás o ver qué cambió.</p>
+<p><a href="https://github.com"><strong>GitHub</strong></a> es una plataforma online donde se pueden subir esos repositorios de Git, de forma que otras personas puedan ver tu código, descargarlo, y colaborar contigo. <strong>GitHub Pages</strong>, que usaremos más adelante, es una funcionalidad de GitHub que además te permite publicar un sitio web a partir de los archivos de tu repositorio.</p>
+<p>Si quieres profundizar en Git y GitHub más allá de lo necesario para este tutorial, revisa mi <a href="https://bastianolea.rbind.io/blog/r_introduccion/tutorial_github/">tutorial de Git y GitHub para R</a>, o el libro <a href="https://happygitwithr.com"><em>Happy Git and GitHub for the useR</em></a>.</p>
+<section id="configurar-cuenta-github" class="level3">
+<h3 class="anchored" data-anchor-id="configurar-cuenta-github">Configurar cuenta GitHub</h3>
+<p>Todo el proceso se simplifica muchísimo gracias al paquete <a href="https://usethis.r-lib.org"><code>{usethis}</code></a>, que automatiza varias tareas repetitivas de configuración:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"usethis"</span>)</span></code></pre></div></div>
+<p>Ahora registramos cuál es nuestra cuenta de GitHub (nombre de usuario y correo):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">usethis<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">use_git_config</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">user.name =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"tu_usuario"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">user.email =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"tu_correo@ejemplo.com"</span>)</span></code></pre></div></div>
+<p>Así tu computadora sabrá cuál es tu cuenta de GitHub!</p>
+</section>
+<section id="autenticar-cuenta-github" class="level3">
+<h3 class="anchored" data-anchor-id="autenticar-cuenta-github">Autenticar cuenta GitHub</h3>
+<p>Para que RStudio pueda interactuar con tu cuenta de GitHub (subir archivos, crear repositorios, etc.), necesitas un <strong>token</strong> de acceso personal, que es como una contraseña, pero más segura porque no necesitas aprenderla, y puedes revocar el acceso cuando quieras desde tu cuenta de GitHub.</p>
+<p>Con el siguiente comando, se abrirá una ventana en tu navegador para generar el <em>token</em>, y tienes que <strong>copiarlo</strong>.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">usethis<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">create_github_token</span>()</span></code></pre></div></div>
+<p>Luego, ejecuta lo siguiente y pega el <em>token</em> cuando la consola te lo pida:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">gitcreds<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">gitcreds_set</span>()</span></code></pre></div></div>
+<p>De esta forma habrás registrado tu cuenta GitHub con tu RStudio de manera segura!</p>
+<p>Para revisar que la configuración quedó bien, puedes correr un diagnóstico:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">usethis<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git_sitrep</span>()</span></code></pre></div></div>
+<p>El mensaje debería decirte tu cuenta de GitHub y que encontró el <em>token</em> de acceso. Si tienes dudas o problemas, revisa <a href="https://bastianolea.rbind.io/blog/r_introduccion/tutorial_github/">esta publicación</a>.</p>
+</section>
+</section>
+<section id="crear-el-blog" class="level2">
+<h2 class="anchored" data-anchor-id="crear-el-blog">Crear el blog</h2>
+<p>Con Git y GitHub configurados, ya podemos crear el proyecto de nuestro blog! Es probable que tengas que instalar Quarto primero:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">install.packages</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"quarto"</span>)</span></code></pre></div></div>
+<p>En RStudio, vamos a <strong>File → New Project → New Directory → Quarto Blog</strong>:</p>
+<p><img src="https://santiagoRusers.github.io/posts/tutorial_quarto_blog/img/blog_1.png" class="img-fluid"></p>
+<p>Elige un nombre para tu proyecto (será también el nombre de la carpeta y, más adelante, parte de la dirección web de tu blog, así que piensa bien!) y crea el proyecto. RStudio abrirá una nueva sesión con varios archivos ya generados.</p>
+<section id="estructura-de-archivos" class="level3">
+<h3 class="anchored" data-anchor-id="estructura-de-archivos">Estructura de archivos</h3>
+<p>Un blog Quarto recién creado viene con esta estructura:</p>
+<pre><code>mi-blog/
+├── _quarto.yml        # configuración general del sitio
+├── index.qmd          # página principal (listado de publicaciones)
+├── about.qmd          # página "sobre ti"
+├── profile.jpg        # tu foto, usada en la página about
+├── styles.css         # hoja de estilos para personalizar el blog
+└── posts/
+    ├── welcome/
+    │   └── index.qmd
+    └── post-with-code/
+        └── index.qmd</code></pre>
+<ul>
+<li><strong><code>index.qmd</code></strong>: la <strong>página principal</strong>. En un blog, por defecto es el listado de publicaciones, aunque puedes cambiarla por cualquier otro contenido.</li>
+<li><strong><code>about.qmd</code></strong>: tu página de <strong>presentación personal</strong>, donde puedes poner tu biografía, una foto tuya, tus enlaces, etc.
+<ul>
+<li><strong><code>profile.jpg</code></strong>: la imagen de perfil que aparece en tu página <em>about</em> (puedes reemplazarla por tu propia foto).</li>
+</ul></li>
+<li><strong><code>posts/</code></strong>: la carpeta donde viven tus <strong>publicaciones</strong>. El proyecto viene con dos publicaciones de ejemplo.</li>
+<li><strong><code>_quarto.yml</code></strong>: archivo de <strong>configuración</strong> del sitio completo: título, descripción, menú de navegación, temas, etc.</li>
+<li><strong><code>styles.css</code></strong>: hoja de estilos donde más adelante agregaremos personalización visual.</li>
+</ul>
+<p>Cada archivo <code>.qmd</code> corresponde a una página de tu sitio.</p>
+</section>
+</section>
+<section id="previsualizar-y-construir-el-sitio" class="level2">
+<h2 class="anchored" data-anchor-id="previsualizar-y-construir-el-sitio">Previsualizar y construir el sitio</h2>
+<p>Hay dos operaciones distintas que vamos a usar todo el tiempo en el blog: previsualizar y renderizar.</p>
+<ul>
+<li><strong>Previsualizar</strong> con <code>quarto preview</code> o <code>quarto::quarto_preview()</code>: levanta un servidor local que va actualizando la vista previa automáticamente cada vez que guardas cambios. Es lo que usamos mientras estamos escribiendo y probando.</li>
+<li><strong>Renderizar</strong> con <code>quarto render</code> o <code>quarto::quarto_render()</code>: reconstruye el sitio completo, generando todos los archivos <code>html</code> finales. Es el que debes ejecutar antes de publicar, para asegurarte de que todo el sitio (no solo la página en la que estabas trabajando) quede actualizado.</li>
+</ul>
+<p>Puedes ejecutar ambos desde la pestaña <em>Terminal</em> de RStudio, o su equivalente en R:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> preview</span>
+<span id="cb8-2"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">quarto</span> render</span></code></pre></div></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1">quarto<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto_preview</span>()</span>
+<span id="cb9-2">quarto<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">quarto_render</span>()</span></code></pre></div></div>
+<p>También puedes simplemente presionar el botón <strong>Render</strong> en la barra superior del editor para previsualizar la página en la que estás trabajando.</p>
+<p>Deberías ver una página más o menos así:</p>
+<p><img src="https://santiagoRusers.github.io/posts/tutorial_quarto_blog/img/blog_2.png" class="img-fluid"></p>
+</section>
+<section id="escribe-tu-primera-publicación" class="level2">
+<h2 class="anchored" data-anchor-id="escribe-tu-primera-publicación">Escribe tu primera publicación</h2>
+<p>Cada publicación de tu blog es una carpeta dentro de <code>posts/</code>, que contiene un archivo <code>index.qmd</code>. El nombre de la carpeta determina la dirección web de la publicación, así que debes usar nombres sin espacios, sin mayúsculas, y separados por guiones, por ejemplo:</p>
+<pre><code>posts/mi-primer-post/index.qmd</code></pre>
+<p>Puedes crear esta carpeta y el archivo manualmente, o usar la función que provee el paquete <code>{quarto}</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1">quarto<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">new_blog_post</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Mi primer post"</span>)</span></code></pre></div></div>
+<p>Siguiendo este ejemplo, Quarto crearía la carpeta <code>posts/mi-primer-post/</code>, y dentro un archivo <code>index.qmd</code> con el título provisto.</p>
+<section id="encabezado-de-la-publicación" class="level3">
+<h3 class="anchored" data-anchor-id="encabezado-de-la-publicación">Encabezado de la publicación</h3>
+<p>Al comienzo de cada publicación va un bloque de <strong>metadatos</strong> en formato <code>yaml</code>, delimitado por tres guiones al inicio y al final:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb12-1"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span>
+<span id="cb12-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">title</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Mi primer análisis en R"</span></span>
+<span id="cb12-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">subtitle</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Analizando datos sociales mediante programación"</span></span>
+<span id="cb12-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">author</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Tu nombre"</span></span>
+<span id="cb12-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">date</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"2026-08-06"</span></span>
+<span id="cb12-6"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">categories</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">[</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">R</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">,</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> análisis</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">,</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> datos</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">]</span></span>
+<span id="cb12-7"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">image</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"imagen.jpg"</span></span>
+<span id="cb12-8"><span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">---</span></span></code></pre></div></div>
+<p>En este bloque vamos a configurar cada publicación:</p>
+<ul>
+<li><code>title</code> y <code>subtitle</code>: título y subtítulo de la publicación.</li>
+<li><code>date</code>: fecha de publicación, en formato <code>AAAA-MM-DD</code>. Con esta fecha, Quarto ordena tus publicaciones en el listado del blog.</li>
+<li><code>categories</code>: etiquetas que agrupan tus publicaciones, y que aparecerán como filtros en el listado del blog.</li>
+<li><code>image</code>: una imagen destacada para la publicación (debe estar en la misma carpeta que el <code>index.qmd</code>).</li>
+</ul>
+<blockquote class="blockquote">
+<p>Si Quarto te muestra un error relacionado al <em>front matter</em> del documento, se refiere a este encabezado, así que revisa que el bloque <code>yaml</code> esté bien cerrado.</p>
+</blockquote>
+<p>Una vez que le das <strong>Render</strong> a tu publicación, puedes previsualizarla en el panel <em>Viewer</em> de RStudio, o en una ventana aparte:</p>
+<p><img src="https://santiagoRusers.github.io/posts/tutorial_quarto_blog/img/blog_3.png" class="img-fluid"></p>
+<blockquote class="blockquote">
+<p>Puedes configurar dónde ver la previsualización del blog en el ícono de engranaje al lado de <em>Render</em></p>
+</blockquote>
+</section>
+<section id="sintaxis-markdown-básica" class="level3">
+<h3 class="anchored" data-anchor-id="sintaxis-markdown-básica">Sintaxis Markdown básica</h3>
+<p>El contenido de tus publicaciones se escribe en <a href="https://quarto.org/docs/authoring/markdown-basics.html">Markdown</a>, un lenguaje de marcado simple que usa símbolos de texto plano para dar formato a tu contenido:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb13-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">## Subtítulo</span></span>
+<span id="cb13-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">### Subsubtítulo</span></span>
+<span id="cb13-3"></span>
+<span id="cb13-4">**negrita**</span>
+<span id="cb13-5">_itálica_</span>
+<span id="cb13-6"></span>
+<span id="cb13-7"><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">&lt;</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">u</span><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">&gt;</span>subrayado<span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">&lt;/</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">u</span><span class="dt" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">&gt;</span></span>
+<span id="cb13-8">~~tachado~~</span>
+<span id="cb13-9"></span>
+<span id="cb13-10"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">[</span><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">Enlace</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">](https://enlace.cl)</span></span>
+<span id="cb13-11"><span class="al" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">![Descripción de la imagen](imagen.jpg)</span></span>
+<span id="cb13-12"></span>
+<span id="cb13-13">Una nota al pie<span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">[^1]</span>.</span>
+<span id="cb13-14"><span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">[^1]: </span>Contenido de la nota.</span></code></pre></div></div>
+<p>La lógica de Markdown es <strong>separae el contenido del estilo</strong>: tu solamente te preocupas de escribir y estructurar tu texto, mientras que la apariencia (tamaños de letra, colores, tipografías) se definirá aparte, como veremos más adelante.</p>
+<blockquote class="blockquote">
+<p>Si necesitas aprender lo básico de Quarto y Markdown, revisa el <a href="https://bastianolea.rbind.io/blog/quarto_reportes/">tutorial de reportes con Quarto.</a></p>
+</blockquote>
+</section>
+<section id="código-de-r-en-las-publicaciones" class="level3">
+<h3 class="anchored" data-anchor-id="código-de-r-en-las-publicaciones">Código de R en las publicaciones</h3>
+<p>Una de las gracias de Quarto es que puedes incluir código de R directamente en tus publicaciones, y que se ejecute al momento de generar el sitio. De esta forma puedes agregar cualquier cosa que hagas en R a tu blog: <a href="https://bastianolea.rbind.io/blog/r_introduccion/tutorial_visualizacion_ggplot/">gráficos</a>, <a href="https://bastianolea.rbind.io/blog/tablas_gt">tablas personalizadas</a>, <a href="https://bastianolea.rbind.io/blog/mapas_mapgl/">mapas interactivos</a>, y más.</p>
+<p>Para agregar un bloque de código (también llamado <em>chunk</em>), se delimita con tres comillas invertidas seguidas del lenguaje entre llaves:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb14-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{r}</span></span>
+<span id="cb14-2"><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb14-3"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div></div>
+<p>También puedes agregar un bloque con el botón verde al lado derecho de <em>Render</em>.</p>
+<p>Al comienzo del bloque puedes agregar opciones, que empiezan con <code>#|</code>:</p>
+<ul>
+<li><code>#| echo: false</code>: oculta el código, mostrando solo el resultado.</li>
+<li><code>#| eval: false</code>: muestra el código, pero no lo ejecuta.</li>
+<li><code>#| warning: false</code> y <code>#| message: false</code>: oculta advertencias y mensajes (útil, por ejemplo, cuando cargas un paquete como <code>{dplyr}</code>, que suele imprimir mensajes que no quieres que aparezcan en tu blog).</li>
+<li><code>#| fig-height: 7</code>: define el alto de los gráficos generados en el bloque.</li>
+</ul>
+<p>Por ejemplo, en este bloque se omitirán los mensajes y alertas de R:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb15-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{r}</span></span>
+<span id="cb15-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| message: false</span></span>
+<span id="cb15-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| warning: false</span></span>
+<span id="cb15-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(dplyr)</span>
+<span id="cb15-5"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div></div>
+<p>En este bloque se omitirá el código, y se mostrará solamente el <em>output</em> del código:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb16-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{r}</span></span>
+<span id="cb16-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| echo: false</span></span>
+<span id="cb16-3"><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> </span>
+<span id="cb16-4"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div></div>
+<p>Todos los bloques de código de una misma publicación <strong>comparten el mismo entorno</strong>: si creas un objeto en un bloque, puedes usarlo en cualquier bloque posterior. Así que puedes cargar todos tus paquetes en un bloque al principio del documento, o procesar datos en un bloque y hacer el output en otro bloque, por ejemplo.</p>
+</section>
+<section id="código-como-parte-del-texto" class="level3">
+<h3 class="anchored" data-anchor-id="código-como-parte-del-texto">Código como parte del texto</h3>
+<p>Además, puedes insertar resultados de R directamente dentro de un párrafo, con la sintaxis <code>`{r} codigo`</code>; es decir, una comilla invertida seguida de <code>r</code> dentro de corchetes, luego el código, y cerrar con otra comilla invertida.</p>
+<p>De esta forma puedes integrar cifras o textos directamente en los párrafos de tu post, e incluso en sus títulos, por ejemplo para que el texto cite una cifra exacta, o que una palabra en tu publicación dependa de un resultado anterior.</p>
+<p>Por ejemplo, calculemos la correlación entre el largo y ancho de los pétalos en los datos <code>iris</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb17-1"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```{r}</span></span>
+<span id="cb17-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#| echo: false</span></span>
+<span id="cb17-3">correlacion <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cor</span>(iris<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>Petal.Length, iris<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>Petal.Width) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|&gt;</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">round</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)</span>
+<span id="cb17-4"><span class="in" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">```</span></span></code></pre></div></div>
+<p>Guardamos el resultado en un objeto llamado <code>correlacion</code>, y luego podemos escribir un párrafo como el siguiente:</p>
+<blockquote class="blockquote">
+<p>La correlación entre el largo y el ancho de los pétalos es de <code>{r} correlacion</code>.</p>
+</blockquote>
+<p>Cuando ejecutes la publicación, el resultado se verá así:</p>
+<blockquote class="blockquote">
+<p>La correlación entre el largo y el ancho de los pétalos es de 0.96.</p>
+</blockquote>
+<p>El número <code>0.96</code> se generó en el momento de renderizar la publicación, a partir del código, en vez de haber sido escrito a mano, entonces, si tus datos cambian o si cambias el código, el texto se actualiza solo, sin que tengas que ir editando números a mano cada vez.</p>
+</section>
+</section>
+<section id="personalización" class="level2">
+<h2 class="anchored" data-anchor-id="personalización">Personalización</h2>
+<p>Hasta ahora creamos un blog aburrido por defecto, pero todos los aspectos del blog son personalizables, así que podremos darle algo de nuestra personalidad a nuestros sitios web.</p>
+<p>El aspecto general de tu sitio se controla desde el archivo <code>_quarto.yml</code>, que está en la raíz de tu blog.</p>
+<section id="cambiar-el-tema" class="level3">
+<h3 class="anchored" data-anchor-id="cambiar-el-tema">Cambiar el tema</h3>
+<p>Puedes elegir entre distintos temas predefinidos, que puedes ver en la página de <a href="https://bootswatch.com">Bootswatch</a>.</p>
+<p>Cuando veas uno que te guste, simplemente anota su nombre en el archivo <code>_quarto.yml</code>, debajo de <code>html</code>, en el argumento <code>theme</code> (si no existe, agrégalo):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb18-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">format</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb18-2"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">html</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb18-3"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> lux</span><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"> # nombre del tema que vas a aplicar</span></span>
+<span id="cb18-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">css</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> styles.css</span></span></code></pre></div></div>
+<p>Luego, ejecuta <code>quarto::quarto_render()</code> para actualizar tu sitio completo al tema nuevo.</p>
+<p><img src="https://santiagoRusers.github.io/posts/tutorial_quarto_blog/img/temas_quarto.jpg" class="img-fluid"></p>
+<p>Puedes ver la lista completa de temas disponibles <a href="https://quarto.org/docs/output-formats/html-themes.html#overview">en esta guía de Quarto</a>.</p>
+</section>
+<section id="menú-de-navegación" class="level3">
+<h3 class="anchored" data-anchor-id="menú-de-navegación">Menú de navegación</h3>
+<p>También en <code>_quarto.yml</code>, la sección <code>website</code> controla el título, la descripción, y el menú de navegación (<em>navbar</em>) de tu sitio.</p>
+<p>Date unos minutos para configurar esta sección:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb19-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">website</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb19-2"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">title</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Mi blog"</span></span>
+<span id="cb19-3"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">description</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Un blog sobre R y análisis de datos"</span></span>
+<span id="cb19-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">navbar</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb19-5"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">left</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb19-6"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">href</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> index.qmd</span></span>
+<span id="cb19-7"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">text</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Inicio de mi blog"</span></span>
+<span id="cb19-8"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> about.qmd</span></span>
+<span id="cb19-9"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">right</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb19-10"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">icon</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> github</span></span>
+<span id="cb19-11"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">href</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> https://github.com/tu_usuario</span></span>
+<span id="cb19-12"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">icon</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> linkedin</span></span>
+<span id="cb19-13"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">href</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> https://www.linkedin.com/in/tu_usuario</span></span>
+<span id="cb19-14"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">icon</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> instagram</span></span>
+<span id="cb19-15"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">href</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> https://www.instagram.com/tu_usuario</span></span></code></pre></div></div>
+<p>En el ejemplo anterior, en el lado izquierdo (<code>left</code>) de la barra de navegación estará el link al inicio del blog (<code>index.qmd</code>), y el enlace al <em>about</em> (<code>about.qmd</code>).</p>
+<p>Quarto usa <a href="https://icons.getbootstrap.com">Bootstrap Icons</a> para los íconos del menú, así que basta con escribir el nombre del ícono (<code>github</code>, <code>linkedin</code>, <code>instagram</code>, etc.). Si necesitas un ícono de una red social que no está en Font Awesome (como Slack o Meetup), puedes reemplazarlo por una imagen propia.</p>
+<blockquote class="blockquote">
+<p>Te recomiendo dejar configurado el tema y el menú de tu sitio <strong>antes</strong> de empezar a escribir publicaciones, para que todas las publicaciones que crees después hereden automáticamente esa apariencia.</p>
+</blockquote>
+</section>
+<section id="estilos-scss" class="level3">
+<h3 class="anchored" data-anchor-id="estilos-scss">Estilos SCSS</h3>
+<p>Si quieres ir más allá de los temas predefinidos, puedes crear un archivo <code>.scss</code> propio con variables de estilo. Primero, lo agregamos junto al tema base en <code>_quarto.yml</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb20-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">format</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb20-2"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">html</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb20-3"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb20-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> minty</span></span>
+<span id="cb20-5"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">-</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> tema.scss</span></span></code></pre></div></div>
+<p>Luego creamos un archivo llamado <code>tema.scss</code> en la raíz del blog, que como mínimo debe incluir el texto <code>/*-- scss:defaults --*/</code> en la parte superior.</p>
+<section id="diferencia-entre-scss-y-css" class="level4">
+<h4 class="anchored" data-anchor-id="diferencia-entre-scss-y-css">Diferencia entre SCSS y CSS</h4>
+<p><strong>CSS</strong> (<em>Cascading Style Sheets</em>) es el lenguaje estándar para dar estilo a páginas web: defines reglas como “los títulos van en azul” o “el fondo es gris”. <strong>SCSS</strong> es una extensión de CSS que agrega funcionalidades útiles, como las <strong>variables</strong> (puedes definir <code>$color-principal: #4a5759</code> una vez y reutilizarla en todo el archivo, en vez de repetir el código del color cada vez). Quarto convierte el SCSS a CSS automáticamente al renderizar. La idea es que con SCSS puedes cambiar colores y tipografías de todo tu blog modificando solo unas pocas variables, en vez de buscar y reemplazar valores repetidos por todo el archivo.</p>
+<p>SCSS hace todo lo que hace CSS, y le agrega funcionalidades extra, así que todo lo que normalmente hacemos en un archivo <code>.css</code> podemos hacerlo en el <code>.scss</code>.</p>
+</section>
+</section>
+<section id="colores-del-blog" class="level3">
+<h3 class="anchored" data-anchor-id="colores-del-blog">Colores del blog</h3>
+<p>Dentro de <code>tema.scss</code>, puedes definir variables de color, tipografía y más.</p>
+<p>Definiendo las siguientes variables podrás cambiar la apariencia casi completa del blog en unas pocas líneas:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21" style="background: #f1f3f5;"><pre class="sourceCode scss code-with-copy"><code class="sourceCode scss"><span id="cb21-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/*-- scss:defaults --*/</span></span>
+<span id="cb21-2"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$primary</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#b0c4b1</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb21-3"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$secondary</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#4a5759</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb21-4"></span>
+<span id="cb21-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/* colores principales */</span></span>
+<span id="cb21-6"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$body-bg</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#dedbd2</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// fondo</span></span>
+<span id="cb21-7"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$body-color</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#4a5759</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// texto</span></span>
+<span id="cb21-8"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$link-color</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#b0c4b1</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// enlaces</span></span>
+<span id="cb21-9"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$border-color</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#c7c3b7</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// líneas</span></span>
+<span id="cb21-10"></span>
+<span id="cb21-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/* barra de navegación */</span></span>
+<span id="cb21-12"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$navbar-bg</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#4a5759</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// fondo</span></span>
+<span id="cb21-13"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$navbar-fg</span>: <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#dedbd2</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span> <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">// texto</span></span></code></pre></div></div>
+<blockquote class="blockquote">
+<p>Puedes buscar paletas de colores y sus códigos hexadecimales en sitios como <a href="https://coolors.co/palettes">coolors.co</a>.</p>
+</blockquote>
+<p>Otras variables frecuentes que puedes modificar: - <code>$font-size-root</code> para tamaños del texto - <code>$h1-font-size</code> para tamaño de los títulos - <code>$line-height-base</code> para interlineado del texto - <code>$toc-color</code> para el color de los índices</p>
+<p>Puedes ver la <a href="https://quarto.org/docs/output-formats/html-themes.html#sass-variables">lista de variables SASS más comunes</a> o <a href="https://rstudio.github.io/bslib/articles/bs5-variables/index.html">todas las variables disponibles</a>.</p>
+</section>
+<section id="tipografías" class="level3">
+<h3 class="anchored" data-anchor-id="tipografías">Tipografías</h3>
+<p>La tipografía de tu blog es una forma de presentar su personalidad y expresarle a tus lectores/as ciertos conceptos que quieres asociar con tu contenido.</p>
+<p>Para cambiar la tipografía de tu blog:</p>
+<ol type="1">
+<li>Busca una fuente en <a href="https://fonts.google.com">Google Fonts</a>.</li>
+<li>Selecciona la tipografía y presiona <strong>Get font</strong>, luego <strong>Get embed code</strong>.</li>
+<li>Copia la línea <code>@import</code>.</li>
+<li>Pégala en tu <code>tema.scss</code>, y aplícala con las variables correspondientes:</li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22" style="background: #f1f3f5;"><pre class="sourceCode scss code-with-copy"><code class="sourceCode scss"><span id="cb22-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">@import</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">url(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&amp;display=swap'</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">)</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb22-2"></span>
+<span id="cb22-3"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">$font-family-sans-serif</span>: <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Raleway"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">sans-serif</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb22-4"></span>
+<span id="cb22-5">h1<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> h2<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> h3<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> h4<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> h5 {</span>
+<span id="cb22-6">  <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">font-family</span>: <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Raleway"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">sans-serif</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb22-7">}</span></code></pre></div></div>
+<p>Usualmente se recomenda mezclar <a href="https://fontpair.co/all">pares tipográficos</a> en tu sitio web, tradicionalmente una tipografía <em>serif</em> para los títulos y una <em>sans-serif</em> para el cuerpo del blog (por ejemplo, como hago yo en este blog). Pero también puedes elegir solo una tipografía y aplicarla a todo.</p>
+</section>
+<section id="personalización-avanzada" class="level3">
+<h3 class="anchored" data-anchor-id="personalización-avanzada">Personalización avanzada</h3>
+<p>Literalmente todo en el blog puede ser pesonalizado, pero para ello necesitas saber cómo se llama cada elemento. Para averiguarlo, abre tu blog en tu navegador (presiona el botón de ventanita en la ventana de <em>Viewer</em> de RStudio para abrirlo en tu navegador), y usa el <strong>inspector</strong> de tu navegador: clic derecho sobre cualquier elemento de tu sitio, y elige <em>Inspeccionar elemento</em>. Ahí puedes ver qué clase <code>css</code> tiene ese elemento, y probar cambios de estilo en vivo antes de aplicarlos definitivamente.</p>
+<p>Por ejemplo, en este blog puse <em>Inspeccionar</em> sobre el título de los posts en la lista de posts, y veo que la <strong>clase</strong> es <code>.listing-title</code>.</p>
+<p><img src="https://santiagoRusers.github.io/posts/tutorial_quarto_blog/img/inspector.jpg" class="img-fluid"></p>
+<p>Entonces, si quiero cambiar el color de ese texto, puedo agregar algo como lo siguiente a <code>tema.scss</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb23" style="background: #f1f3f5;"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb23-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">.listing-title</span> {</span>
+<span id="cb23-2">  <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">color</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">:</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">#583957</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">!important</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">;</span></span>
+<span id="cb23-3">}</span></code></pre></div></div>
+<p>Le agregamos <code>!important</code> para que esta regla nueva aplique por sobre otras reglas que puedan existir.</p>
+<blockquote class="blockquote">
+<p>Estos conocimientos esotéricos sobre CSS son muy útiles para el <a href="https://bastianolea.rbind.io/tags/web-scraping/">web scraping</a>!</p>
+</blockquote>
+</section>
+</section>
+<section id="preparar-el-sitio-para-subirlo" class="level2">
+<h2 class="anchored" data-anchor-id="preparar-el-sitio-para-subirlo">Preparar el sitio para subirlo</h2>
+<p>Antes de subir tu blog a GitHub, necesitamos dos ajustes para que GitHub Pages sepa qué archivos publicar.</p>
+<p>Primero, en <code>_quarto.yml</code>, agregamos <code>output-dir: docs</code> bajo <code>project</code>, para que el sitio se construya en una carpeta llamada <code>docs</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb24-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">project</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span></span>
+<span id="cb24-2"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">type</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> website</span></span>
+<span id="cb24-3"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">output-dir</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> docs</span></span></code></pre></div></div>
+<p>Esto es porque Quarto construye un <strong>sitio web estático</strong> dentro de una carpeta, y esa carpeta es lo que contiene todo lo que será visible del sitio. Por defecto, esta carpeta es <code>_site</code>, pero queremos que sea <code>docs</code>.</p>
+<p>Luego ejecutamos <code>quarto::quarto_render()</code> para actualizar el sitio, y si queremos podemos eliminar la carpeta anterior, <code>_site</code>.</p>
+<p>Segundo, creamos un archivo vacío llamado <code>.nojekyll</code> en la raíz del proyecto. Esto le indica a GitHub Pages que no debe procesar tu sitio con Jekyll (su generador de sitios por defecto), porque tú ya lo generaste con Quarto:</p>
+<p><img src="https://santiagoRusers.github.io/posts/tutorial_quarto_blog/img/nojekyll.png" class="img-fluid"></p>
+<section id="crear-el-repositorio-local" class="level3">
+<h3 class="anchored" data-anchor-id="crear-el-repositorio-local">Crear el repositorio local</h3>
+<p>Con el sitio preparado y <a href="https://bastianolea.rbind.io/blog/quarto_blog/#configurar-git-y-github">GitHub configurado</a>, ahora creamos el repositorio local y lo subimos a GitHub:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1">usethis<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">use_git</span>()</span></code></pre></div></div>
+<p>Este comando <strong>inicializa el repositorio</strong> de Git en tu proyecto, y te preguntará si quieres hacer <em>commit</em> de tus archivos (guardar la primera versión), así que respóndele que <strong>sí</strong>.</p>
+</section>
+<section id="subir-el-repositorio-remoto" class="level3">
+<h3 class="anchored" data-anchor-id="subir-el-repositorio-remoto">Subir el repositorio remoto</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb26" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1">usethis<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">use_github</span>()</span></code></pre></div></div>
+<p>Este segundo comando crea un <strong>repositorio remoto</strong> en tu cuenta de GitHub, con el mismo nombre que tu proyecto, y sube tus archivos. Al finalizar, se abrirá una ventana del navegador mostrando tu repositorio ya en GitHub!</p>
+<p>Si puedes ver el repositorio en GitHub, y el repo tiene la carpeta <code>docs</code>, está todo listo para el último paso!</p>
+</section>
+</section>
+<section id="publicar-el-blog-en-github-pages" class="level2">
+<h2 class="anchored" data-anchor-id="publicar-el-blog-en-github-pages">Publicar el blog en GitHub Pages</h2>
+<p>Ya con el repositorio en GitHub, podemos configurar GitHub Pages.</p>
+<p>Vamos a la pestaña <strong>Settings</strong> del repositorio:</p>
+<p><img src="https://santiagoRusers.github.io/posts/tutorial_quarto_blog/img/quarto_5.png" class="img-fluid"></p>
+<p>En el menú de la izquierda, entramos a <strong>Pages</strong>. Ahí, en <em>Build and deployment</em>, seleccionamos la rama (<em>branch</em>) <code>main</code>, y la carpeta <code>/docs</code>, y presionamos <strong>Save</strong>:</p>
+<p><img src="https://santiagoRusers.github.io/posts/tutorial_quarto_blog/img/quarto_6.png" class="img-fluid"></p>
+<p>Después de esperar uno o dos minutos, GitHub te mostrará la dirección donde tu sitio ya está publicado:</p>
+<p><img src="https://santiagoRusers.github.io/posts/tutorial_quarto_blog/img/quarto_7.png" class="img-fluid"></p>
+<p>¡Y eso es todo! Tu blog ya está disponible en internet, en una dirección como <code>https://tu_usuario.github.io/nombre-del-repositorio</code>.</p>
+<p>Una vez que tu sitio está arriba, la configuración está lista, y cada vez que actualices el repositorio remoto tu sitio web se actualizará en unos minutos.</p>
+<blockquote class="blockquote">
+<p>Si renombras tu repositorio a <code>tu_usuario.github.io</code>, tu sitio quedará disponible directamente en <code>https://tu_usuario.github.io</code>, sin el nombre del repositorio al final.</p>
+</blockquote>
+</section>
+<section id="actualizar-el-blog" class="level2">
+<h2 class="anchored" data-anchor-id="actualizar-el-blog">Actualizar el blog</h2>
+<p>Una vez publicado, actualizar tu blog (para agregar nuevas publicaciones, corregir textos, cambiar el diseño) sigue siempre el mismo flujo:</p>
+<ol type="1">
+<li>Haces los cambios que quieras en RStudio (nueva publicación, modificación de configuraciones, temas, etc.).</li>
+<li>Ejecutas <code>quarto::quarto_render()</code> para reconstruir el sitio completo.</li>
+<li>Subes los cambios a GitHub desde la pestaña <em>Terminal</em> (al lado de la pestaña de la Consola:
+<ul>
+<li><strong>Registra los cambios</strong> locales con <code>git add .</code> para que tus archivos modificados sean identificados</li>
+<li><strong>Guarda una versión</strong> de tus modificaciones con <code>git commit -m "mensaje"</code>, con un mensaje descriptivo de los cambios</li>
+<li><strong>Sube los cambios</strong> al repositorio remoto GitHub con <code>git push</code></li>
+</ul></li>
+</ol>
+<p>En resumen, ejecutar estos tres comandos en la pestaña <strong>Terminal</strong>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb27-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> add .</span>
+<span id="cb27-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> commit <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-m</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"agrego nueva publicación"</span></span>
+<span id="cb27-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> push</span></code></pre></div></div>
+<p>Con <code>git add .</code> marcamos todos los archivos modificados para guardar, con <code>git commit</code> creamos una nueva versión con un mensaje descriptivo, y con <code>git push</code> subimos los cambios a GitHub. En un par de minutos, tu sitio se actualizará solo con los cambios.</p>
+<blockquote class="blockquote">
+<p>Si prefieres no usar la terminal, RStudio también tiene un panel <em>Git</em> (junto a <em>Environment</em> e <em>History</em>) desde el cual puedes hacer exactamente lo mismo con clics en vez de comandos.</p>
+</blockquote>
+<section id="preguntas-frecuentes" class="level4">
+<h4 class="anchored" data-anchor-id="preguntas-frecuentes">Preguntas frecuentes</h4>
+<p><strong>¿Esto es gratis?</strong> Quarto, RStudio, Git y GitHub Pages son gratuitos!</p>
+<p><strong>¿Alguien puede copiar o “robar” mi código?</strong> El código de tu sitio queda público, y también el código que usas para construir tus publicaciones. Esto incluye los datos, si es que llegas a subirlos a las carpetas de tu blog. Evita subir información que no quieras que sea pública (contraseñas, llaves de API, datos sensibles o privados, etc.). GitHub Pages gratuito no funciona sobre repositorios privados, aunque existen alternativas. Si necesitas usar datos privados, o muy pesados, siempre puedes cargarlos desde ubicaciones externas a tu blog para que tus documentos Quarto los reciban, pero no se suban a tu blog.</p>
+</section>
+</section>
+<section id="recursos" class="level2">
+<h2 class="anchored" data-anchor-id="recursos">Recursos</h2>
+<section id="tutoriales" class="level4">
+<h4 class="anchored" data-anchor-id="tutoriales">Tutoriales</h4>
+<ul>
+<li><a href="https://bastianolea.rbind.io/blog/r_introduccion/tutorial_github/">Crea un repositorio Git y comparte tu código en GitHub</a></li>
+<li><a href="https://bastianolea.rbind.io/blog/quarto_reportes/">Reportes y documentos con Quarto</a></li>
+<li><a href="https://bastianolea.rbind.io/blog/tutorial_quarto_github_pages/">Crea páginas web y blogs con R + Quarto</a></li>
+</ul>
+</section>
+<section id="documentación" class="level4">
+<h4 class="anchored" data-anchor-id="documentación">Documentación</h4>
+<ul>
+<li><a href="https://quarto.org/docs/websites/">Quarto websites</a></li>
+<li><a href="https://quarto.org/docs/websites/website-blog.html">blogs con Quarto</a></li>
+<li><a href="https://quarto.org/docs/publishing/github-pages.html">publicar en GitHub Pages</a></li>
+<li><a href="https://happygitwithr.com">Happy Git and GitHub for the useR</a></li>
+</ul>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Notas</h2>
+
+<ol>
+<li id="fn1"><p><em>Disclaimer:</em> este tutorial se escribió con apoyo del asistente de IA <a href="https://bastianolea.rbind.io/blog/posit_assistant/">Posit Assistant</a>. Para más información sobre la forma en que fue redactado en base a las transcripciones de voz, diapositivas y otros recursos, <a href="https://bastianolea.rbind.io/blog/2026-08-08/">leer este post.</a>↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>tutoriales</category>
+  <guid>https://santiagoRusers.github.io/posts/tutorial_quarto_blog/</guid>
+  <pubDate>Fri, 07 Aug 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://santiagoRusers.github.io/posts/tutorial_quarto_blog/featured.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Taller: Crea tu propia página web con Quarto y R</title>
   <dc:creator>Carolina Morales y Bastián Olea</dc:creator>
   <link>https://santiagoRusers.github.io/posts/taller_julio_2026/</link>
