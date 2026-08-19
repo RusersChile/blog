@@ -7,28 +7,50 @@
 
 - title: "CensoLab"
   path: "http://censolab.cl"
-  image: "galeria/img/censolab.jpg"
+  image: "galeria/censolab.jpg"
   author: "Joshua Kunst, Matías Parra"
   description: "Visor de mapas con asistencia de IA para explorar datos geográficos y censales"
-  categories: [apps, mapas, social]
+  categories: [apps, mapas, social, IA]
+  
+- title: Explorador Educación Media Técnico Profesional
+  path: https://datostp.shinyapps.io/datospublicosEMTP/
+  author: Andrés Lazcano A.
+  description: Sistema integrado de visualización y análisis de datos de Educación Media Técnico Profesional, 2025
+  image: galeria/emtp.jpg
+  categories: [apps, educación, IA]
+  
+- title: Costo Social de la Corrupción en Chile
+  path: https://2xonyj-cristian-salinas0ochoa.shinyapps.io/aplicacion-costo-corrupcion/
+  description: Análisis de los montos defraudados en casos de corrupción entre 2003 y 2017, traduciendo montos en beneficios sociales concretos
+  author: Cristián Salinas
+  image: galeria/costo_corrupcion.jpg
+  categories: [apps, social]
   
 - title: "Estudio de Brechas Comunales"
   path: "https://www.descentralizachile.cl/ebc/"
   author: "Subsecretaría de Desarrollo Regional y Administrativo"
-  image: "galeria/img/ebc.jpeg"
+  image: "galeria/ebc.jpeg"
   description: "Estudio que mide brechas en infraestructura y servicios para todas las comunas de Chile"
   categories: [apps, social]
-  
-- title: "Índice de Brechas de Género"
-  path: "https://www.descentralizachile.cl/ibg/"
-  author: "Subsecretaría de Desarrollo Regional y Administrativo"
-  image: "galeria/img/ibg.jpeg"
-  description: "Estudio de nivel comunal y regional sobre brechas con perspectiva de génreo en variables socioeconómicas"
-  categories: [apps, social, género]
   
 - title: "Territorial"
   path: "https://bastianolea.github.io/territorial/"
   author: "Bastián Olea Herrera"
-  image: "galeria/img/territorial.jpg"
+  image: "galeria/territorial.jpg"
   description: "Herramientas para limpiar y facilitar el trabajo con datos de comunas y regiones de Chile en R"
   categories: [paquetes, datos]
+  
+- title: "Índice de Brechas de Género"
+  path: "https://www.descentralizachile.cl/ibg/"
+  author: "Subsecretaría de Desarrollo Regional y Administrativo"
+  image: "galeria/ibg.jpeg"
+  description: "Estudio de nivel comunal y regional sobre brechas con perspectiva de génreo en variables socioeconómicas"
+  categories: [apps, social, género]
+
+  
+- title: DesucTools
+  path: https://blog.desuc.cl/desuctools/
+  author: Cristián Ayala
+  image: "galeria/desuc.jpg"
+  description: Funciones y datos auxiliares para análisis de encuestas sociales utilizados por la Dirección de Estudios Sociales UC (DESUC)
+  categories: [paquetes]

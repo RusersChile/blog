@@ -224,17 +224,28 @@ font-style: inherit;
 }
 
 /* galería */
+
+/* tarjetas en galería */
 .quarto-grid-item.card-left {
   border-radius: 7px;
   padding: 6px;
   background-color: #FBD0E450;
 }
 
+/* imagen en galería */
 .quarto-grid-item.card-left img {
   border: solid 1px #CFBBC390;
   border-radius: 4px !important;
 }
 
-.quarto-grid-item .card-attribution {
+/* autores en galería */
+.grid .quarto-grid-item .card-attribution {
   color: #59395780;
+  font-size: .7rem;
+}
+
+/* título de tarjeta en galería */
+.grid .listing-title {
+  padding-bottom: 8px;
+  margin-top: -8px;
 }

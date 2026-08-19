@@ -1,9 +1,8 @@
 ---
 title: "Galería"
-subtitle: "Proyectos desarrollados en R por usuari@s de Santiago y de Chile"
-description: "En esta galería estaremos presentando diversos proyectos desarrollados en R por usuari@s de Santiago y de Chile. El objetivo es presentar algunos productos y estudios creados con R para ejemplificar las capacidades de este lenguaje, y ayudar con la visibilidad de iniciativas en análisis de datos nacidas en Chile.
-<br>
-Puedes **agregar tu proyecto** a la galería [escribiendo un _issue_ en el repositorio de este sitio!](https://github.com/SantiagoRusers/santiagoRusers.github.io/issues/new?template=agregar-proyecto-a-galería.md)"
+subtitle: "Proyectos desarrollados con R en Chile"
+description: "Estos proyectos, paquetes, estudios e iniciativas de análisis de datos nacidas en Chile y desarrolladas con R son un ejemplo de las capacidades de este lenguaje.
+<p style='margin-bottom: 18px;'>**Agrega tu proyecto** a la galería [escribiendo un _issue_ en el repositorio de este sitio!](https://github.com/SantiagoRusers/santiagoRusers.github.io/issues/new?template=agregar-proyecto-a-galería.md)</p>"
 listing:
   contents: galeria/galeria.yml
   type: grid
