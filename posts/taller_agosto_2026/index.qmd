@@ -1,5 +1,5 @@
 ---
-title: "CensoLab: plataforma de exploración de datos geográficos y censales con inteligencia artificial en R"
+title: "Presentación de CensoLab: plataforma de exploración de datos geográficos y censales con inteligencia artificial en R"
 subtitle: "Arquitectura y experimentación aplicada de IA en R con {ellmer} y Shiny"
 author: "Joshua Kunst y Matías Parra"
 date: "2026-08-26"
