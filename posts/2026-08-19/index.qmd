@@ -1,6 +1,6 @@
 ---
 title: Galería de proyectos de R hechos en Chile
-author: Bastian Olea Herrera
+author: Grupo de usuari@s de R
 date: '2026-08-19'
 ---
 
