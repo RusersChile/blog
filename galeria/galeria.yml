@@ -1,0 +1,27 @@
+# Entradas de la galería de enlaces.
+# Cada item necesita al menos "title". El campo "path" es la URL a la que
+# apuntará el enlace (puede ser externa). "image" es opcional: si se omite,
+# se puede usar `image-placeholder` en el listing.
+#
+# Para agregar un nuevo enlace, copia un bloque y complétalo.
+
+- title: "CensoLab"
+  path: "http://censolab.cl"
+  image: "galeria/img/censolab.jpg"
+  author: "Joshua Kunst, Matías Parra"
+  description: "Visor de mapas con asistencia de IA para explorar datos geográficos y censales"
+  categories: [apps, mapas, social]
+  
+- title: "Estudio de Brechas Comunales"
+  path: "https://www.descentralizachile.cl/ebc/"
+  author: "Subsecretaría de Desarrollo Regional y Administrativo"
+  image: "galeria/img/ebc.jpeg"
+  description: "Estudio que mide brechas en infraestructura y servicios para todas las comunas de Chile"
+  categories: [apps, social]
+  
+- title: "Índice de Brechas de Género"
+  path: "https://www.descentralizachile.cl/ibg/"
+  author: "Subsecretaría de Desarrollo Regional y Administrativo"
+  image: "galeria/img/ibg.jpeg"
+  description: "Estudio de nivel comunal y regional sobre brechas con perspectiva de génreo en variables socioeconómicas"
+  categories: [apps, social, género]

@@ -222,3 +222,19 @@ code span.st {
 color: #593957;
 font-style: inherit;
 }
+
+/* galería */
+.quarto-grid-item.card-left {
+  border-radius: 7px;
+  padding: 6px;
+  background-color: #FBD0E450;
+}
+
+.quarto-grid-item.card-left img {
+  border: solid 1px #CFBBC390;
+  border-radius: 4px !important;
+}
+
+.quarto-grid-item .card-attribution {
+  color: #59395780;
+}
