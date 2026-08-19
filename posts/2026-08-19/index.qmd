@@ -22,3 +22,5 @@ target = "_blank">
 {{< fa images size=2x >}} Visita la galería
 </a>
 :::
+
+Aprovecha también de sumarte al [grupo de Slack {{< fa brands slack >}}](https://join.slack.com/t/santiagorusers/shared_invite/zt-3tzmsdyat-gNAUz5mjPij0xFgNLtXeKA) para poder conversar!

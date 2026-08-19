@@ -10,28 +10,28 @@
   image: "galeria/censolab.jpg"
   author: "Joshua Kunst, Matías Parra"
   description: "Visor de mapas con asistencia de IA para explorar datos geográficos y censales"
-  categories: [apps, mapas, social, IA]
+  categories: [social, mapas, IA, apps]
   
 - title: Explorador Educación Media Técnico Profesional
   path: https://datostp.shinyapps.io/datospublicosEMTP/
   author: Andrés Lazcano A.
   description: Sistema integrado de visualización y análisis de datos de Educación Media Técnico Profesional, 2025
   image: galeria/emtp.jpg
-  categories: [apps, educación, IA]
+  categories: [educación, IA, apps]
   
 - title: Costo Social de la Corrupción en Chile
   path: https://2xonyj-cristian-salinas0ochoa.shinyapps.io/aplicacion-costo-corrupcion/
   description: Análisis de los montos defraudados en casos de corrupción entre 2003 y 2017, traduciendo montos en beneficios sociales concretos
   author: Cristián Salinas
   image: galeria/costo_corrupcion.jpg
-  categories: [apps, social]
+  categories: [social, apps]
   
 - title: "Estudio de Brechas Comunales"
   path: "https://www.descentralizachile.cl/ebc/"
   author: "Subsecretaría de Desarrollo Regional y Administrativo"
   image: "galeria/ebc.jpeg"
   description: "Estudio que mide brechas en infraestructura y servicios para todas las comunas de Chile"
-  categories: [apps, social]
+  categories: [social, apps]
   
 - title: "Territorial"
   path: "https://bastianolea.github.io/territorial/"
@@ -45,7 +45,7 @@
   author: "Subsecretaría de Desarrollo Regional y Administrativo"
   image: "galeria/ibg.jpeg"
   description: "Estudio de nivel comunal y regional sobre brechas con perspectiva de génreo en variables socioeconómicas"
-  categories: [apps, social, género]
+  categories: [género, social, apps]
 
   
 - title: DesucTools
@@ -54,3 +54,10 @@
   image: "galeria/desuc.jpg"
   description: Funciones y datos auxiliares para análisis de encuestas sociales utilizados por la Dirección de Estudios Sociales UC (DESUC)
   categories: [paquetes]
+  
+- title: Hydrology Apps
+  path: https://alobondo.github.io/hydrology_apps/
+  author: Alonso Arriagada
+  image: "galeria/hidrology_apps.jpg"
+  description: Plataformas y herramientas para estimaciones hidrológicas
+  categories: [ciencias, apps, paquetes, datos]
