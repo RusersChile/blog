@@ -91,6 +91,34 @@ width: 320px;">
   <media:content url="https://santiagoRusers.github.io/posts/taller_agosto_2026/afiche_rusers_stgo_agosto.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>Galería de proyectos de R hechos en Chile</title>
+  <dc:creator>Bastian Olea Herrera</dc:creator>
+  <link>https://santiagoRusers.github.io/posts/2026-08-19/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Agregamos una nueva sección a nuestro sitio web! Creamos una <a href="https://santiagorusers.github.io/galeria.html">galería</a> de proyectos, paquetes y estudios hechos con el lenguaje R en Chile.</p>
+<p>El objetivo es poder reunir iniciativas en un sólo lugar, y ayudar a su difusión.</p>
+<div class="galeria">
+<div style="max-width:400px;">
+<p><a href="https://santiagorusers.github.io/galeria.html" style="border: solid 1px #CFB6C0; border-radius: 7px;"><img src="https://santiagoRusers.github.io/posts/2026-08-19/galeria.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+<p>Si quieres agregar tu propio proyecto, puedes <a href="https://github.com/SantiagoRusers/santiagoRusers.github.io/issues/new?template=agregar-proyecto-a-galería.md">crear un nuevo <em>issue</em> en GitHub</a> siguiendo las instrucciones de la plantilla. Posteriormente, un voluntario/a del grupo de usuarios intentará agregar tu proyecto a la brevedad.</p>
+<div class="boton">
+<p><a href="https://santiagorusers.github.io/galeria.html" target="_blank"> <i class="fa-solid fa-images fa-2x" aria-label="images"></i> Visita la galería </a></p>
+</div>
+
+
+
+ ]]></description>
+  <guid>https://santiagoRusers.github.io/posts/2026-08-19/</guid>
+  <pubDate>Wed, 19 Aug 2026 04:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Tutorial: Crea y publica tu propio blog con Quarto y RStudio</title>
   <dc:creator>Bastián Olea Herrera</dc:creator>
   <link>https://santiagoRusers.github.io/posts/tutorial_quarto_blog/</link>
