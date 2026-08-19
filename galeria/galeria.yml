@@ -25,3 +25,10 @@
   image: "galeria/img/ibg.jpeg"
   description: "Estudio de nivel comunal y regional sobre brechas con perspectiva de génreo en variables socioeconómicas"
   categories: [apps, social, género]
+  
+- title: "Territorial"
+  path: "https://bastianolea.github.io/territorial/"
+  author: "Bastián Olea Herrera"
+  image: "galeria/img/territorial.jpg"
+  description: "Herramientas para limpiar y facilitar el trabajo con datos de comunas y regiones de Chile en R"
+  categories: [paquetes, datos]
