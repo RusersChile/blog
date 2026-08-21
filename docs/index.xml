@@ -21,9 +21,10 @@
 
 
 
-<p>La reunión mensual de agosto cuenta con la presentación de <a href="http://censolab.cl"><strong>CensoLab</strong></a>, una plataforma interactiva desarrollada en R que permite explorar información geográfica del Censo por medio de mapas interactivos, un dashboard, y lenguaje natural mediante inteligencia artificial.</p>
+<p>Este mes de Agosto tenemos la presentación y taller de <a href="http://censolab.cl"><strong>CensoLab</strong></a>, una plataforma interactiva desarrollada en R que permite explorar información geográfica del Censo por medio de mapas interactivos, un dashboard, y lenguaje natural mediante inteligencia artificial.</p>
 <p><img src="https://santiagoRusers.github.io/posts/taller_agosto_2026/afiche_rusers_stgo_agosto.jpg" class="img-fluid"></p>
 <p>Los autores de <strong>CensoLab</strong>, <a href="https://www.linkedin.com/in/joshuakunst/">Joshua Kunst</a> (estadístico y <em>Risk Specialist</em>) y <a href="https://www.linkedin.com/in/matias-parra-rojas">Matías Parra</a> (antropólogo y programador), presentarán la plataforma comentando su arquitectura, implementación y los desafíos que enfrentaron, usando ejemplos prácticos sobre los paquetes de R <a href="https://shiny.posit.co">Shiny</a> y <a href="https://ellmer.tidyverse.org"><code>{ellmer}</code>.</a></p>
+<p>Además compartirán desafíos y decisiones que enfrentaron al desarrollar la plataforma, y explicarán el funcionamiento de la app en un formato de <strong>taller</strong>.</p>
 <div class="galeria">
 <p><a href="censolab_3.jpeg" class="lightbox" data-gallery="galeria"><img src="https://santiagoRusers.github.io/posts/taller_agosto_2026/censolab_3.jpeg" class="fotito img-fluid"></a> <a href="censolab_1.jpeg" class="lightbox" data-gallery="galeria"><img src="https://santiagoRusers.github.io/posts/taller_agosto_2026/censolab_1.jpeg" class="fotito img-fluid"></a> <a href="censolab_2.jpeg" class="lightbox" data-gallery="galeria"><img src="https://santiagoRusers.github.io/posts/taller_agosto_2026/censolab_2.jpeg" class="fotito img-fluid"></a> <a href="censolab_4.jpeg" class="lightbox" data-gallery="galeria"><img src="https://santiagoRusers.github.io/posts/taller_agosto_2026/censolab_4.jpeg" class="fotito img-fluid"></a> <a href="censolab_5.jpeg" class="lightbox" data-gallery="galeria"><img src="https://santiagoRusers.github.io/posts/taller_agosto_2026/censolab_5.jpeg" class="fotito img-fluid"></a></p>
 </div>
@@ -86,6 +87,7 @@ width: 320px;">
 
  ]]></description>
   <category>talleres</category>
+  <category>presentaciones</category>
   <guid>https://santiagoRusers.github.io/posts/taller_agosto_2026/</guid>
   <pubDate>Wed, 26 Aug 2026 04:00:00 GMT</pubDate>
   <media:content url="https://santiagoRusers.github.io/posts/taller_agosto_2026/afiche_rusers_stgo_agosto.jpg" medium="image" type="image/jpeg"/>
@@ -116,6 +118,7 @@ width: 320px;">
 
 
  ]]></description>
+  <category>noticias</category>
   <guid>https://santiagoRusers.github.io/posts/2026-08-19/</guid>
   <pubDate>Wed, 19 Aug 2026 04:00:00 GMT</pubDate>
 </item>

@@ -2,6 +2,7 @@
 title: Galería de proyectos de R hechos en Chile
 author: Grupo de usuari@s de R
 date: '2026-08-19'
+categories: [noticias]
 ---
 
 Agregamos una nueva sección a nuestro sitio web! Creamos una [galería](https://santiagorusers.github.io/galeria.html) de proyectos, paquetes y estudios hechos con el lenguaje R en Chile. 

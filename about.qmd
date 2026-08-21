@@ -1,5 +1,5 @@
 ---
-title: "Acerca de"
+title: "Acerca del grupo"
 image: profile.jpg
 about:
   template: jolla
@@ -19,13 +19,22 @@ about:
 
 ---
 
-Sitio web de la comunidad de usuarias y usuarios de R en Chile.
+_Sitio web de la comunidad de usuarias y usuarios de R en Chile._
 
-Organizado por [Bastián Olea](https://bastianolea.rbind.io) y [Carolina Morales](linkedin.com/in/carolinabelenmorales)
+Esta comunidad existe para unir a personas que usen R en sus trabajos, estudios o investigaciones. Se trata de un espacio (principalmente digital) donde podemos compartir lo que hacemos y lo que aprendemos con R. 
 
+Visita la página de [participación](/participa.html) si deseas formar parte del grupo. Puedes [seguirnos en LinkedIn](https://www.linkedin.com/company/santiagorusers), y [unirte al Slack](https://join.slack.com/t/santiagorusers/shared_invite/zt-3tzmsdyat-gNAUz5mjPij0xFgNLtXeKA) para convesar y mantenerte al tanto!
 
-Código del sitio [en Github](https://github.com/SantiagoRusers/santiagoRusers.github.io)
+----
+
+## ¿Qué es R?
+
+[R](https://www.r-project.org) es un lenguaje de programación enfocado en la estadística y el análisis de datos, ampliamente usado en academia, ciencias sociales y ciencias exactas por su facilidad de uso, la posibilidad de crear gráficos, aplicaciones web y reportes con R, y su comunidad de usuarias/os. 
+
+Revisa la [galería](/galeria.html) para ver algunos proyectos de R hechos en Chile!
+
+----
 
 ## Código de conducta
 
-Nos adherimos al [código de conducta de _ROpenSci._](https://ropensci.org/es/código-de-conducta/) Al contribuir o participar de este grupo, aceptas atenerte a sus términos.
+Nos adherimos al [código de conducta de _ROpenSci._](https://ropensci.org/es/código-de-conducta/) Al contribuir o participar de este grupo, aceptas adherirte a sus términos.

@@ -4,14 +4,16 @@ subtitle: "Arquitectura y experimentación aplicada de IA en R con {ellmer} y Sh
 author: "Joshua Kunst y Matías Parra"
 date: "2026-08-26"
 image: "afiche_rusers_stgo_agosto.jpg"
-categories: [talleres]
+categories: [talleres, presentaciones]
 ---
 
-La reunión mensual de agosto cuenta con la presentación de [**CensoLab**](http://censolab.cl), una plataforma interactiva desarrollada en R que permite explorar información geográfica del Censo por medio de mapas interactivos, un dashboard, y lenguaje natural mediante inteligencia artificial.
+Este mes de Agosto tenemos la presentación y taller de [**CensoLab**](http://censolab.cl), una plataforma interactiva desarrollada en R que permite explorar información geográfica del Censo por medio de mapas interactivos, un dashboard, y lenguaje natural mediante inteligencia artificial.
 
 ![](afiche_rusers_stgo_agosto.jpg)
 
 Los autores de **CensoLab**, [Joshua Kunst](https://www.linkedin.com/in/joshuakunst/) (estadístico y _Risk Specialist_) y [Matías Parra](https://www.linkedin.com/in/matias-parra-rojas) (antropólogo y programador), presentarán la plataforma comentando su arquitectura, implementación y los desafíos que enfrentaron, usando ejemplos prácticos sobre los paquetes de R [Shiny](https://shiny.posit.co) y [`{ellmer}`.](https://ellmer.tidyverse.org)
+
+Además compartirán desafíos y decisiones que enfrentaron al desarrollar la plataforma, y explicarán el funcionamiento de la app en un formato de **taller**.
 
 ::: {.galeria}
 ![](censolab_3.jpeg){.fotito .lightbox group="galeria"}
