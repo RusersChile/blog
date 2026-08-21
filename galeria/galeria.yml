@@ -33,11 +33,11 @@
   description: "Estudio que mide brechas en infraestructura y servicios para todas las comunas de Chile"
   categories: [social, apps]
   
-- title: "Territorial"
+- title: Territorial
   path: "https://bastianolea.github.io/territorial/"
-  author: "Bastián Olea Herrera"
+  author: Bastián Olea Herrera
   image: "galeria/territorial.jpg"
-  description: "Herramientas para limpiar y facilitar el trabajo con datos de comunas y regiones de Chile en R"
+  description: Herramientas para limpiar y facilitar el trabajo con datos de comunas y regiones de Chile
   categories: [paquetes, datos]
   
 - title: "Índice de Brechas de Género"
@@ -47,6 +47,26 @@
   description: "Estudio de nivel comunal y regional sobre brechas con perspectiva de génreo en variables socioeconómicas"
   categories: [género, social, apps]
 
+- title: guaguas
+  path: https://rivaquiroga.github.io/guaguas
+  image: "galeria/guaguas.jpg"
+  description: Datos sobre nombres de guaguas (bebés) registrados en Chile entre 1920 y 2021, según el Servicio de Registro Civil e Identificación
+  author: Riva Quiroga
+  categories: [datos, paquetes]
+  
+- title: chilemapas
+  path: https://pacha.dev/chilemapas/
+  image: "galeria/chilemapas.jpg"
+  description: Mapas terrestres de Chile con topologias simplificadas a nivel de región, comuna y zonas urbanas
+  author: Mauricio Vargas
+  categories: [mapas, paquetes]
+  
+- title: Calidad
+  path: https://www.ine.gob.cl/calidad-estadistica/directrices-metodologicas/tutorial-paquete-calidad
+  author: Klaus Lehmann, Ricardo Pizarro, Instituto Nacional de Estadísticas
+  image: "galeria/calidad.jpeg"
+  description: Paquete para evaluar la precisión de estimaciones provenientes de encuestas de hogares, siguiendo metodologías del INE y CEPAL
+  categories: [social, encuestas, paquetes]
   
 - title: DesucTools
   path: https://blog.desuc.cl/desuctools/
@@ -61,3 +81,25 @@
   image: "galeria/hidrology_apps.jpg"
   description: Plataformas y herramientas para estimaciones hidrológicas
   categories: [ciencias, apps, paquetes, datos]
+  
+- title: ismtchile
+  path: https://ismtchile.geocoded.dev/home
+  image: "galeria/ismtchile.jpeg"
+  description: Cálculo y distribución del índice Socio Material Territorial (ISMT), elaborado por el Observatorio de Ciudades UC
+  author: Martín Rosas Araya, Observatorio de Ciudades UC 
+  categories: [social, datos, paquetes]
+  
+- title: sinimR
+  path: https://git.mtnlss.co/sinimr/
+  description: Acceso a datos del Sistema Nacional de Información Municipal (SINIM)
+  author: Roberto Salas
+  image: "galeria/sinimr.jpg"
+  categories: [datos, paquetes]
+  
+- title: Graficador CEP
+  path: https://www.cepchile.cl/opinion-publica/encuesta-cep/
+  description: Plataforma que permite visualizar con facilidad las preguntas más relevantes de la Encuesta CEP y su evolución en el tiempo
+  author: DataUC, Centro de Estudios Públicos
+  image: "galeria/cep.jpg"
+  categories: [social, encuestas, apps]
+  
