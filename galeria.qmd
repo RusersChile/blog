@@ -1,8 +1,8 @@
 ---
 title: "Galería"
 subtitle: "Proyectos desarrollados con R en Chile"
-description: "Estos proyectos, paquetes, estudios e iniciativas de análisis de datos nacidas en Chile y desarrolladas con R son un ejemplo de las capacidades de este lenguaje.
-<p style='margin-bottom: 18px;'>**Agrega tu proyecto** a la galería [escribiendo un _issue_ en el repositorio de este sitio!](https://github.com/SantiagoRusers/santiagoRusers.github.io/issues/new?template=agregar-proyecto-a-galería.md)</p>"
+description: "Estos proyectos, paquetes, estudios e iniciativas de análisis de datos nacidas en Chile y desarrolladas con R son un ejemplo de las capacidades de este lenguaje. También puedes visitar el [Catálogo de Paquetes R de Latinoamérica](https://estacionr-asombrosos-paquetes-r-latinoamerica.share.connect.posit.cloud) hecho por [Estación R.](https://estacion-r.com)
+<p style='margin-bottom: 18px;'>**Agrega tu proyecto** a esta galería [escribiendo un _issue_ en el repositorio de este sitio](https://github.com/SantiagoRusers/santiagoRusers.github.io/issues/new?template=agregar-proyecto-a-galería.md), por el [Slack](https://join.slack.com/t/santiagorusers/shared_invite/zt-3tzmsdyat-gNAUz5mjPij0xFgNLtXeKA) del grupo, o contactándonos por nuestras [redes sociales](https://twitter.com/santiagoRusers)!</p>"
 listing:
   contents: galeria/galeria.yml
   type: grid
