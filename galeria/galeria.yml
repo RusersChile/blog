@@ -103,3 +103,9 @@
   image: "galeria/cep.jpg"
   categories: [social, encuestas, apps]
   
+- title: Costo de la crisis de la vivienda en Chile
+  path: https://2xonyj-cristian-salinas0ochoa.shinyapps.io/Costodecampamentos/
+  author: Cristián Salinas
+  description: App web interactiva que muestra de manera didáctica los costes fiscales y humanos de la Crisis de la Vivienda en Chile
+  image: "galeria/costo_vivienda.jpg"
+  categories: [social, género, mapas, apps]

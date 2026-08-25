@@ -9,7 +9,7 @@
 <link>https://santiagoRusers.github.io/</link>
 <atom:link href="https://santiagoRusers.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Sitio web de la comunidad de usuarias y usuarios de R en Santiago de Chile</description>
-<generator>quarto-1.9.37</generator>
+<generator>quarto-1.9.38</generator>
 <lastBuildDate>Wed, 26 Aug 2026 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Presentación de CensoLab: plataforma de exploración de datos geográficos y censales con inteligencia artificial en R</title>
