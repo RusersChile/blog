@@ -9,8 +9,109 @@
 <link>https://santiagoRusers.github.io/</link>
 <atom:link href="https://santiagoRusers.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Sitio web de la comunidad de usuarias y usuarios de R en Santiago de Chile</description>
-<generator>quarto-1.9.38</generator>
-<lastBuildDate>Wed, 26 Aug 2026 04:00:00 GMT</lastBuildDate>
+<generator>quarto-1.9.37</generator>
+<lastBuildDate>Thu, 27 Aug 2026 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Resumen del taller: explorar el Censo con mapas, dashboards e inteligencia artificial con CensoLab y R</title>
+  <dc:creator>Grupo de usuari@s de R</dc:creator>
+  <link>https://santiagoRusers.github.io/posts/2026-08-26/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>En la regunión mensual del pasado 26 de agosto, <a href="https://www.linkedin.com/in/joshuakunst/">Joshua Kunst</a> y <a href="https://www.linkedin.com/in/matias-parra-rojas">Matías Parra</a> presentaron <strong><a href="http://censolab.cl">CensoLab</a></strong>, una plataforma abierta para explorar datos geográficos y censales de Chile mediante mapas interactivos, dashboards y un asistente de IA conversacional. Además, impartieron un <strong>taller práctico</strong> sobre cómo construir agentes de IA en R con <code>{ellmer}</code> e integrarlos en aplicaciones <code>{shiny}</code>.</p>
+<p><img src="https://santiagoRusers.github.io/posts/2026-08-26/censolab_1.jpg" class="img-fluid"></p>
+<blockquote class="blockquote">
+<p>Muchas gracias a las <strong>70 personas</strong> que se conectaron a la presentación!</p>
+</blockquote>
+<section id="plataforma-censolab" class="level2">
+<h2 class="anchored" data-anchor-id="plataforma-censolab">Plataforma CensoLab</h2>
+<p>Acceder a información del Censo suele significar elegir entre dos extremos: <strong>productos</strong> simples de usar pero limitados, como tablas o dashboards oficiales, o bien acceder a los <strong>microdatos</strong>, que son flexibles pero exigen conocimientos técnicos de R, Python, SQL o GIS. CensoLab busca ocupar ese espacio intermedio: conservar la granularidad del microdato, integrar distintas herramientas en un mismo entorno, y ofrecer capacidades de visualización y análisis para la exploración siga el hilo de las preguntas.</p>
+<p><img src="https://santiagoRusers.github.io/posts/2026-08-26/censolab_3.jpeg" class="img-fluid"></p>
+<p>En la demostración se mostraron casos como el <strong>envejecimiento poblacional</strong> por comuna, la <strong>construcción de tipologías territoriales</strong> combinando rama de actividad económica, ocupación y escolaridad (revelando fenómenos como la gentrificación rural en zonas agrícolas), la <strong>comparación entre territorios</strong>, y el cálculo de <strong>índices de concentración económica</strong> (Herfindahl) por comuna. Todo esto se puede pedir en lenguaje natural al asistente conversacional integrado, sin dejar de tener el mapa y las tablas como respaldo verificable.</p>
+<p><img src="https://santiagoRusers.github.io/posts/2026-08-26/censolab_2.jpeg" class="img-fluid"></p>
+<section id="arquitectura" class="level3">
+<h3 class="anchored" data-anchor-id="arquitectura">Arquitectura</h3>
+<p>CensoLab separa su desarrollo en tres repositorios independientes:</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A["censolab-data&lt;br/&gt;DuckDB / MotherDuck"] --&gt; B["censolab&lt;br/&gt;Shiny + CensoBot (ellmer)"]
+    B --&gt; C["censolab-web&lt;br/&gt;Quarto + GitHub Pages"]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>El componente de <strong>datos</strong> descarga, limpia e integra el Censo 2024, la cartografía censal y datos de establecimientos de educación y salud, con las fuentes y opciones del pipeline definidas en un YAML versionado. El resultado se almacena en <strong>DuckDB</strong>, una base de datos analítica, orientada a columnas, sin servidor y con soporte geoespacial nativo, que puede publicarse en MotherDuck para consultarse de forma remota. Es una elección que refleja bien el espíritu de la comunidad R/open source: sin licencias, con un ecosistema de paquetes (<code>{duckdb}</code>, <code>{duckplyr}</code>) que permite trabajar con datos que no caben cómodamente en memoria sin salir de R.</p>
+<p>La <strong>aplicación</strong> es un Shiny que combina un explorador centrado en el mapa, un perfil territorial (inspirado en DataChile) y un agente conversacional que interpreta preguntas, consulta los datos mediante <em>tools</em> y devuelve mapas, gráficos, tablas o informes dentro de la misma interfaz. Se despliega en Posit Connect Cloud con dos entornos —uno estable y uno de desarrollo— que se actualizan automáticamente según los cambios en el repositorio.</p>
+<p>El <strong>sitio web</strong>, construido con Quarto y publicado en GitHub Pages, no solo documenta el proyecto: también publica de forma pública los resultados de las evaluaciones de calidad del asistente, generadas con <code>{vitals}</code> como parte del desarrollo de la aplicación. Que Quarto pueda convertir esos resultados en un resumen navegable de cobertura y desempeño es un buen ejemplo de cómo un mismo lenguaje sostiene datos, aplicación y comunicación con muy poca fricción entre etapas.</p>
+<p><img src="https://santiagoRusers.github.io/posts/2026-08-26/paquetes.jpeg" class="img-fluid"></p>
+</section>
+<section id="desafíos" class="level3">
+<h3 class="anchored" data-anchor-id="desafíos">Desafíos</h3>
+<p>Un dato concreto que compartieron los autores: la base de 1.5 GB se aloja gratis en MotherDuck, y la app corre en el plan gratuito de Posit Connect Cloud. El único costo real es el consumo de tokens de modelos de lenguaje —cerca de 35 dólares para partir y 27 dólares en las dos semanas siguientes—, lo que llevó a migrar de Claude 4 a Claude 3.5 Sonnet, buscando un mejor balance entre costo y capacidad para manejar herramientas. Es un recordatorio útil: el costo de construir infraestructura de datos y aplicaciones con software libre es prácticamente nulo; el costo marginal recurrente que sí importa es el de la inferencia de IA.</p>
+<p>Los presentadores insistieron en que agregar funcionalidades es “adictivo”, pero la prueba real de una plataforma como esta es si la información que entrega es correcta y fidedigna. Por eso construyeron una suite de evaluación con <code>{vitals}</code>, definiendo preguntas, respuestas esperadas y criterios de evaluación para medir automáticamente si el modelo cumple lo esperado, moviendo el control de calidad de lo informal a un proceso más riguroso. También abordaron la privacidad: CensoLab trabaja solo con datos censales públicos y agregados (el Censo 2024 no libera microdatos a nivel de manzana), y el asistente está instruido para declarar incertidumbre en vez de inventar cifras. La sostenibilidad económica del proyecto —cómo cubrir el costo de tokens sin cobrar suscripción— sigue siendo un tema abierto.</p>
+<p><img src="https://santiagoRusers.github.io/posts/2026-08-26/censolab_4.jpeg" class="img-fluid"></p>
+</section>
+</section>
+<section id="diapositivas" class="level2">
+<h2 class="anchored" data-anchor-id="diapositivas">Diapositivas</h2>
+<p>A continuación dejamos las diapositivas del taller, que incluyen código para aprender a crear herramientas para IA con R, y luego integrarlas en aplicaciones Shiny:</p>
+<iframe width="100%" height="420" style="border-radius:6px;" title="Diapositivas" frameborder="0" src="https://censolab.cl/slides/202608-taller-usuarios-R/#/title-slide">
+</iframe>
+<p><em>Usa las flechas de tu teclado para cambiar las diapositivas</em></p>
+</section>
+<section id="taller-construir-un-agente-de-ia-con-r-y-ellmer" class="level2">
+<h2 class="anchored" data-anchor-id="taller-construir-un-agente-de-ia-con-r-y-ellmer">Taller: construir un agente de IA con R y <code>{ellmer}</code></h2>
+<p>La parte práctica de la presentación usó datos del Banco Central de Chile (vía el <a href="https://jkunst.com/bcchr/">paquete de R <code>{bcchr}</code></a>) como ejemplo. El objetivo del taller fue demostrar la utilidad de un <em>chatbot conectado a datos</em> en base a una planificación para la construcción de herramientas y el contexto apropiado.</p>
+<p><img src="https://santiagoRusers.github.io/posts/2026-08-26/taller_censolab_2.jpeg" class="img-fluid"></p>
+<ol type="1">
+<li>La función <code>chat_openai()</code> del <a href="https://ellmer.tidyverse.org">paquete <code>{ellmer}</code></a> (o <code>chat_anthropic()</code>, dependiendo te tu proveedor de IA) crea un objeto <code>chat</code> (<code>R6</code>) con el que se conversa directamente, pero que no conoce nada más allá de su entrenamiento: literal no sabe ni la hora.</li>
+<li><strong>La importancia del <em>prompt</em>:</strong> Preguntar por la desocupación laboral sin un <em>system prompt</em> estructurado produjo una respuesta larga, con cifras no verificables y ¡de otro país! Un prompt con rol, contexto, tarea, límites explícitos (“evita afirmar causalidad sin evidencia”), y construido como un archivo Markdown parametrizado, cambió por completo el comportamiento. Sin embargo, el modelo igual se equivocó en una cifra puntual: le falta acceso a datos reales.</li>
+<li><strong>Usar <em>tools</em> para datos precisos:</strong> Envolver una función de R con <code>ellmer::tool()</code> le da al modelo de IA la capacidad de consultar datos reales en lugar de inventarlos. Creando una <em>tool</em> que entregue datos de una serie de datos del Banco Central permite al modelo responder con datos reales; con tools para buscar, describir y descargar series, el modelo puede resolver tareas de varios pasos, e incluso recuperarse de errores (por ejemplo, un argumento de frecuencia inválido) reintentando con el valor correcto.</li>
+<li><strong>El <em>tool loop</em>:</strong> Todo esto ocurre en un ciclo: el modelo de IA comprende que necesita ejecutar una herramienta, <code>{ellmer}</code> la ejecuta en R, el resultado (o error) entra al contexto o historial del modelo, y el modelo decide si continúa pidiendo otra herramienta o entrega la respuesta final. Ese ciclo, coordinado enteramente por R, es el corazón técnico detrás del asistente de CensoLab.</li>
+</ol>
+<p>En resumen: <strong>conducta (prompt) + capacidad (tools) = sistema</strong>. La clave es coordinar piezas pequeñas y verificables para que el sistema, apoyado en el <em>prompt</em>, se comporte como es esperado.</p>
+<p><img src="https://santiagoRusers.github.io/posts/2026-08-26/diagrama_1.jpeg" class="img-fluid"></p>
+<section id="implementación-interactiva-shiny-shinychat" class="level3">
+<h3 class="anchored" data-anchor-id="implementación-interactiva-shiny-shinychat">Implementación interactiva: <code>{shiny}</code> + <code>{shinychat}</code></h3>
+<p>La segunda mitad del taller mostró cómo llevar lo anterior a una interfaz web, con cinco aplicaciones de complejidad creciente:</p>
+<ol type="1">
+<li>App Shiny básica (interfaz, servidor, reactividad) para pronosticar una serie de tiempo;</li>
+<li>Explorador manual donde la persona usuaria busca, selecciona y consulta una serie con <code>{bcchr}</code>;</li>
+<li>Chat integrado con <code>{shinychat}</code> pero sin acceso a datos;</li>
+<li>Chat con <em>tools</em> que puede buscar series y actualizar el dashboard directamente;</li>
+<li>Finalmente, una versión de la app donde las herramientas no solo actualizan la interfaz, sino que devuelven contexto al propio modelo (un resumen numérico y una imagen del gráfico generado) para que pueda interpretar lo que la persona usuaria está viendo y comentarlo con propiedad.</li>
+</ol>
+<p>Con esta secuencia se simuló un sistema que funciona tal como CensoLab, donde las herramientas son canales de dos sentidos: el modelo actúa sobre la app, y la app le devuelve contexto al modelo, lo que permite un asistente que efectivamente “ve” y comenta lo que hay en pantalla.</p>
+<p><img src="https://santiagoRusers.github.io/posts/2026-08-26/taller_censolab.jpeg" class="img-fluid"></p>
+</section>
+<section id="uso-de-r-para-plataformas-interactivas-con-agentes-de-ia" class="level3">
+<h3 class="anchored" data-anchor-id="uso-de-r-para-plataformas-interactivas-con-agentes-de-ia">Uso de R para plataformas interactivas con agentes de IA</h3>
+<p>Todo el ciclo de desarrollo e implementación (datos, análisis geoespacial, modelos de lenguaje, aplicación web e infraestructura de evaluación) se sostiene en <strong>R</strong> y herramientas gratuitas y de código abierto: <code>{duckdb}</code> para datos a escala sin servidores propios, <code>{ellmer}</code> para hablar con cualquier proveedor de LLMs con la misma interfaz, <code>{shiny}</code> y <code>{shinychat}</code> para la interfaz de la aplicación web, <code>{vitals}</code> para evaluar la calidad de las respuestas, y Quarto para documentar y publicar todo. En CensoLab vemos cómo R permite combinar estas piezas en un solo flujo de trabajo reproducible, sin necesitar múltiples lenguajes ni licencias de software.</p>
+<p>Los mismos paquetes usados para construir CensoLab están disponibles para cualquier organización que quiera explorar sus propios datos combinando visualización tradicional con agentes de IA especializados, sin más costo que el consumo de <em>tokens.</em></p>
+<blockquote class="blockquote">
+<p>Muchas gracias a Joshua y Matías por compartir su trabajo con la comunidad!</p>
+</blockquote>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>talleres</category>
+  <category>presentaciones</category>
+  <guid>https://santiagoRusers.github.io/posts/2026-08-26/</guid>
+  <pubDate>Thu, 27 Aug 2026 04:00:00 GMT</pubDate>
+  <media:content url="https://santiagoRusers.github.io/posts/2026-08-26/censolab_2.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Presentación de CensoLab: plataforma de exploración de datos geográficos y censales con inteligencia artificial en R</title>
   <dc:creator>Joshua Kunst y Matías Parra</dc:creator>
@@ -34,7 +135,15 @@
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7492655335128821760?compact=1" height="400" width="504" frameborder="0" allowfullscreen="" title="Publicación integrada">
 </iframe>
 </div>
-<p>¡Lxs dejamos cordialmente invitados a esta nueva reunión de <em>R Users Santiago</em>!</p>
+<section id="diapositivas" class="level2">
+<h2 class="anchored" data-anchor-id="diapositivas">Diapositivas</h2>
+<p>A continuación dejamos las diapositivas del taller, que incluyen código para aprender a crear herramientas para IA con R, y luego integrarlas en aplicaciones Shiny:</p>
+<iframe width="100%" height="420" style="border-radius:6px;" title="Diapositivas" frameborder="0" src="https://censolab.cl/slides/202608-taller-usuarios-R/#/title-slide">
+</iframe>
+<p><em>Usa las flechas de tu teclado para cambiar las diapositivas</em></p>
+<!---
+¡Lxs dejamos cordialmente invitados a esta nueva reunión de _R Users Santiago_! 
+--->
 <!---
  Antes de la reunión, asegúrate de tener:
 
@@ -43,36 +152,58 @@
 * **Git** instalado ([ver instrucciones aquí](https://git-scm.com))
 * Una cuenta de **GitHub** creada, ya que la utilizaremos para publicar nuestra página web!
 --->
-<p>¡Nos vemos el miércoles 26 de agosto! <i class="fa-solid fa-heart fa-2x" aria-label="heart"></i></p>
-<section id="taller-de-agosto" class="level3">
-<h3 class="anchored" data-anchor-id="taller-de-agosto">Taller de agosto:</h3>
-<ul>
-<li><strong>26 de agosto de 2026, 19:30 hrs.</strong> (Santiago), online</li>
-</ul>
-<div class="boton">
-<p><a href="https://us06web.zoom.us/j/87107671788?pwd=4kPLbSr4ZaWc1HX1XfbMeOWIkrVWah.1" target="_blank"> <i class="fa-solid fa-video fa-2x" aria-label="video"></i> Conéctate por Zoom </a></p>
-</div>
+<!---
+¡Nos vemos el miércoles 26 de agosto! 
+
+### Taller de agosto:
+- **26 de agosto de 2026, 19:30 hrs.** (Santiago), online
+
+:::{.boton}
+<a href = "https://us06web.zoom.us/j/87107671788?pwd=4kPLbSr4ZaWc1HX1XfbMeOWIkrVWah.1" target = "_blank">
+ Conéctate por Zoom
+</a>
+:::
+--->
 <!-- botón de google calendar --->
-<div class="boton">
-<p><a href="https://calendar.app.google/NTxLqdsF71ixHKq59" target="_blank"></a></p><a href="https://calendar.app.google/NTxLqdsF71ixHKq59" target="_blank">
-<p><i class="fa-solid fa-calendar fa-2x" aria-label="calendar"></i> Agregar a Google Calendar</p>
-</a><p><a href="https://calendar.app.google/NTxLqdsF71ixHKq59" target="_blank"></a></p>
-</div>
+<!---
+:::{.boton}
+<a href = "https://calendar.app.google/NTxLqdsF71ixHKq59" 
+target = "_blank">
+
+ Agregar a Google Calendar
+
+</a>
+:::
+--->
 <!-- botón de descargar calendario --->
-<div class="boton">
-<p><a href="evento_r_chile.ics" download="evento_r_chile.ics"></a></p><a href="evento_r_chile.ics" download="evento_r_chile.ics">
-<p><i class="fa-solid fa-calendar-plus fa-2x" aria-label="calendar-plus"></i> Descargar para Calendario</p>
-</a><p><a href="evento_r_chile.ics" download="evento_r_chile.ics"></a></p>
-</div>
-<p>Nos puedes ayudar difundiendo el aviso de la reunión <a href="https://www.linkedin.com/company/santiagorusers">en LinkedIn <i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a> y en <a href="https://x.com/SantiagoRusers/">Twitter/X <i class="fa-brands fa-twitter" aria-label="twitter"></i></a></p>
-<hr>
-<p>Por mientras, puedes unirte al <strong>chat grupal</strong> para conversar y ayudar a coordinar la reunión!</p>
+<!---
+:::{.boton}
+<a href="evento_r_chile.ics" 
+download="evento_r_chile.ics">
+
+ Descargar para Calendario
+
+</a>
+:::
+
+
+Nos puedes ayudar difundiendo el aviso de la reunión [en LinkedIn ](https://www.linkedin.com/company/santiagorusers) y en [Twitter/X ](https://x.com/SantiagoRusers/)
+--->
+<!---
+----
+
+Por mientras, puedes unirte al **chat grupal** para conversar y ayudar a coordinar la reunión!
+
 <div id="boton" style="padding: 4px; border-radius: 5px; padding-left: 24px; background-color: #6A3274; margin-top: 24px; margin-bottom: 24px;
 width: 320px;">
-<p><a href="https://join.slack.com/t/santiagorusers/shared_invite/zt-3tzmsdyat-gNAUz5mjPij0xFgNLtXeKA" style="text-decoration: none; color: #FDF4F8;" target="_blank"></a></p><a href="https://join.slack.com/t/santiagorusers/shared_invite/zt-3tzmsdyat-gNAUz5mjPij0xFgNLtXeKA" style="text-decoration: none; color: #FDF4F8;" target="_blank">
-<p><i class="fa-brands fa-slack fa-2x" aria-label="slack"></i> Únete al chat grupal en Slack</p>
-</a><p><a href="https://join.slack.com/t/santiagorusers/shared_invite/zt-3tzmsdyat-gNAUz5mjPij0xFgNLtXeKA" style="text-decoration: none; color: #FDF4F8;" target="_blank"></a></p>
+  <a href = "https://join.slack.com/t/santiagorusers/shared_invite/zt-3tzmsdyat-gNAUz5mjPij0xFgNLtXeKA" 
+  style="text-decoration: none; color: #FDF4F8;" target = "_blank">
+  
+   Únete al chat grupal en Slack
+    
+  </a>
 </div>
+--->
 <!---
 ::: {style="margin-top: 42px;"}
 
@@ -80,7 +211,9 @@ width: 320px;">
 
 :::
 --->
-<p><em>Recuerda que al participar en las reuniones de la comunidad de usuarias y usuarios de R, estás aceptando el <a href="https://ropensci.org/es/código-de-conducta/">código de conducta</a>, que busca asegurar un espacio seguro e inclusivo para todas las personas.</em></p>
+<!---
+_Recuerda que al participar en las reuniones de la comunidad de usuarias y usuarios de R, estás aceptando el [código de conducta](https://ropensci.org/es/código-de-conducta/), que busca asegurar un espacio seguro e inclusivo para todas las personas._
+--->
 
 
 </section>
@@ -138,10 +271,20 @@ width: 320px;">
 <blockquote class="blockquote">
 <p>Tutorial publicado originalmente en el <a href="https://bastianolea.rbind.io/blog/quarto_blog/">sitio web de Bastián Olea Herrera</a></p>
 </blockquote>
+<section id="diapositivas" class="level2">
+<h2 class="anchored" data-anchor-id="diapositivas">Diapositivas</h2>
+<iframe width="100%" height="420" style="border-radius:6px;" title="Diapositivas" frameborder="0" src="https://santiagorusers.github.io/taller_quarto_blog/">
+</iframe>
+</section>
+<section id="grabación" class="level2">
+<h2 class="anchored" data-anchor-id="grabación">Grabación</h2>
+<iframe width="100%" height="420" style="border-radius:6px;" src="https://www.youtube.com/embed/S76UQMeUTuE?si=7vLtHwu_aA_cQYfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
 <p>En una época en que casi toda nuestra vida digital ocurre dentro de redes sociales y plataformas que no controlamos (y que pueden cerrar, bloquearte, o simplemente desaparecer), contar con un <strong>sitio web personal</strong> te permite reunir tus proyectos, aprendizajes y estudios en un lugar que no depende de nadie más que de ti.</p>
 <p>Además, un blog te sirve para <strong>aprender haciendo</strong>, para armar un <strong>portafolio</strong> de tu trabajo, y para conectar con la <strong>comunidad</strong> de personas que usan R: seguramente todo lo que sabes de R lo aprendiste gracias a que alguien más compartió su conocimiento de forma abierta y gratuita, así que compartir lo que tú aprendes es una forma de devolver la mano!</p>
 <p>Lo mejor es que armar un blog con Quarto, RStudio y GitHub Pages no cuesta nada!</p>
 <p>En este tutorial armaremos un blog de principio a fin, lo personalizaremos, y lo publicaremos en internet, usando sólo <strong>herramientas gratuitas y de código abierto</strong>.</p>
+</section>
 <section id="herramientas" class="level2">
 <h2 class="anchored" data-anchor-id="herramientas">Herramientas</h2>
 <p>Para construir el blog necesitamos combinar cuatro herramientas, todas gratuitas:</p>

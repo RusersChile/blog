@@ -1,0 +1,7 @@
+El siguiente archivo de texto es una transcripción del audio del taller "Presentación de CensoLab: plataforma de exploración de datos geográficos y censales con inteligencia artificial en R, Arquitectura y experimentación aplicada de IA en R con {ellmer} y Shiny", impartido por Joshua Kunst y Matías Parra.
+
+Transcripción: ~/Documents/Otros/Grupo de usuarios de R/sitio_usuarios_r/posts/2026-08-26/GMT20260826-234441_Recording.transcript.vtt
+
+Realiza un resumen de la transcripción del taller, ignorando las marcas temporales. Ordena las ideas en el orden cronológico, resumiendo en párrafos breves los contenidos abarcados. Ignora las interrupciones que hayan ocurrido durante el transcurso del taller. Quiero un resumen de los contenido en el orden que se dieron, sin citas textuales.
+
+Guarda el resumen como un archivo de texto "transcripcion.txt", pero formateado en markdown.

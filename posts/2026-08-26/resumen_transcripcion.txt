@@ -1,0 +1,103 @@
+# Resumen del Taller: CensoLab y Experimentación con IA en R
+
+## Introducción y Motivación del Proyecto
+
+Joshua y Matías iniciaron presentando los fundamentos de CensoLab, una plataforma de exploración de datos geográficos y censales con inteligencia artificial. El proyecto surge de la necesidad de crear una herramienta que integre información cartográfica y censal de manera flexible, permitiendo que los usuarios realicen búsquedas exploratorias sin seguir un camino lineal predefinido.
+
+Los principios clave del proyecto incluyen la integración de datos en un mismo espacio, la provisión de herramientas de visualización y análisis, y la capacidad de acompañar los procesos exploratorios naturales del pensamiento, que frecuentemente saltan de un tema a otro. La meta fue crear algo simple, flexible y empoderador para los usuarios.
+
+## Demostración de CensoLab
+
+La interfaz de CensoLab presenta un diseño limpio con un mapa circular (como sugerencia satírica contra el terraplanismo) y un asistente conversacional. La demostración comenzó con consultas simples, como un análisis sobre envejecimiento poblacional en Chile, mostrando cómo la plataforma permite filtrar territorios por características demográficas específicas.
+
+Se mostró cómo hacer consultas más sofisticadas, solicitando inasistencia escolar por zona. Aquí quedó evidente que el modelo a veces necesita reformulaciones del prompt para interpretar correctamente qué datos buscar y dónde encontrarlos en la base de datos.
+
+Se demostró la creación de tipologías de localidades usando múltiples variables (rama de actividad económica, ocupación y escolaridad) en comunas como Paine. El resultado fue una tipología de seis categorías que capturó fenómenos sociológicos reales, como la gentrificación rural, donde profesionales se establecen en zonas agrícolas.
+
+Se mostró la funcionalidad de comparación territorial, permitiendo contrastar un territorio con otros y examinar indicadores temáticos. La jerarquía geográfica integra divisiones políticas (país, región, provincia, comuna) y divisiones censales (distrito, zona, manzana).
+
+También se demostró el análisis de concentración económica usando el índice de Herfindahl para evaluar cómo se distribuye la ocupación en diferentes ramas de actividad económica por comuna.
+
+## Arquitectura Técnica de CensoLab
+
+El proyecto está dividido en tres componentes principales, cada uno en repositorios separados:
+
+**Componente de Datos (censolab-data):** Este repositorio maneja la descarga, limpieza y preparación de datos censales. Utiliza DuckDB como base de datos columnar, elegida por su desarrollo activo (fue adquirida recientemente por Amazon), su velocidad en cálculos, orientación columnar y facilidad para uso remoto mediante Motherduck. Los datos son recopilados del Instituto Nacional de Estadísticas (INE) y complementados con información de educación y salud. El proceso incluye configuración parametrizada mediante YAML para facilitar cambios futuros en fuentes de datos.
+
+**Componente de Aplicación (censolab-app):** Es una aplicación Shiny que proporciona la interfaz de usuario. Incluye un explorador de mapas interactivo, un perfil territorial con indicadores temáticos y un chatbot que responde preguntas sobre los datos mediante ellmer. La aplicación está desplegada en Posit Connect Cloud con dos versiones: una estable (main) y una de desarrollo (dev) que se actualizan automáticamente según los cambios en el repositorio.
+
+**Componente Web (censolab-web):** Un sitio web construido con Quarto que presenta el proyecto, proporciona información sobre CensoLab y se enfoca en publicar evaluaciones de calidad de las respuestas del asistente.
+
+## Contexto y Privacidad
+
+Se aclaró que CensoLab trabaja exclusivamente con datos censales públicos del 2024, no con datos del Ministerio de Educación u otras fuentes administrativas. Los datos se liberan con restricciones de privacidad: el censo no publica microdatos a nivel de localidad o manzana como en censos anteriores, sino solo datos agregados a nivel de área urbana o rural, con anonimización adicional en comunas pequeñas.
+
+Se discutió la preocupación por privacidad al exponer datos a nivel granular de manzana. Se explicó que el INE tiene un mandato de resguardar privacidad mediante el secreto estadístico, más riguroso que el secreto tributario. Los presentadores tomaron precauciones para evitar que el modelo invente datos falsificados, instruyendo explícitamente que declare incertidumbre en lugar de alucinar información.
+
+## Desafíos Técnicos y Soluciones
+
+El costo es un desafío importante. La base de datos pesa 1.5 GB y se aloja en Motherduck sin costo adicional. La aplicación Shiny se ejecuta en Posit Connect Cloud (plan gratuito) también sin costo. El único gasto es consumo de tokens de modelos de lenguaje (aproximadamente 27 dólares en dos semanas tras invertir 35 dólares iniciales).
+
+Se probaron distintos modelos. Inicialmente utilizaron Claude 4 pero debido a costos, migraron a Claude 4 mínimo. Eventualmente se estabilizaron con Claude 3.5 Sonnet, que ofrece buen balance entre costo y capacidad de manejo de herramientas.
+
+## Ingeniería de Prompts y Tool-Calling
+
+Un aspecto crucial fue definir el comportamiento del modelo mediante prompts claros. Se enfatizó que la magia no está en "enchufar un bot con datos" sino en construir una arquitectura que permita interacción de calidad.
+
+Los prompts incluyen rol, contexto parametrizable, tarea clara, límites explícitos (como evitar afirmar causalidad sin evidencia) y especificación del formato deseado. Los prompts pueden parametrizarse desde R, permitiendo flexibilidad.
+
+Se demostró extensamente cómo las herramientas (tools) son fundamentales. Sin herramientas el modelo genera cifras plausibles pero no verificables. Con herramientas, el modelo consulta datos reales mediante funciones R y puede iterar si las primeras llamadas fallan. Se mostró cómo registrar funciones como herramientas que el modelo puede usar, permitiendo que resuelva problemas que no podría sin ellas.
+
+## Taller Práctico
+
+### Configuración Inicial
+
+El taller utilizó datos del Banco Central de Chile como ejemplo alternativo al censo. Se mostraron los pasos básicos: configurar credenciales en archivo .env, instalar librerías (ellmer, paquete del Banco Central), y entender conceptos como proveedor versus modelo, prompts, turnos, contexto y tokens.
+
+### Ejemplo Manual: Descarga de Series
+
+Se demostró manualmente cómo descargar una serie de desocupación: buscar en el catálogo de 25,000 series, identificar la serie correcta usando metadatos, y descargar los datos. Este ejercicio ilustró los pasos que las herramientas deben automatizar.
+
+### Ejemplo Simple de Prompts
+
+Se mostró cómo un prompt simple genera respuestas largas, con cifras potencialmente falsas y para país incorrecto. Un prompt bien diseñado especificando rol (analista del mercado laboral), contexto, tarea y límites genera respuestas más controladas y verificables.
+
+### Integración de Herramientas
+
+El salto cualitativo ocurre al registrar funciones como herramientas. Se mostró cómo el modelo, cuando no puede responder una pregunta, utiliza la herramienta apropiada. Cuando hay múltiples pasos (buscar serie, obtener metadatos, descargar), dar acceso a todas las herramientas permite que el modelo ejecute la secuencia correcta, probando alternativas si la primera falla.
+
+### Aplicaciones Shiny
+
+Se demostraron niveles crecientes de complejidad en Shiny:
+
+1. **Aplicación básica predictiva:** 39 líneas de código para una aplicación que predice series de tiempo.
+
+2. **Explorador manual:** Interfaz con selectores que requieren del usuario especificar serie, frecuencia y fechas. Más engorroso pero ilustra los pasos necesarios.
+
+3. **Chat simple:** 44 líneas para integrar un chatbot que responde preguntas pero sin acceso a herramientas.
+
+4. **Chat con herramientas:** Se proporcionaron herramientas para buscar series y actualizar el dashboard. El modelo aprende a usarlas, buscando automáticamente la serie correcta y descargándola cuando lo solicita el usuario.
+
+Se demostraron los desafíos de la iteración: el modelo a veces falla en la búsqueda si el prompt es demasiado específico (como incluir "Chile" cuando las series del INE no mencionan "Chile" en el nombre). Los presentadores mostraron cómo afinar el prompt en respuesta.
+
+## Evaluación y Control de Calidad
+
+Se identificó un desafío importante después del desarrollo inicial: mientras que agregar funcionalidades es adictivo, la verdadera prueba es si la información es correcta y fidedigna. 
+
+CensoLab dedica esfuerzo a evaluar la calidad de las respuestas del asistente. Se utiliza el paquete bytales en R para definir preguntas, respuestas esperadas y criterios de évaluación, permitiendo evaluar automáticamente si el modelo cumple con lo esperado.
+
+Se mencionó que Posit está desarrollando librerías para evaluación de modelos, y hay artículos académicos sobre el tema. La visión es mover la evaluación de informal a formal y seria.
+
+## Sostenibilidad
+
+Un desafío clave es la sostenibilidad del proyecto. Los presentadores no quieren cobrar suscripciones para acceder a CensoLab, pero necesitan mecanismos de autofinanciamiento para mantener los costos de tokens de modelos. Este tema sigue abierto.
+
+Se consideró que instituciones oficiales como el INE pueden ser lentas en adoptar estas herramientas porque necesitan garantizar fidedignidad antes de asociarse con sistemas de IA, mientras que equipos pequeños y motivados tienen más libertad para experimentar.
+
+## Reflexiones Finales
+
+Los presentadores enfatizaron que el éxito no radica en "enchufar un bot con datos" sino en pensar primero en problemas bien delimitados. Citaron a César Hidalgo, quien propone que la inteligencia es la capacidad de resolver problemas. Los modelos, cuando se les da un marco claro, resuelven mejor que los humanos, pero el desafío está en identificar buenos problemas.
+
+La arquitectura y el diseño que permite interacción de calidad es lo verdaderamente importante. Además, en una era donde se puede escribir código rápidamente con ayuda de IA, mantener calidad y control sobre lo que se programa sigue siendo un desafío crucial.
+
+Los presentadores valoraron la comunidad de usuarios de R en Santiago y expresaron su disposición a colaborar con otros proyectos similares. El código y las diapositivas estarán disponibles en la página web de CensoLab y redes del grupo de usuarios de R de Chile.

@@ -249,3 +249,27 @@ font-style: inherit;
   padding-bottom: 8px;
   margin-top: -8px;
 }
+
+/* mermaid */
+.mermaid-js .node circle, .mermaid-js .node ellipse, .mermaid-js .node path, .mermaid-js .node polygon, .mermaid-js .node rect {
+  fill: rgba(251, 208, 228, 1) !important;
+  stroke: #eebcd3 !important;
+}
+.mermaid-js p {
+  color: $body-color !important;
+}
+
+.mermaid-js .edge-thickness-normal {
+  stroke-width: 2px;
+}
+
+.mermaid-js .flowchart-link {
+  stroke: $secondary !important;
+}
+
+.mermaid-js marker path,
+.mermaid-js marker circle,
+.mermaid-js .marker {
+  stroke: $secondary !important;
+  fill: $secondary !important;
+}

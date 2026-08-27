@@ -46,6 +46,13 @@
   image: "galeria/ibg.jpeg"
   description: "Estudio de nivel comunal y regional sobre brechas con perspectiva de génreo en variables socioeconómicas"
   categories: [género, social, apps]
+  
+- title: bcchr
+  path: https://jkunst.com/bcchr/
+  author: Joshua Kunst, Ignacio Rossi
+  image: "galeria/bcchr.jpg"
+  description: "Interfaz para trabajar desde R con la Base de Datos Estadísticos del Banco Central de Chile."
+  categories: [economía, datos, paquetes]
 
 - title: guaguas
   path: https://rivaquiroga.github.io/guaguas

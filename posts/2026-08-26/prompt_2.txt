@@ -1,0 +1,16 @@
+Necesito escribir una publicación para el sitio de Usuari@s de R de Santiago de Chile, donde dimos el taller "Presentación de CensoLab: plataforma de exploración de datos geográficos y censales con inteligencia artificial en R, Arquitectura y experimentación aplicada de IA en R con {ellmer} y Shiny", impartido por Joshua Kunst y Matías Parra.
+
+La publicación debería contar acerca del taller que se dio, explicando los puntos clave de la plataforma, los aprendizajes principales, los contenidos técnicos del taller, y la utilidad y relevancia del uso de R para cada uno de estos aspectos.
+
+No debería ser muy extensa, pero sí densa en los aspectos más notables de la plataforma presentada, y el beneficio de aplicar R para combinar las herramientas y tecnologías usadas.
+
+El público que leerá la publicación serán personas usuarias de R, pero también personas interesadas en aprender que deberían poder entender la relevancia de lo tratado, pero por sobre todo, la utilidad del uso de estas herramientas gratuitas y del software libre para crear plataformas como la presentada con sus propios datos y en sus propias organizaciones.
+
+Lee más información sobre el taller en el archivo: 
+posts/taller_agosto_2026/index.qmd
+
+Lee las diapositivas usadas en el taller en: https://censolab.cl/slides/202608-taller-usuarios-R/#/title-slide
+
+Lee la transcripción del taller en el archivo: posts/taller_agosto_2026/resumen_transcripcion.txt
+
+El resultado de la publicación debes escirbirlo en markdown en posts/2026-08-26/index.qmd

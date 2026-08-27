@@ -1,0 +1,4330 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.480
+Matías y Joshua: Poquito más desagradada, pero que están agrupados, por así decirlo, como que cada fila no es una persona, sino que cada fila es como esta entidad.
+
+2
+00:00:06.840 --> 00:00:10.689
+Matías y Joshua: entonces de harta información. Además de la información cartográfica respectiva.
+
+3
+00:00:11.750 --> 00:00:19.510
+Matías y Joshua: queríamos que la información estuviese toda integrada, sí, es decir, todas estas partes tuviesen en un mismo espacio, además
+
+4
+00:00:19.630 --> 00:00:24.669
+Matías y Joshua: que existiesen herramientas de visualización y análisis a disposición del usuario.
+
+5
+00:00:26.010 --> 00:00:33.940
+Matías y Joshua: Y, por último, un principio que nosotros conversamos es que queríamos que censolab, por así decirlo.
+
+6
+00:00:34.430 --> 00:00:51.779
+Matías y Joshua: fuese, de una manera capaz de acompañar las búsquedas o las exploraciones que cuando nosotros comenzamos a en general, cómo opera el pensamiento no como que va saltando de una cosa en otra. Entonces queríamos que tuviese esa flexibilidad que pudiese acompañarse ese proceso.
+
+7
+00:00:53.660 --> 00:01:03.570
+Matías y Joshua: En resumen, queríamos una herramienta simple y flexible y capaz de moverse según la imaginación del usuario, es decir, como darle mucho poder al usuario de lo que podía construir.
+
+8
+00:01:05.600 --> 00:01:11.050
+Matías y Joshua: Bien. Dicho eso, entremos a explorar un poco el censolab
+
+9
+00:01:23.970 --> 00:01:33.970
+Matías y Joshua: para los que son de otros países, pueden poner censolab Punto. Cl: Y diría funcionarles el gran ya
+
+10
+00:01:37.270 --> 00:01:38.090
+Matías y Joshua: buenas. Me
+
+11
+00:01:40.080 --> 00:01:47.950
+Matías y Joshua: Bueno, acá. El primer diseño es que se ve como redondo. Y esto fue una sugerencia. Es justo contra el terraplanismo que se dice.
+
+12
+00:01:48.310 --> 00:01:49.000
+Matías y Joshua: Mhm.
+
+13
+00:01:49.320 --> 00:01:55.409
+Matías y Joshua: Entonces estamos acá. Esto es muy sencillo. Tenemos el bot y tenemos el mapa.
+
+14
+00:01:55.930 --> 00:01:57.409
+Matías y Joshua: Entonces, para comenzar.
+
+15
+00:01:57.970 --> 00:02:06.190
+Matías y Joshua: vamos a arrancar con sugiriéndole al censo que no que nos cuente algo al censo. Voz que nos cuente algo.
+
+16
+00:02:06.430 --> 00:02:13.210
+Matías y Joshua: Esto es aleatorio. En cada ideación va a decir algunas cosas distintas, Pero
+
+17
+00:02:14.810 --> 00:02:24.749
+Matías y Joshua: aquí está lo que fue el gran titular del del censo. En general, no el gran titular del censo y que se gastó mucha tinta en prensa era que un país que está envejeciendo
+
+18
+00:02:25.530 --> 00:02:34.769
+Matías y Joshua: y acá tenemos una visión más generalizada de todo el país aquí. Nosotros, Si queremos, podemos filtrar cuáles son
+
+19
+00:02:35.050 --> 00:02:43.350
+Matías y Joshua: los territorios que están con una población de 60 años más más alta, bien entonces
+
+20
+00:02:43.650 --> 00:02:48.859
+Matías y Joshua: una virtud que tiene es que acá nos da. Nos ofrece como la posibilidad de seguir explorando por acá
+
+21
+00:02:49.960 --> 00:02:58.170
+Matías y Joshua: pero vamos a comenzar a adentrarnos en la funcionalidad. Entonces vamos a pedirle, como también
+
+22
+00:03:01.350 --> 00:03:02.430
+Matías y Joshua: es un
+
+23
+00:03:07.460 --> 00:03:11.019
+Matías y Joshua: asistencia escolar por zona. Como saben, un tema.
+
+24
+00:03:12.440 --> 00:03:26.920
+Matías y Joshua: un tema que fue bien comentado en su momento, la cantidad de es como bajó. Como Como aumentó la inexistencia post pandemia, ¿no? Entonces la pandemia fue en el 20, 20, el censo fue en el 20 24, digamos, si es que el censo puede, de cierta manera, registrar ese
+
+25
+00:03:27.790 --> 00:03:28.960
+Matías y Joshua: ese fenómeno.
+
+26
+00:03:30.170 --> 00:03:38.819
+Guido Saal: Desde Argentina. ¿a qué llaman en Chile? Inasistencia es lo mismo que la deserción que llamamos acá en Argentina.
+
+27
+00:03:39.080 --> 00:03:47.430
+Matías y Joshua: Claro, deberían ser personas que están en en edad escolar que no, que no asisten al colegio, Sí.
+
+28
+00:03:48.520 --> 00:03:49.080
+Guido Saal: Perfecto.
+
+29
+00:03:49.080 --> 00:03:52.340
+Matías y Joshua: Todas esas personas en me refiero ya
+
+30
+00:04:00.340 --> 00:04:16.430
+Matías y Joshua: siendo establecimientos educacionales, ya lo primero. Como ven, la entrada fue precisamente como la que dijo nuestro colega acá a que nos referimos, y a al ascenso le pasó lo mismo. Si
+
+31
+00:04:17.180 --> 00:04:24.640
+Matías y Joshua: lo que nosotros tenemos acá es lo que hace primero como que busca un territorio después. Sí
+
+32
+00:04:27.270 --> 00:04:31.970
+Matías y Joshua: busca los metadatos. Sí, busco inasistencia escolar
+
+33
+00:04:32.200 --> 00:04:36.670
+Matías y Joshua: en la tabla de localidad y no lo encontró claro, porque no existe esa variedad.
+
+34
+00:04:37.410 --> 00:04:41.220
+Matías y Joshua: Después hizo otro intento. Sí,
+
+35
+00:04:41.560 --> 00:04:50.339
+Matías y Joshua: estás como una virtud que tiene que tiene elmer con las Tool Literation, y tampoco encontró. Entonces, veamos si ahora, con el Prompt
+
+36
+00:04:50.550 --> 00:04:54.839
+Matías y Joshua: un poquito más específico, puedo hacer algo diferente
+
+37
+00:05:03.250 --> 00:05:06.960
+Matías y Joshua: ya. Y ahí sí que
+
+38
+00:05:10.140 --> 00:05:14.490
+Matías y Joshua: nos arrojó ya.
+
+39
+00:05:14.600 --> 00:05:20.509
+Matías y Joshua: Esto es por zona sí. Y acá está en asistencia escolar de 6 a 17 años, ¿no?
+
+40
+00:05:23.250 --> 00:05:26.889
+Matías y Joshua: Bien, yo pinché en una en una zona
+
+41
+00:05:27.080 --> 00:05:44.850
+Matías y Joshua: y acá empiezan a aparecer ciertas características de descenso. La Es decir, como bien le dijimos al inicio. Nosotros escribimos una herramienta flexible en fin, como a disposición del usuario, pero también queríamos ofrecer como un formato más predefinido, es decir, si 1 quería como pinchar en esa zona y tener cierta información
+
+42
+00:05:44.980 --> 00:05:50.219
+Matías y Joshua: como que la pudiese presentar. Y eso es lo que estamos hoy viendo viendo acá por así decirlo, no
+
+43
+00:05:50.630 --> 00:06:02.139
+Matías y Joshua: en este proceso. No sé si algunos lo conocerán o no, pero rescatamos algunas ideas de Data Chile, que fue una plataforma que nos gustaba harto con el Joxo.
+
+44
+00:06:02.890 --> 00:06:07.330
+Matías y Joshua: Así que creo que se descontinuó. No, no se ha mantenido y
+
+45
+00:06:08.130 --> 00:06:11.270
+Matías y Joshua: Bueno, parte de esta visualización la rescatamos de allí.
+
+46
+00:06:11.840 --> 00:06:21.039
+Matías y Joshua: Entonces acá vamos a tener un resumen del de la zona o de la región. Esto es más o menos estándar para para toda la unidad geográfica.
+
+47
+00:06:23.160 --> 00:06:28.990
+Matías y Joshua: Acá Tenemos algunos indicadores temáticos, en este caso, ramas sí,
+
+48
+00:06:29.110 --> 00:06:34.750
+Matías y Joshua: y bueno y de vivienda, ayuda. Y en este mapita 1 también
+
+49
+00:06:35.070 --> 00:06:53.169
+Matías y Joshua: puede ir cambiando, no. O sea, antes estábamos en la zona. Ahora fuimos como un nivel más allá Y llegamos a la manzana. Esta el el orden es como este. No está el país, la región, la provincia, la comuna hasta acá llegan como las divisiones políticas, administrativas y lo que sigue.
+
+50
+00:06:53.610 --> 00:06:56.790
+Matías y Joshua: Eso ya las divisiones censales
+
+51
+00:06:57.330 --> 00:07:02.509
+Matías y Joshua: está el distrito, la zona y la manzana. Así se llama en el área urbana.
+
+52
+00:07:03.740 --> 00:07:21.779
+Matías y Joshua: Bien, entonces volvamos a explorar y hagámosle otra pregunta. Ejemplo: Construye una tipología tipo lujgía de de las
+
+53
+00:07:21.970 --> 00:07:26.480
+Matías y Joshua: de las localidades de la comuna del Paine.
+
+54
+00:07:28.610 --> 00:07:41.369
+Matías y Joshua: Considerando un programa de actividad económica, ocupación y promedio de escolaridad.
+
+55
+00:07:41.690 --> 00:07:45.580
+Matías y Joshua: allí hay una pregunta que va a exigir otro tipo de
+
+56
+00:07:47.220 --> 00:07:52.819
+Matías y Joshua: de acción del descenso, por así decirlo, ya estamos pidiéndole como
+
+57
+00:07:53.040 --> 00:08:02.200
+Matías y Joshua: algo un poquito más allá, no solamente que identifique a una población, sino que nos pueda ofrecer un cierto análisis un poquito más descriptivo, juntando más
+
+58
+00:08:03.220 --> 00:08:04.339
+Matías y Joshua: más variables.
+
+59
+00:08:06.020 --> 00:08:13.680
+Matías y Joshua: ¿por qué pongo esta comuna? Porque, bueno, yo hice metiste el video ahí? Entonces conozco si es que me puede estar truqueando o no. Así que vamos a ver qué es lo que
+
+60
+00:08:14.130 --> 00:08:15.220
+Matías y Joshua: qué es lo que nos dice
+
+61
+00:08:29.150 --> 00:08:37.479
+Matías y Joshua: bien. Y acá está la comuna de Paina, la Comuna de Paina, una comuna mixta, podríamos decir, tiene zona urbana y tiene zonas rurales. Las localidades son de de la zona
+
+62
+00:08:37.760 --> 00:08:45.049
+Matías y Joshua: rurales y aquí Iso varias. Entonces uso una tipología muy grande.
+
+63
+00:08:45.340 --> 00:08:54.519
+Matías y Joshua: Pidámosle que las reduzca a menos, pues, reducir las a las 6.
+
+64
+00:08:55.170 --> 00:09:00.790
+Matías y Joshua: Luego Dame también informe, ya.
+
+65
+00:09:08.530 --> 00:09:19.770
+Bastián Olea: Matías podrías como contarnos resumidamente qué le estamos preguntando a la plataforma para entender un poquito para las personas que que quizás están recién entrando.
+
+66
+00:09:21.480 --> 00:09:30.290
+Matías y Joshua: Sí. No estamos probando las distintas como cosas que se pueden hacer en Semsolab a cambio a Peine.
+
+67
+00:09:32.350 --> 00:09:40.729
+Matías y Joshua: y partimos con preguntas más descriptivas, y ahora estamos pidiendo un que cruce distintas distintas variables. Eso es lo que estamos pidiendo en este momento
+
+68
+00:09:40.790 --> 00:09:58.300
+Matías y Joshua: y le pedimos que armar una tipología a partir de 3 de 3 variables, que sería la rama, la ocupación. Por ejemplo, cuando decimos rama, estamos diciendo: minería, agricultura, construcción, comercio. En fin, cuando decimos educación, ahí hay como un cargo administrativo.
+
+69
+00:09:58.420 --> 00:10:04.020
+Matías y Joshua: labores básicas o elementales, hay como 6 o 7 categorías.
+
+70
+00:10:04.790 --> 00:10:18.429
+Matías y Joshua: Entonces, ¿qué es lo que nos dice y se lo pedimos en un territorio en en particular porque este territorio, Bueno, porque es como mixto, como es urbano y rural, y porque yo lo conozco, entonces puedo ver si es que hace sentido o no lo que lo que está, lo que está respondiendo.
+
+71
+00:10:18.810 --> 00:10:30.029
+Matías y Joshua: Entonces acá. Escogió primero, hizo como 20 tipos. Ahora le pedí que lo redujera 6, porque 20 es imposible más o menos como es
+
+72
+00:10:30.150 --> 00:10:31.859
+Matías y Joshua: de entender de qué se trata.
+
+73
+00:10:32.230 --> 00:10:35.350
+Matías y Joshua: Y en estos 6 ya aparece algo un poquito más
+
+74
+00:10:35.450 --> 00:10:48.510
+Matías y Joshua: que podemos captar. O sea, nos dice que hay una agrícola operaria de baja escolaridad, tiene sentido, como decía una comuna agrícola. Bueno, acá se produce un montón de frutas. Sobre todo.
+
+75
+00:10:48.880 --> 00:10:58.529
+Matías y Joshua: hay otra operaria de escolaridad media alta, Hay una agrícola calificada profesional, hay una construcción e Industria Oficio. Hay comercio, servicio, ocupaciones
+
+76
+00:10:59.090 --> 00:11:05.410
+Matías y Joshua: y hay servicios calificados de alta escolaridad. Ya mire un simple detalle, por ejemplo, la 3 y la 6.
+
+77
+00:11:05.900 --> 00:11:17.790
+Matías y Joshua: Sí, esto es lo muy, muy probable que lo que está acá este concepto que dicen los sociólogos, bueno, y también en general, las ciencias sociales como de gentrificación rural, la gente profesional que se va a ir al campo, por así decirlo.
+
+78
+00:11:18.370 --> 00:11:21.270
+Matías y Joshua: entonces esto lo está captando.
+
+79
+00:11:21.650 --> 00:11:31.339
+Matías y Joshua: Así que bien, súper bien. Vimos que pasamos de consultar simplemente una variable a algo un poquito más sofisticado.
+
+80
+00:11:31.730 --> 00:11:34.060
+Matías y Joshua: pero vemos sí.
+
+81
+00:11:34.400 --> 00:11:40.840
+Carolina Morales: Disculpa, Te puedo hacer una pregunta. Creo que es es superbacán.
+
+82
+00:11:42.290 --> 00:11:44.049
+Carolina Morales: pero me quedó como una duda
+
+83
+00:11:44.280 --> 00:11:57.290
+Carolina Morales: que no sé si no lo he entendido desde el inicio. Y ahora que estoy viendo también el chat con los comentarios, creo que todos tenemos la duda de dónde salen los datos como tú? Tomaste una selección de datos y entrenaste cómo este modelo o.
+
+84
+00:11:57.290 --> 00:11:57.650
+Matías y Joshua: A ver.
+
+85
+00:11:57.650 --> 00:12:17.379
+Carolina Morales: Datos automáticamente descargados, porque, por ejemplo, con esto de la asistencia, a mí me llamó la atención porque esos son datos que vienen del Ministerio de Educación. Entonces, si no los encontró, es porque el modelo no tiene acceso como a Internet y no los puede sacar, o estos son como sí. ¿cómo ¿De dónde salió esta información y qué abarca.
+
+86
+00:12:17.780 --> 00:12:27.150
+Matías y Joshua: Sí, ya vamos a hablar. Hay un It, hay un ítem de arquitectura, o sea, a continuación de la de esta demo. Vamos a contar el detalle de eso.
+
+87
+00:12:27.360 --> 00:12:32.030
+Matías y Joshua: Pero para así,
+
+88
+00:12:32.290 --> 00:12:42.669
+Matías y Joshua: en concreto, acá solamente estamos trabajando con información censal, es decir, no hay información del Ministerio, ocasión, es decir, son datos que liberó el el Ine. Son datos públicos. Son datos que cualquiera de ustedes puede consultar.
+
+89
+00:12:42.920 --> 00:12:51.110
+Matías y Joshua: Entiendo que porque hemos estado revisando otros censos con el coche de América Latina, a ver si podemos como hacer esto mismo para para otros países
+
+90
+00:12:51.360 --> 00:12:56.840
+Matías y Joshua: y no todos se difunden igual al mismo nivel de segregación, por ejemplo.
+
+91
+00:12:57.290 --> 00:13:03.260
+Matías y Joshua: En ese sentido, como que en Chile, igual como que hay una virtud de que se puede desagregar alto el dato.
+
+92
+00:13:03.530 --> 00:13:07.900
+Matías y Joshua: A pesar de que, por ejemplo, en este censo ya no se liberaron los microdatos a nivel de localidad.
+
+93
+00:13:08.250 --> 00:13:10.519
+Matías y Joshua: como en el del 2 017,
+
+94
+00:13:10.810 --> 00:13:17.420
+Matías y Joshua: ya así que ahí les pido un poquito de calma porque ya vamos a contarles en detalle eso y.
+
+95
+00:13:17.420 --> 00:13:22.020
+Carolina Morales: No, no.
+
+96
+00:13:22.020 --> 00:13:37.309
+Matías y Joshua: Y bueno, quizá ahí me faltó precisar lo mejor. Era como contar el problema, contar mirar la demo y una vez que hicimos. Bueno, pero ¿cómo funciona esto ya? Y ahí pasamos a la arquitectura y los desafíos. Y finalmente, el taller.
+
+97
+00:13:38.590 --> 00:13:45.659
+Matías y Joshua: Bien, Entonces, por ejemplo, voy a tomar Chad que precisamente yo acá hice mi tesis.
+
+98
+00:13:46.180 --> 00:13:50.870
+Matías y Joshua: Y como les decía, está este visor
+
+99
+00:13:51.310 --> 00:13:54.940
+Matías y Joshua: y acá puedo comparar este territorio con otros ¿Sí?
+
+100
+00:13:56.370 --> 00:14:03.809
+Matías y Joshua: Entonces aquí me aparece. Bueno, la comuna. Esto lo puedo hacer con regiones. Se puede hacer con distintas cosas. Entonces podemos tomar hasta 5.
+
+101
+00:14:05.210 --> 00:14:14.000
+Matías y Joshua: Y vamos acá a ver ciertos distintos paneles, el perfil territorial y compararlo
+
+102
+00:14:14.370 --> 00:14:23.920
+Matías y Joshua: para saber dónde se ubicada nuestra nuestra área en 3. Eso Eso es muy, muy útil, ya
+
+103
+00:14:24.130 --> 00:14:28.029
+Matías y Joshua: lo que está sucediendo Acá o cómo son las consultas.
+
+104
+00:14:28.720 --> 00:14:44.100
+Matías y Joshua: Está haciendo consultas en Sql, entonces el grado de complejidad que nosotros podemos pedirle son todo lo que el lenguaje se cuele, nos pueda permitir sin que se maree, por así decirlo. Entonces, ya con esto voy a
+
+105
+00:14:44.450 --> 00:15:00.659
+Matías y Joshua: finalizar la E. M o en en en mapa y tan concentrado. Estamos ver zonas ocupadas entre las islas
+
+106
+00:15:00.760 --> 00:15:17.269
+Matías y Joshua: Quintas ramas de actividad económica por comuna, utilizando el índice de pero no probablemente para los economistas.
+
+107
+00:15:17.660 --> 00:15:23.560
+Matías y Joshua: va a ser común. Porque con esto miden como el grado de monopolio.
+
+108
+00:15:25.540 --> 00:15:29.599
+Matías y Joshua: y básicamente son operaciones aritméticas de sumario ilegal al cuadrado
+
+109
+00:15:34.410 --> 00:15:38.040
+Matías y Joshua: Pero le pedí por cómo no me faltó especificar allí alguna Comuna.
+
+110
+00:15:44.620 --> 00:15:46.080
+Matías y Joshua: Sí. Bueno, Buah.
+
+111
+00:15:50.920 --> 00:16:01.380
+Matías y Joshua: Vamos a dile para el gran concepción, mi ciudad natal, a ver. Veamos cómo anda
+
+112
+00:16:13.220 --> 00:16:17.669
+Matías y Joshua: bien. Entonces acá nos hizo este gráfico.
+
+113
+00:16:18.020 --> 00:16:18.890
+Matías y Joshua: ¿sí?
+
+114
+00:16:19.560 --> 00:16:27.380
+Matías y Joshua: En de qué tan concentradas se encuentra esta cosa, pero en tren.
+
+115
+00:16:32.930 --> 00:16:38.740
+Matías y Joshua: Las categorías de la variable de rama de ocupación son varias. Son como 20, sí.
+
+116
+00:16:40.180 --> 00:16:41.130
+Matías y Joshua: Mhm
+
+117
+00:16:52.760 --> 00:16:54.940
+Matías y Joshua: de los resultados.
+
+118
+00:17:01.540 --> 00:17:07.330
+Matías y Joshua: Ya bien dice concepción y Coronel
+
+119
+00:17:07.490 --> 00:17:15.000
+Matías y Joshua: Rankean. Esto tienen los valores más bajos. Las personas ocupadas se distribuyen entre varias ramas sin una concentración marcada en pocas actividades.
+
+120
+00:17:15.250 --> 00:17:21.700
+Matías y Joshua: toma igual que muestran una concentración intermedia santa juana, se aproxima a una mayor dependencia de determinadas ramas.
+
+121
+00:17:22.430 --> 00:17:27.970
+Matías y Joshua: igual. Ten registra la concentración más alta de la comuna representada, focalizado algunas actividades.
+
+122
+00:17:29.760 --> 00:17:32.360
+Matías y Joshua: Bien.
+
+123
+00:17:36.520 --> 00:17:45.680
+Matías y Joshua: Bueno, no me dijo nada muy específico, pero aquí podríamos seguir preguntándoles saber a qué se refiere, si puede encontrar
+
+124
+00:17:46.460 --> 00:17:53.390
+Matías y Joshua: causas o alguna explicación de porque esto puede estar sucediendo y seguiría consultando la la las bases.
+
+125
+00:17:53.930 --> 00:17:55.210
+Matías y Joshua: Así que
+
+126
+00:17:55.580 --> 00:18:06.090
+Matías y Joshua: eso. A grandes rasgos, es como el demo. Ahora va a venir el 8 y les va a contar más. Yo creo que lo que todos están esperando, En definitiva, como cuál es la arquitectura que está detrás de esta
+
+127
+00:18:06.320 --> 00:18:14.160
+Matías y Joshua: de esta maravilla que nosotros, igual a cada momento como que nos seguimos sorprendiendo lo que pueda ser, pues esta última precisamente fue una de las últimas cositas que probamos.
+
+128
+00:18:14.510 --> 00:18:22.640
+Matías y Joshua: Así que nos vemos en un ratito guía, Entonces vamos a
+
+129
+00:18:25.230 --> 00:18:31.000
+Matías y Joshua: a mirar sobre la arquitectura. ¿cierto? Hay para bajar la ansiedad.
+
+130
+00:18:31.480 --> 00:18:34.570
+Matías y Joshua: No, ¿no? Y explicarle cómo ¿Cómo funciona esto?
+
+131
+00:18:35.630 --> 00:18:50.900
+Matías y Joshua: Bien, entonces vamos a ver qué es lo que hay detrás a grandes rasgos, obviamente después, si tienen más preguntas, las vamos profundizando. Pero la idea es comentarle el trabajo que hemos hecho para desarrollar
+
+132
+00:18:51.620 --> 00:18:53.069
+Matías y Joshua: sensola. Ya
+
+133
+00:18:53.540 --> 00:19:07.180
+Matías y Joshua: son 3 componentes importantes que tenemos separados. Por lo tanto, pensarán que es código. Es texto y la tenemos en 3 repositorio. Vale, y, obviamente, cada una de ellas resuelve un problema particular.
+
+134
+00:19:07.690 --> 00:19:15.179
+Matías y Joshua: Tenemos los datos ya un repositorio que viene original, el nombre sensor abdata
+
+135
+00:19:15.410 --> 00:19:22.489
+Matías y Joshua: prepara y también documentamos los datos, ya ahí. Los componentes clave son Dag Db.
+
+136
+00:19:22.740 --> 00:19:26.429
+Matías y Joshua: Vamos a hablar más porque lo elegimos o porque lo estamos usando.
+
+137
+00:19:26.540 --> 00:19:30.539
+Matías y Joshua: Y lo emigramos a un servicio que se llama Maderdag que para
+
+138
+00:19:31.000 --> 00:19:35.989
+Matías y Joshua: hacer la consulta. Dibujamos de forma remota si no es que sumamos
+
+139
+00:19:36.370 --> 00:19:43.260
+Matías y Joshua: la aplicación más, esta base de datos, digamos a la plataforma en la cual la tenemos, sino que
+
+140
+00:19:44.780 --> 00:19:48.470
+Matías y Joshua: diversificamos, digamos, las funciones. En este caso, el
+
+141
+00:19:49.520 --> 00:19:51.340
+Matías y Joshua: el quién mantiene la base de datos
+
+142
+00:19:51.450 --> 00:19:57.719
+Matías y Joshua: ya obviamente, también hay un repositorio de la aplicación, ¿cierto?
+
+143
+00:19:57.840 --> 00:20:06.599
+Matías y Joshua: El cerebrito, digamos, sensolab que ahí está la aplicación Shine. Ya como supondrán. También. Hay arto crom.
+
+144
+00:20:07.520 --> 00:20:22.310
+Matías y Joshua: Pero permíteme un momento bien alto pro y bueno, lo principal, las funcionalidades están ahí. Y aparte, hay una
+
+145
+00:20:22.580 --> 00:20:24.320
+Matías y Joshua: tercera
+
+146
+00:20:24.910 --> 00:20:44.720
+Matías y Joshua: tercera parte, que es en solab web, que es un sitio web hecho en un cuarto donde de momento está en Landing Page, la presentación unas secciones, pero queremos poner más contenido, ideas y resultados de evaluación del sensor. Sí, es una parte importante que le estamos dando prioridad a que
+
+147
+00:20:44.910 --> 00:20:52.760
+Matías y Joshua: es no solamente que se usa bot, nos quedemos tranquilos con que responda algo, sino que evaluarlo en la veracidad de su respuesta. Ya
+
+148
+00:20:53.530 --> 00:21:08.290
+Matías y Joshua: vamos a ir revisando cada 1 de estos 3. Así que en términos de los datos, la fuente principal son los datos del censo. Veinti 24 cierto tanto el microdato, los datos agregados, etcétera. A nivel de manzana
+
+149
+00:21:08.410 --> 00:21:13.420
+Matías y Joshua: todos. Obviamente, esta es la fuente principal del Ine, los descargamos.
+
+150
+00:21:13.810 --> 00:21:22.120
+Matías y Joshua: Y bueno, ahí dice: establecimiento de educación y salud. Ahí se me arrancó, pero tenemos pensado ir agregando fuentes
+
+151
+00:21:22.660 --> 00:21:24.090
+Matías y Joshua: de otras instituciones
+
+152
+00:21:24.260 --> 00:21:32.709
+Matías y Joshua: para, obviamente integrándola, y luego que el censola no sea solamente el censo, sino que podamos preguntar sobre servicios de puente interno.
+
+153
+00:21:32.990 --> 00:21:35.929
+Matías y Joshua: como bien ahí dicen, temas de salud o educación.
+
+154
+00:21:36.110 --> 00:21:41.450
+Matías y Joshua: Ya todavía queda harto por proyecto y por desarrollar.
+
+155
+00:21:42.400 --> 00:21:46.629
+Matías y Joshua: Te imaginarán, obviamente, que este proceso o este
+
+156
+00:21:47.090 --> 00:21:50.449
+Matías y Joshua: de repositorio. Esta parte es descargar.
+
+157
+00:21:50.730 --> 00:22:04.000
+Matías y Joshua: limpiar y dejar una base de datos, ¿cierto? Si lo han pensado así, efectivamente es así. Intentamos hacer una cierta conver convenciones, Ordenarlos, y utilizamos mucha configuración en Jam.
+
+158
+00:22:04.150 --> 00:22:10.199
+Matías y Joshua: cierto como para que nuestro script diga: Ok, voy a tomar. Voy a tomar como configuración esto
+
+159
+00:22:10.430 --> 00:22:16.590
+Matías y Joshua: y, por lo tanto, si algún día llega a cambiar la fuente, sí o al final, o En otro día
+
+160
+00:22:16.760 --> 00:22:23.019
+Matías y Joshua: decidimos no simplificar la geometría. Simplemente cambiamos los parámetros ahí ya. Y luego hacemos
+
+161
+00:22:23.620 --> 00:22:29.390
+Matías y Joshua: Rand Old de todos los script y tenemo una nueva base, ya.
+
+162
+00:22:31.200 --> 00:22:39.269
+Matías y Joshua: Y bueno, el corazón que es Pypin D R, que obviamente toma esto ya cierto de carga, lo integra.
+
+163
+00:22:39.800 --> 00:22:50.260
+Matías y Joshua: Y en este caso particular también simplificamos las geometrías porque pensando en en el uso cierto, no vamos a mandar a tanto detalle y hacer
+
+164
+00:22:50.420 --> 00:22:53.430
+Matías y Joshua: esa el envío de información más lenta
+
+165
+00:22:54.130 --> 00:23:04.809
+Matías y Joshua: y también generamos metadatos y contexto. Esta parte es quizá relevante en términos del del censovot porque acá
+
+166
+00:23:04.930 --> 00:23:10.540
+Matías y Joshua: generamos un texto, básicamente un manual de uso, diciendo partes relevantes
+
+167
+00:23:10.800 --> 00:23:14.490
+Matías y Joshua: de de la base de datos para que luego
+
+168
+00:23:14.900 --> 00:23:20.570
+Matías y Joshua: senso voz como tal, darla como contexto y sepa dónde buscar. Sí,
+
+169
+00:23:21.110 --> 00:23:26.040
+Matías y Joshua: decimos, oye, existen estas tablas. Si te preguntan de esto podría ser esto y así.
+
+170
+00:23:26.170 --> 00:23:32.389
+Matías y Joshua: Ya entonces, y cada vez que agreguemos otro tipo de datos, vamos a tener que
+
+171
+00:23:32.600 --> 00:23:45.279
+Matías y Joshua: procurar que el contexto sea correcto cierto para que se integre. Y luego, si alguien un usuario normal le pregunta sobre un tema, diga si lo tiene o no lo tiene y si lo tiene
+
+172
+00:23:45.650 --> 00:23:47.940
+Matías y Joshua: saber cómo montarlo ya.
+
+173
+00:23:48.400 --> 00:23:55.320
+Matías y Joshua: Y luego de que corran todos esos script, finalmente se genera un dak deven, cierto que básicamente es un archivo
+
+174
+00:23:55.590 --> 00:23:58.819
+Matías y Joshua: donde adentro viven todas las tablas ya.
+
+175
+00:23:59.880 --> 00:24:11.300
+Matías y Joshua: Y la elegimos porque hay alto desarrollo continuo en Dag Db. De hecho, hace poco sabrán ya que la compró Amazon al equipo develab.
+
+176
+00:24:11.790 --> 00:24:19.000
+Matías y Joshua: Y Y aparte de tener varias, digamos, características, Unas es que es
+
+177
+00:24:19.360 --> 00:24:24.480
+Matías y Joshua: rápido en los cálculos, ¿cierto? En como orientada la columna más que enfila, como en ese baile tradicional
+
+178
+00:24:25.000 --> 00:24:38.140
+Matías y Joshua: Y aparte. Este archivo es de fácil uso, digamos, remoto ocupando este servicio de Modern Dack. Básicamente 1 sube el base de datos y luego lo puede conseguir utilizar remotamente.
+
+179
+00:24:38.800 --> 00:24:48.750
+Matías y Joshua: entonces sería el el A grandes rasgos este repositorio. Definimos las fuentes. Si queremos agregar otra, agregamos.
+
+180
+00:24:49.060 --> 00:24:55.790
+Matías y Joshua: ponemos un script, configuramos de esta manera y lo echamos a correr ya.
+
+181
+00:24:56.440 --> 00:25:02.520
+Matías y Joshua: Y obviamente, como les dije, editamos el contexto para que
+
+182
+00:25:03.000 --> 00:25:07.569
+Matías y Joshua: el bot digamos sepa que tiene esa información
+
+183
+00:25:09.110 --> 00:25:13.940
+Matías y Joshua: en términos de la aplicación. Ya si bien hicimos el demo.
+
+184
+00:25:14.510 --> 00:25:26.040
+Matías y Joshua: vamos a comentar como la estructura, ¿cierto? Era una interfaz, cierto en Chaining, donde la primera o la principal componente, ¿cierto? Es el mapa, el explorador ya
+
+185
+00:25:27.110 --> 00:25:27.930
+Matías y Joshua: y
+
+186
+00:25:28.050 --> 00:25:36.200
+Matías y Joshua: acompañado de la gente, si es donde el que te interpreta preguntas, ¿cierto? Y vamos a ver que a esta gente
+
+187
+00:25:36.590 --> 00:25:42.490
+Matías y Joshua: no es que responda por sí solo, cierto, sino que
+
+188
+00:25:42.940 --> 00:25:49.270
+Matías y Joshua: le ofrecemos, le otorgamos una serie de herramientas. Cierto que luego matías va
+
+189
+00:25:49.690 --> 00:25:56.359
+Matías y Joshua: va a mostrar cómo cómo se aplican, cómo se implementan, ¿Qué son las Tuls. Cierto en la jerga
+
+190
+00:25:57.570 --> 00:26:08.619
+Matías y Joshua: de programación, que son las 2 que básicamente son funciones que 1 le da acceso, digamos, al bot para que las pueda ocupar cuando se se necesiten, Sí, Básicamente, él decide.
+
+191
+00:26:08.760 --> 00:26:14.089
+Matías y Joshua: Uno le da la guía, ¿cierto? Uno dice: oye, mira, si te preguntan, un mapa ocupa estatuo de mostrar mapa.
+
+192
+00:26:14.260 --> 00:26:20.200
+Matías y Joshua: Si te preguntan algo. No sé algo que tenga que hacer, vale.
+
+193
+00:26:21.520 --> 00:26:30.759
+Matías y Joshua: pero además está a la vista de de comparador que se aleja un poco más de de la gente de como que te guían, sino que el comparador 1 toma
+
+194
+00:26:30.970 --> 00:26:39.190
+Matías y Joshua: 1 elige una unidad territorial y la embarca en el contexto cierto donde pertenece. Y ahí 1 puede hacer clic
+
+195
+00:26:39.990 --> 00:26:43.080
+Matías y Joshua: y en la otra consulta y compararlo vale.
+
+196
+00:26:43.500 --> 00:26:57.090
+Matías y Joshua: Y luego, como ya vieron, está este perfil territorial inspirado en tachines. ¿cierto? Como una imagen y los indicadores relevantes para luego ir a una sección de gráficos de distintas dimensiones. Ya entonces.
+
+197
+00:26:57.570 --> 00:27:07.639
+Matías y Joshua: a futuro agregaremos más información y, por lo tanto, el perfil territorial no tendrá 3 secciones, sino que esperamos que tenga 4, 5 o 6. Sí. La idea es que
+
+198
+00:27:08.000 --> 00:27:11.910
+Matías y Joshua: sea una foto, no del ángulo sin sal, sino que
+
+199
+00:27:13.000 --> 00:27:16.220
+Matías y Joshua: me ha enriquecido con los datos ya
+
+200
+00:27:16.870 --> 00:27:21.980
+Matías y Joshua: eso. Y si hablamos un poco más de cosas técnicas, y
+
+201
+00:27:23.210 --> 00:27:40.669
+Matías y Joshua: les voy a mostrar como aún más atrás cómo se despliega esto? ¿cierto? Vieron la página web. Funcionó ya, pero eso se sirve en alguna parte ya entonces en el repositorio de de sensolab como tal tenemos Bueno, para los quizás más técnicos. Lo que
+
+202
+00:27:41.260 --> 00:27:49.950
+Matías y Joshua: no son técnicos, no importa. Pero imagínense que tenemos una versión como estable y una en la que estamos desarrollando. Cierto que le llamamos sensolab deb de desarrollo. Ya.
+
+203
+00:27:50.480 --> 00:27:56.650
+Matías y Joshua: Y estas 2 versiones las tenemos conectadas o publicadas en Posit Connect Cloud.
+
+204
+00:27:56.760 --> 00:28:01.560
+Matías y Joshua: Ya cierto. Conocerán por si tú no sobre aplicaciones China ya.
+
+205
+00:28:02.300 --> 00:28:10.090
+Matías y Joshua: Y la gracia es que la tenemos configurada tal que cuando 1 hace algún cambio en desarrollo o en
+
+206
+00:28:10.620 --> 00:28:22.510
+Matías y Joshua: en el main, cierto en la versión estable. Ya estas se actualizan automáticamente. Ya entonces tenemos 2 aplicaciones: una como para el público general y una como interna para
+
+207
+00:28:23.110 --> 00:28:30.370
+Matías y Joshua: para explorar nuevas actualizaciones que estamos haciendo ya. Y Ben el mouse, ¿cierto?
+
+208
+00:28:30.570 --> 00:28:32.259
+Matías y Joshua: El puntero perfecto.
+
+209
+00:28:32.380 --> 00:28:37.100
+Matías y Joshua: Entonces, por ejemplo, acá gracias. Acá. ¿alguien puede decir? Bueno.
+
+210
+00:28:37.560 --> 00:28:40.910
+Matías y Joshua: 1 de los primeros cambios que hicimos es: Oye.
+
+211
+00:28:41.220 --> 00:28:50.169
+Matías y Joshua: las Islas Malvinas están en inglés. ya ya hagamos el cambio. Sí, entonces eso es lo que se le llama un Future, ¿cierto? Un cambio
+
+212
+00:28:50.320 --> 00:28:56.510
+Matías y Joshua: y 1 programa eso, y luego lo envía después que lo prueba. Lo envía a Df. Cierto a esta rama
+
+213
+00:28:56.710 --> 00:28:59.259
+Matías y Joshua: ya y como se actualiza Enter.
+
+214
+00:28:59.470 --> 00:29:05.959
+Matías y Joshua: se hace el deploy automático en positive carponés, y hay que a queda. Cómo se llama
+
+215
+00:29:07.300 --> 00:29:19.330
+Matías y Joshua: persistida, y la podemos revisar en línea. Luego puede venir una parte de validación. Entonces alguien dice, no, no me gustó esto, o hay otra característica que que debamos cambiar Es
+
+216
+00:29:19.790 --> 00:29:28.690
+Matías y Joshua: otro cambio. Y si lo hacemos en B, vuelve a actualizarse. Por lo tanto, se hace un deployd, ¿cierto? Entonces estamos actualizando constantemente esta versión de
+
+217
+00:29:29.720 --> 00:29:34.370
+Matías y Joshua: y luego, cuando juntamos los cambios importantes, 5, 10, lo que sea.
+
+218
+00:29:34.840 --> 00:29:45.150
+Matías y Joshua: Y decimos, Ok, todos estos cambios, llevémoslo a la rama Main y, por lo tanto, como se actualiza la Rama Main se hace el despliegue automático a la url que ustedes ya tienen o han revisado.
+
+219
+00:29:45.500 --> 00:29:48.800
+Matías y Joshua: Sí, entonces.
+
+220
+00:29:50.250 --> 00:29:59.409
+Matías y Joshua: bueno, esta herramienta Bueno, esta es como manera general, que quizás lo lo más técnico, quizás más que 1 lo utilizan, pero actualmente funciona
+
+221
+00:30:00.050 --> 00:30:09.900
+Matías y Joshua: así se sola por debajo, Y la tercera parte sería el sitio web que, como ya subirán y
+
+222
+00:30:10.060 --> 00:30:18.029
+Matías y Joshua: han visto los talleres de luceres de arras anteriores, Está construida un cuarto. La tenemos en Git. Hab todo el repositorio. Entonces, cada vez que actualizamos
+
+223
+00:30:18.520 --> 00:30:26.449
+Matías y Joshua: algún cuarto. De hecho, estas slide que están viendo, No sé si mandarán el link. Están ahí en este sitio web. Estamos publicando todo ahí
+
+224
+00:30:27.240 --> 00:30:35.039
+Matías y Joshua: Y como bien dice, ahí reúne la presentación, las páginas y etcétera, etcétera.
+
+225
+00:30:36.020 --> 00:30:37.590
+Matías y Joshua: Y gran parte.
+
+226
+00:30:37.930 --> 00:30:47.370
+Matías y Joshua: o ahora le vamos a dedicar a mostrar en ese sitio web los resultados de evaluación de sensor.
+
+227
+00:30:47.970 --> 00:30:57.070
+Matías y Joshua: Si no conocen algo relevante en estos botes, obviamente ir validando que lo que mencionan es de
+
+228
+00:30:57.280 --> 00:31:05.829
+Matías y Joshua: es veraz, ¿cierto? Y ya está. Hay una rama así como de investigación donde se trabaja, en cómo asegurar
+
+229
+00:31:06.090 --> 00:31:12.669
+Matías y Joshua: que las respuestas sean correctas. Ya actualmente estamos ocupando, obviamente.
+
+230
+00:31:13.340 --> 00:31:22.339
+Matías y Joshua: digamos R, para lo cual está el paquete By, tales que, como que implementa un framework para ir evaluando.
+
+231
+00:31:22.870 --> 00:31:30.059
+Matías y Joshua: La respuesta de Censovak, básicamente 1 define preguntas, respuestas y un criterio.
+
+232
+00:31:30.300 --> 00:31:37.530
+Matías y Joshua: y en base a eso, luego de que se responde, 1 evalúa si cumple o no cumple y puede sacar resúmenes y
+
+233
+00:31:37.860 --> 00:31:41.359
+Matías y Joshua: y ver quizás donde se coló, se equivoca o no vale
+
+234
+00:31:42.980 --> 00:31:49.199
+Matías y Joshua: Bien, Entonces, en términos de resumen, estos serían como los grandes
+
+235
+00:31:49.650 --> 00:31:59.219
+Matías y Joshua: paquetes que utilizamos. ¿cierto? Black de B para manipular. Bueno, esto no es un paquete, una base de datos The Player para manipular.
+
+236
+00:32:00.040 --> 00:32:03.719
+Matías y Joshua: Y bueno, vienen en parque la información
+
+237
+00:32:04.100 --> 00:32:13.550
+Matías y Joshua: oficial. Así que ocupamos paquete de arroz y la aplicación hecha en Chainning, el para el Bot Besely para el Template
+
+238
+00:32:13.780 --> 00:32:21.299
+Matías y Joshua: S, F, para la manipulación de de geometría y más que l básicamente, el render más libre atrás el mapa.
+
+239
+00:32:22.590 --> 00:32:29.720
+Matías y Joshua: Bueno, y eso. Cuarto Pay es el paquete que estamos utilizando y Plot para, obviamente, hacer un gráfico y hacerle honor a
+
+240
+00:32:30.240 --> 00:32:33.490
+Matías y Joshua: ajá eso plan?
+
+241
+00:32:34.860 --> 00:32:42.559
+Matías y Joshua: Eso no sé si de eso hay duda o comentario
+
+242
+00:32:43.230 --> 00:32:48.119
+Matías y Joshua: para pasar, como ya la parte de desafío de calidad del dato que sería como lo último en términos de presentación
+
+243
+00:32:48.790 --> 00:32:49.500
+Matías y Joshua: y no.
+
+244
+00:32:51.080 --> 00:32:56.910
+Guido Saal: Sí. ¿qué tal? Buenas noches. No? Bueno, primero felicitarlos por
+
+245
+00:32:57.060 --> 00:33:03.460
+Guido Saal: por por laburo. Es impresionante la verdad que superútil. Y Bueno.
+
+246
+00:33:03.900 --> 00:33:08.979
+Guido Saal: me muestra todo el potencial que tiene que tiene erre y todos lados
+
+247
+00:33:09.540 --> 00:33:15.489
+Guido Saal: las herramientas que son increíbles, primero, felicitarlos.
+
+248
+00:33:15.930 --> 00:33:19.080
+Guido Saal: Y segundo, preguntarles.
+
+249
+00:33:19.600 --> 00:33:30.430
+Guido Saal: no ustedes el el el contexto, cómo se lo se se se lo encuadran, o sea, cómo le plantean el contexto a
+
+250
+00:33:31.230 --> 00:33:42.570
+Guido Saal: para que, digamos, el el bot pueda nada manipular los datos, o sea, según lo más fiel a
+
+251
+00:33:42.930 --> 00:33:50.530
+Guido Saal: a la solicitud del del usuario. ¿cómo es? Lo hacen con lenguaje natural, lo o o cómo
+
+252
+00:33:51.640 --> 00:33:53.759
+Guido Saal: Co: Co: ¿Cómo ¿Cómo ¿Cómo se lo plantean.
+
+253
+00:33:55.980 --> 00:34:02.430
+Matías y Joshua: Pero bueno, en términos del contexto, se le da las instrucción. Es cierto, matías. Va después
+
+254
+00:34:02.640 --> 00:34:08.090
+Matías y Joshua: especificar que el pron básicamente como una guía de comportamiento, ¿cierto?
+
+255
+00:34:08.489 --> 00:34:13.590
+Matías y Joshua: Entonces gran parte es como enseñarle
+
+256
+00:34:13.929 --> 00:34:18.229
+Matías y Joshua: a a que funcione bien. Cierto que se comporte.
+
+257
+00:34:18.420 --> 00:34:28.559
+Matías y Joshua: Pero adicionalmente, están estas series, ¿cierto? O esta, digamos, esta herramienta que a 1 le que le da al
+
+258
+00:34:28.989 --> 00:34:30.050
+Matías y Joshua: al bot
+
+259
+00:34:30.159 --> 00:34:39.540
+Matías y Joshua: como para que también se equivoque menos. Sí, es como una barrera, porque básicamente tú le dices, ok, consulta da
+
+260
+00:34:39.770 --> 00:34:41.500
+Matías y Joshua: ya. Entonces el
+
+261
+00:34:41.739 --> 00:34:57.900
+Matías y Joshua: en su a través del contexto de decir. Ok, tengo que usar esta herramienta y tengo que ocupar edad, y eso va a ser una función, y sabemos que las funciones. Generalmente, si es que nada cambia, son determinantes, se va a devolver lo que se le pide ya entonces ahí como que evitamos que se inventen dudas.
+
+262
+00:34:58.230 --> 00:35:10.090
+Matías y Joshua: más inventen datos, digamos, Y finalmente, es el valor que retorna el entonces es una combinación de definir bien el comportamiento. Ya también hay que ir iterando mucho.
+
+263
+00:35:10.440 --> 00:35:10.980
+Guido Saal: No es.
+
+264
+00:35:10.980 --> 00:35:11.850
+Matías y Joshua: Ya.
+
+265
+00:35:11.850 --> 00:35:12.260
+Guido Saal: Mismo. El.
+
+266
+00:35:12.260 --> 00:35:17.519
+Matías y Joshua: Sí, porque es típico. Por ejemplo, cuando yo le decía.
+
+267
+00:35:18.260 --> 00:35:25.229
+Matías y Joshua: le pedía un dato como que digamos que siempre fuera como orientado al mapa en un principio. Ya
+
+268
+00:35:25.270 --> 00:35:44.350
+Matías y Joshua: entonces, como que de repente, cuando 1 decía, muéstrame como que la sociedad gráfico y mostraba un gráfico. Ya entonces, como que decimos ya, Si te pide esto signo general prioriza el mapa. Pero si te lo pide explícitamente, el gráfico da 0. Entonces, en nuestra experiencia, es como que afinar el comportamiento.
+
+269
+00:35:44.730 --> 00:35:50.120
+Matías y Joshua: sí y va en lenguaje natural, Sí, básicamente.
+
+270
+00:35:50.120 --> 00:35:50.500
+Guido Saal: Pero que.
+
+271
+00:35:50.500 --> 00:35:51.200
+Matías y Joshua: Muy bien.
+
+272
+00:35:51.420 --> 00:35:52.080
+Guido Saal: Claro.
+
+273
+00:35:52.340 --> 00:36:09.730
+Guido Saal: pero por ejemplo, cuando es natural, pero digamos ustedes que que conocen todo lo que hay detrás, digamos, le dicen, bueno, tráeme cuando yo te te digo, te pido un mapa tráeme tal objeto, que el objeto, que que es un mapa, no no me traigas un gráfico o una tabla, o sea.
+
+274
+00:36:09.900 --> 00:36:10.510
+Guido Saal: en el que.
+
+275
+00:36:10.510 --> 00:36:10.830
+Matías y Joshua: En el.
+
+276
+00:36:11.590 --> 00:36:12.910
+Guido Saal: Claro, Perfecto.
+
+277
+00:36:12.910 --> 00:36:22.360
+Matías y Joshua: Si si quieres como más detalle, Por ejemplo, si nos pide un mapa, nosotros tenemos obviamente una herramienta particularmente para mostrar mapa. Entonces lo que hace
+
+278
+00:36:22.690 --> 00:36:31.680
+Matías y Joshua: lo que dice, quizá internamente, el bote dice, ah, me estás viendo un mapa. Entonces tengo que tomar esta herramienta con este argumento? ¿sí? Y luego la expansión
+
+279
+00:36:32.250 --> 00:36:43.350
+Matías y Joshua: se preocupan de hacer esa acción. Ya básicamente, lo que hace el bot no es calcular todo el mapa o hacer toda esa ingeniería, sino que interpretar la solicitud del usuario.
+
+280
+00:36:43.350 --> 00:36:43.770
+Guido Saal: Claro.
+
+281
+00:36:43.770 --> 00:36:49.590
+Matías y Joshua: La herramienta correcta. Y luego la herramienta correcta. La programamos nosotros. Y ahí el
+
+282
+00:36:49.810 --> 00:36:58.270
+Matías y Joshua: la respuesta, digamos que le digo de feminista, que es como la correcta, según si es que también interpretó bien. Y usó bien la herramienta. ¿vale?
+
+283
+00:36:58.780 --> 00:37:00.539
+Matías y Joshua: No sé si eso responde a tu pregunta.
+
+284
+00:37:00.970 --> 00:37:01.830
+Guido Saal: Sí, Sí, Sí.
+
+285
+00:37:01.990 --> 00:37:12.499
+Matías y Joshua: Y sobre el el el modelo que claro cuando empezamos a diseñar esto, ¿cómo ¿cómo lo hacemos? Y al final, la solución como más directa y más fácil.
+
+286
+00:37:12.810 --> 00:37:23.639
+Matías y Joshua: No era entrenar nada, sí, sino que era consumir un modelo que está hecho Entonces nos conectamos por Api con Elmer a modelos de algún servicio, como puede ser
+
+287
+00:37:24.010 --> 00:37:30.539
+Matías y Joshua: Open. Ahí como pueden ser Antropic, con los que Da cierto deepy.
+
+288
+00:37:30.920 --> 00:37:37.629
+Matías y Joshua: Ahí no hay ningún, como como se puede decir, ninguna maravilla, ningún glamour. En eso sí,
+
+289
+00:37:37.920 --> 00:37:41.160
+Matías y Joshua: lo importante es como la infraestructura que 1 construye en torno a eso.
+
+290
+00:37:41.400 --> 00:37:49.970
+Matías y Joshua: Sí, Es decir, mira, acá. Tienes como estos. Dataset, estas son las características de los Dataset. Esto puede hacer esto. No puedes hacer
+
+291
+00:37:50.330 --> 00:37:53.750
+Matías y Joshua: Estas son tus herramientas. En fin, eso
+
+292
+00:37:55.140 --> 00:37:57.520
+Matías y Joshua: no sé si respondemos ahí más o menos.
+
+293
+00:37:58.760 --> 00:37:59.920
+Matías y Joshua: Hay una.
+
+294
+00:37:59.920 --> 00:38:01.020
+Bastián Olea: Adelantada.
+
+295
+00:38:03.840 --> 00:38:12.439
+daniel: Sí, pero me lo acaban de responder. Mi pregunta era si usaban un modelo local o si se conectaban por a P. I a algún proveedor de
+
+296
+00:38:12.750 --> 00:38:28.949
+daniel: de de modelo? ¿no? Y, en todo caso, igual. Algunos antecedentes de de los modelos que usan, de qué capacidad de cuantización y y bueno, y todos los detalles técnicos
+
+297
+00:38:28.950 --> 00:38:41.480
+daniel: para saber cuán viable es alojar un proyecto de esa naturaleza en servicios que no tienen costo, como por ejemplo Post It Connect o o Githup. No.
+
+298
+00:38:41.490 --> 00:38:42.320
+daniel: eso.
+
+299
+00:38:43.950 --> 00:38:47.330
+Matías y Joshua: No, el único costo acá es el precisamente el modelo que consumimos.
+
+300
+00:38:47.560 --> 00:38:49.549
+Matías y Joshua: Todo el reto de
+
+301
+00:38:49.820 --> 00:38:57.619
+Matías y Joshua: software libre. Más de verdad tiene como un límite a partir del cual empieza a a cobrar. Nosotros no estamos todavía en eso, así que
+
+302
+00:38:57.800 --> 00:39:05.279
+Matías y Joshua: el único costo, básicamente es pagar por los tokens que se consumen. Y eso es parte de los desafíos, es decir, de qué manera
+
+303
+00:39:05.410 --> 00:39:16.950
+Matías y Joshua: con este como con este diseño. Con esta arquitectura Nosotros podemos hacer sostenible esto sin estar inyectando parte de nuestro salario en en Tokens, para que ustedes lo puedan consumir? ¿no?
+
+304
+00:39:17.650 --> 00:39:23.290
+Matías y Joshua: Pero pero eso hasta el momento es la hora social.
+
+305
+00:39:23.290 --> 00:39:26.029
+Bastián Olea: Tengo otra pregunta en
+
+306
+00:39:26.150 --> 00:39:45.070
+Bastián Olea: que tener un poco que ver con eso. En su experiencia, probaron distintos modelos, y y si se se pueden comentar quizá con cual se quedaron. Porque en mi experiencia, en un momento empecé con el modelo más grande para este tipo de este mismo tipo de trabajo. Pero eventualmente me di cuenta que el en los modelos pequeños también eran funcionales, si es que tenían un buen contexto y una buena cantidad de herramientas.
+
+307
+00:39:45.090 --> 00:39:52.579
+Bastián Olea: Y en ese mismo sentido, me llama la atención cómo calcularon cómo hicieron para que la el el modelo calculara con este índice de Herfinahl.
+
+308
+00:39:52.580 --> 00:40:13.779
+Bastián Olea: No sé si eso y quería preguntar si es que eso fue como creatividad del modelo o conocimiento del modelo o ustedes, en el contexto, se preocuparon de explicarle ciertos conceptos estadísticos, o incluso si es que hay una herramienta específica que calcula ese índice o hacia ciertos cálculos aritméticos. En ciertos casos, porque a mí me pasó que, por ejemplo, ciertos modelos tenían problemas incluso para sacar promedio o sumar. No es cierto que me imagino que no es el caso en esta plataforma. Entonces.
+
+309
+00:40:13.780 --> 00:40:22.630
+Bastián Olea: de repente, si ponen detallar un poco más en en esas herramientas más específicas, por ejemplo, el tema de la de la tipología que pidieron que creara de repente si fue creatividad.
+
+310
+00:40:23.020 --> 00:40:23.890
+Bastián Olea: ¿cómo fue.
+
+311
+00:40:24.340 --> 00:40:34.849
+Matías y Joshua: Ya no, por ejemplo, para preguntarle por la tipología y para preguntarle por por el indis, por los índices. En general. Nosotros no no tenemos ninguna especificación acá.
+
+312
+00:40:35.120 --> 00:40:36.650
+Matías y Joshua: En
+
+313
+00:40:36.870 --> 00:40:46.450
+Matías y Joshua: Pero precisamente estos índices y la tipología fue como cosas que fuimos descubriendo como a medida que empezaba a preguntar hoy. Y si preguntamos esto, y si preguntamos esto otro
+
+314
+00:40:46.740 --> 00:40:48.360
+Matías y Joshua: como que no estaba en los cálculos.
+
+315
+00:40:48.590 --> 00:40:58.920
+Matías y Joshua: entonces eso es como bien sorprendente. Y con respecto al modelo, bueno, nosotros, igual. En todo este proceso, como
+
+316
+00:40:59.090 --> 00:41:12.950
+Matías y Joshua: puede ser igual común en en varios de ustedes, por ejemplo, yo no programo. Entonces, o sea, perdón, no es que no programe. Yo no estudié como programación o algo así. Entonces, como que hay mucho de autodidacta, hay mucho como ir buscando referencias.
+
+317
+00:41:13.020 --> 00:41:20.739
+Matías y Joshua: Y así hemos encontrado alguna literatura. Y gran parte de la literatura, como ingeniería, software, por ejemplo. Dice que hay harto de ensayo y error.
+
+318
+00:41:21.020 --> 00:41:24.889
+Matías y Joshua: Entonces nosotros, acá. Como como método previotal de construcción.
+
+319
+00:41:25.010 --> 00:41:27.790
+Matías y Joshua: Entonces
+
+320
+00:41:28.530 --> 00:41:37.220
+Matías y Joshua: ahí el modelo. Fuimos probando varios. Y en función de los modelos como que íbamos di viendo esto, Sí, esto no.
+
+321
+00:41:37.360 --> 00:41:53.660
+Matías y Joshua: Gran parte de la arquitectura. Lo desarrollamos con un modelo no de punta, precisamente por los costos. Y de repente nos dimos cuenta, bueno, ¿y qué pasamos si si cambiamos un modelo un poquito mejor. En este caso arrancamos con el 5, 4, cierto de, creo, de
+
+322
+00:41:53.740 --> 00:41:59.140
+Matías y Joshua: 4 o mínimo claro, 1 ese
+
+323
+00:41:59.370 --> 00:42:07.660
+Matías y Joshua: y después lo subimos al Actualmente, el que tenemos es el el 5, 6 luna sí,
+
+324
+00:42:07.840 --> 00:42:13.440
+Matías y Joshua: porque el sol era mucho más caro. Entonces, como que había un precio, fuimos probando con cuál.
+
+325
+00:42:13.620 --> 00:42:21.520
+Matías y Joshua: Y y cuál era la calidad de la de la estima afán, La claro como el el el costo, cuánto podía soportar. Y fue con el que nos quedamos.
+
+326
+00:42:21.730 --> 00:42:27.740
+Matías y Joshua: Pero como te digo, fuimos, fue mucho ensayo y error como al inicio, como que no.
+
+327
+00:42:27.880 --> 00:42:35.240
+Matías y Joshua: Esa es la la fórmula. Sí, me gustaría, empieza a complementar la experiencia, porque
+
+328
+00:42:35.530 --> 00:42:48.980
+Matías y Joshua: partimos, obviamente bien pequeño por por tema de costos. ¿cierto? Y entonces la idea era como que desarrollamos mucho pront en base a que el el el bot no respondía a lo que queríamos. ¿sí?
+
+329
+00:42:49.570 --> 00:42:55.039
+Matías y Joshua: Entonces aparte que no respondía a lo que queríamos porque no sabía lo que
+
+330
+00:42:55.910 --> 00:43:11.630
+Matías y Joshua: tenía. También hicimos el ejercicio de un P. D. F, Básicamente, el manual del I N e contextualizarlo y dejarlo como un texto más resumido para que el valga la redundancia, el bot lo tuviera como contexto, ¿cierto? Entonces.
+
+331
+00:43:12.070 --> 00:43:18.930
+Matías y Joshua: y después notamos que el paso de cambiar de modelo por qué
+
+332
+00:43:19.370 --> 00:43:26.819
+Matías y Joshua: nos nacía la duda de que incluso explicándole cómo tenía que hacerlo. En ciertos casos, el modelo no lo hacía
+
+333
+00:43:27.120 --> 00:43:39.760
+Matías y Joshua: y entramos a debatir si era problema de nosotros, que no estábamos dando bien las instrucciones o estábamos dando incluso mucha información de contexto, y el modelo se calla. Entonces luego
+
+334
+00:43:39.920 --> 00:43:46.849
+Matías y Joshua: apareció también esta nueva versión de hippité en particular, que es buena en términos de costos, cierto.
+
+335
+00:43:47.650 --> 00:43:52.719
+Matías y Joshua: y también maneja tiene la oportunidad de manejar bien las herramientas
+
+336
+00:43:53.620 --> 00:44:07.829
+Matías y Joshua: y cómo ha funcionado a nuestra opinión Bien, no hemos quedado ahí. Sí. Yo creo que hay que explorar mucho más opciones, sobre todo en la pregunta anterior. Quizá buscar modelos más liviano, cuantizado, etcétera.
+
+337
+00:44:08.550 --> 00:44:10.660
+Matías y Joshua: y hacer la prueba
+
+338
+00:44:10.990 --> 00:44:24.790
+Matías y Joshua: de de como funcionaría y de hecho, es un ejercicio a futuro de nosotros que no solamente vamos a a evaluar ascenso bot con ciertas preguntas y respuestas, sino que también vamos a evaluar a distintos modelos.
+
+339
+00:44:25.010 --> 00:44:31.350
+Matías y Joshua: con o sin la herramienta que nosotros damos acceso a los datos para evaluarlo y tener quizá un ahí como
+
+340
+00:44:32.230 --> 00:44:36.330
+Matías y Joshua: más argumentos para sostener quizá alguna decisión en particular.
+
+341
+00:44:36.910 --> 00:44:37.720
+Matías y Joshua: Vale
+
+342
+00:44:41.180 --> 00:44:43.180
+Matías y Joshua: bien. Entonces
+
+343
+00:44:45.930 --> 00:44:56.549
+Matías y Joshua: 3 desafíos que no que nosotros consideramos que tenemos de cara al futuro, o sea, una cosa que hablábamos harto con el hosho que tiene que ver con cómo nosotros arrancamos la presentación es.
+
+344
+00:44:56.840 --> 00:45:03.110
+Matías y Joshua: No queríamos construir como una aplicación por construirla, sino como queríamos construir una aplicación que se usara. Entonces.
+
+345
+00:45:03.130 --> 00:45:18.509
+Matías y Joshua: por eso hay harto énfasis en, por ejemplo, que una aplicación igual bonita, o sea, tú te metes, están bien pensados los colores, los distintos paneles. Entonces la idea es como que, y y muy rápidamente las personas como que entran y pueden interactuar ya
+
+346
+00:45:18.710 --> 00:45:27.729
+Matías y Joshua: entonces queremos seguir haciendo que la experiencia del usuario como que den ganas de entrar a consultar información, acá que no sea un proceso engorroso.
+
+347
+00:45:28.260 --> 00:45:39.369
+Matías y Joshua: y ahí nos queda harto camino camino por delante. O sea, llevamos muy poquito, entonces. Obviamente tenemos mucho entusiasmo. Quién sabe si en 2 o 3 años más. ¿en qué ¿En qué va a quedar esto.
+
+348
+00:45:39.580 --> 00:45:48.390
+Matías y Joshua: Pero nos interesa que esta herramienta siga siendo útil. Por eso también la idea como de seguir metiéndole o agregándole más fases de datos.
+
+349
+00:45:50.520 --> 00:45:59.699
+Matías y Joshua: Bueno, cuando arrancamos, obviamente teníamos mucho entusiasmo por este proceso fácil. Ya qué hacemos. Agreguémosle esto.
+
+350
+00:45:59.840 --> 00:46:01.559
+Matías y Joshua: Bien, Ahora.
+
+351
+00:46:01.710 --> 00:46:13.090
+Matías y Joshua: ¿qué hacemos si, por ejemplo, tú le preguntas por un territorio, ¿por qué no te llevas a ese territorio, así como cuando no sé si ustedes acá en Chile, en los 90, el tiempo era como que 1 iba como de región en región.
+
+352
+00:46:13.220 --> 00:46:22.229
+Matías y Joshua: Entonces, ¿como ¿de qué manera tú estás inocencia en Santiago. Y le preguntas ahí. Dime esto mismo. Pero para iquique, entonces te va a llevar hacia allá tú el que hace eso.
+
+353
+00:46:22.560 --> 00:46:31.510
+Matías y Joshua: Y así, entonces fuimos agregandole funcionalidades, funcionalidades, funcionalidades. Y obviamente, ese es un proceso como muy adictivo el el ir construyendo eso.
+
+354
+00:46:32.020 --> 00:46:38.839
+Matías y Joshua: Pero después llega la hora de la verdad. Cuando 1 trabaja con con el elemento y es la hora de la verdad? Bueno, y esta información es real o no.
+
+355
+00:46:39.070 --> 00:46:46.999
+Matías y Joshua: ¿sí? Entonces eso te pone por delante otro tipo de problema, otro tipo de problemas menos glamuroso.
+
+356
+00:46:47.570 --> 00:46:53.830
+Matías y Joshua: pero que son muy relevantes porque te ponen por delante. Bueno, ¿cómo evaluamos la calidad de esto?
+
+357
+00:46:54.330 --> 00:47:10.949
+Matías y Joshua: ¿cómo evaluamos la calidad de de de cada una de las respuestas o de cada una de las interacciones que está haciendo. Y para eso, como que empezamos a nuevamente, como a qué se está haciendo, ¿Dónde se están haciendo cosas parecidas? ¿cómo lo están evaluando? Bueno, que está haciendo posit como igual.
+
+358
+00:47:11.140 --> 00:47:21.240
+Matías y Joshua: Están desarrollando algunas librerías y nos hemos encontrado con algunos artículos que podemos compartirlo
+
+359
+00:47:21.490 --> 00:47:24.870
+Matías y Joshua: y con alguna idea. Entonces, nos interesa cómo
+
+360
+00:47:25.180 --> 00:47:30.139
+Matías y Joshua: arrancar con un trabajo mucho más de
+
+361
+00:47:30.770 --> 00:47:35.420
+Matías y Joshua: un trabajo mucho más formal y más serio en torno a la calidad del dato, sí,
+
+362
+00:47:35.990 --> 00:47:44.220
+Matías y Joshua: porque si al final del día, el censolab o cualquier plataforma que utilice estos modelos, no no. Esa garantía.
+
+363
+00:47:44.830 --> 00:47:46.270
+Matías y Joshua: nada, no se van a usar nunca?
+
+364
+00:47:46.600 --> 00:47:48.410
+Matías y Joshua: Sí. Sí. Así es sencillo.
+
+365
+00:47:48.610 --> 00:48:01.740
+Matías y Joshua: Obviamente, el parche ante la haría Es como poner abajito, que es lo que tenemos como esto puede cometer errores. Revisa la información relevante. Pero la idea es hacerse un poquito más cargo de eso. Y hay herramientas, y hay que trabajarla
+
+366
+00:48:03.060 --> 00:48:08.809
+Matías y Joshua: en un Y bueno, y la sostenibilidad del proyecto
+
+367
+00:48:09.130 --> 00:48:14.790
+Matías y Joshua: básicamente es pensar algún mecanismo o método de autofinanciamiento
+
+368
+00:48:14.940 --> 00:48:20.200
+Matías y Joshua: para para que se proyecte porque sí crecen masividad
+
+369
+00:48:20.380 --> 00:48:28.940
+Matías y Joshua: o en uso que algo igual estamos monitoreando podría eventualmente no ser sostenible hasta el día de hoy, y lo que no queremos es como.
+
+370
+00:48:29.300 --> 00:48:34.780
+Matías y Joshua: al menos en en cierta O sea, no queremos como cobrar suscripciones para acceder a todas estas herramientas.
+
+371
+00:48:37.330 --> 00:48:39.730
+Matías y Joshua: Bien, eso sería
+
+372
+00:48:40.200 --> 00:48:47.710
+Matías y Joshua: como la presentación a grandes rasgos de lo que de lo que es el solar. Entonces, si hay una idea importante.
+
+373
+00:48:47.770 --> 00:49:04.939
+Matías y Joshua: Yo creo que acá. Es como no pensar directamente en soluciones tecnológicas inmediatamente, sino pensar en problemas. Hace un tiempo, cuando arrancaron las cuestiones de inteligencia artificial. Recuerdo a César Hidalgo, que es 1 de los que está detrás de Datachile de Atahuel, que hace en plataforma
+
+374
+00:49:05.180 --> 00:49:14.479
+Matías y Joshua: con datos tienen el Índice de Complejidad Económica. Había una discusión que él planteaba, que estaba interesante, que él decía: bueno, la definición como más
+
+375
+00:49:15.060 --> 00:49:23.140
+Matías y Joshua: directa de lo que es la inteligencia. ¿cierto? A propósito de qué es la inteligencia ahora con estos modelos que son inteligentes, es como la capacidad de resolver problemas.
+
+376
+00:49:23.610 --> 00:49:41.839
+Matías y Joshua: Y ahí el matiz que él ponía era como que cuando 1 define problemas, está el problema cierto delimitado, Entonces es muy fácil llegar al objetivo. Yo creo que acá todos los que hemos hecho tesis y sabemos que quizás una de las partes más difícil y más dolorosas, como dar con un buen problema. Y una vez que hay con un buen problema como que te va a ir por un tubo.
+
+377
+00:49:41.960 --> 00:49:46.550
+Matías y Joshua: Entonces, licia? Bueno, los modelos cuando tú ya le pones como un marco.
+
+378
+00:49:46.870 --> 00:49:48.870
+Matías y Joshua: resuelven mejor que los seres humanos.
+
+379
+00:49:49.200 --> 00:49:52.229
+Matías y Joshua: Entonces lo difícil es como identificar buenos problemas.
+
+380
+00:49:52.410 --> 00:49:55.210
+Matías y Joshua: ¿sí? Como que lo ponía como un pasito antes.
+
+381
+00:49:55.590 --> 00:50:08.120
+Matías y Joshua: Y así más o menos fue lo que tratamos de hacer con consensola como delimitar bien el problema, ver las características como le dijimos, y ahí, bueno, ver qué herramientas tenemos qué recursos contamos y veamos hasta dónde llegamos.
+
+382
+00:50:09.080 --> 00:50:22.459
+Matías y Joshua: Lo relevante de esta cuestión no es tanto y hay, no sé qué es algo que hemos conversado con el 8. Lo relevante, esta cuestión no es tanto como que, por así decirlo, enchufar un bot con los datos. Sí, eso es más o menos trivial.
+
+383
+00:50:22.940 --> 00:50:29.679
+Matías y Joshua: sino es construir como una arquitectura o un diseño que te permita a ti que bueno.
+
+384
+00:50:29.990 --> 00:50:36.939
+Matías y Joshua: que se cons que se pueda interactuar, pero que, al mismo tiempo, esa interacción tenga cierta calidad, que es lo que a lo que de lo que estamos hablando.
+
+385
+00:50:38.320 --> 00:50:46.369
+Matías y Joshua: Y Y por último, hoy día, yo creo que leíamos algunas cosas del
+
+386
+00:50:46.420 --> 00:51:05.600
+Matías y Joshua: de gente. Debo decir que ha trabajado con pandas ha estado haciendo. Así que que dicen que lo más importante hoy día en en un tiempo en donde se pueden escribir 10 000 líneas de del código es como mantenerle como la la calidad y tener el control de de lo que 1 está de lo que 1 está programando que el el bycoin, incluso para los que
+
+387
+00:51:06.480 --> 00:51:13.300
+Matías y Joshua: los que programamos hace un tiempo igual es bien adictivo. ¿no? Entonces, ¿de qué manera tú te puedes tú? Tú garantizas que al final del día.
+
+388
+00:51:13.510 --> 00:51:20.410
+Matías y Joshua: en este contexto, tú puedas producir algo como de tanta calidad como lo que venías haciendo antes.
+
+389
+00:51:20.560 --> 00:51:30.610
+Matías y Joshua: Sí, yo creo que eso también es algo que que nos que nos puso por delante. Ahí. Yo recomiendo harto una de las últimas columnas de Harley Wiccan que, como que cuenta un poquito cómo ha sido su experiencia de programación
+
+390
+00:51:31.170 --> 00:51:41.290
+Matías y Joshua: y es bien inspiradora. Me parece a mí como que igual fija, fija una línea, una posición bien.
+
+391
+00:51:41.840 --> 00:51:42.960
+Matías y Joshua: Y
+
+392
+00:51:43.180 --> 00:51:49.150
+Matías y Joshua: no sé cómo estamos de tiempo para ver el ritmo que le ponemos a este a esta segunda etapa.
+
+393
+00:51:51.410 --> 00:51:52.870
+Bastián Olea: Ya.
+
+394
+00:51:52.870 --> 00:51:53.600
+Matías y Joshua: No.
+
+395
+00:51:54.110 --> 00:52:03.060
+Bastián Olea: Llevamos una hora de de presentación. No es cierto? Hay 3 manos levantadas. Si tenemos un taller. Ahora, yo recomendaría hacer un pequeño break
+
+396
+00:52:03.550 --> 00:52:07.130
+Bastián Olea: y y llevas a cabo el taller en
+
+397
+00:52:07.700 --> 00:52:13.620
+Bastián Olea: puedo dar decir las preguntas para que las puedan responder previamente antes de pasar a la siguiente o o les queda algo por mencionar.
+
+398
+00:52:14.620 --> 00:52:15.950
+Matías y Joshua: No, que.
+
+399
+00:52:16.540 --> 00:52:25.419
+Bastián Olea: Sí habían 3 maridos. Y en virtud del tiempo que las las preguntas sean como más o menos breves, está Daniel. Y después está Alejandro y luego Carolina.
+
+400
+00:52:27.000 --> 00:52:39.360
+daniel: Sí solo se me quedó en el tintero una pregunta cuando le hice las consultas anteriores y es el volumen de de datos, considerando que tienen un censo que tienen cartografía
+
+401
+00:52:39.360 --> 00:52:47.989
+daniel: y que tienen además, bueno, no están alojando un modelo local. Pero todo eso
+
+402
+00:52:47.990 --> 00:53:00.110
+daniel: saco la calculadora y no les da para alojarlo en en en Posit y en y en Github, al menos no no sin sin costo. ¿cómo lo resolvieron?
+
+403
+00:53:01.320 --> 00:53:09.949
+Matías y Joshua: No, no. El El la base de datos Pesa 1. Coma. Cinco gigas, Sí, no sé si es mucho o poco para ti, pero no pesa, y Matherland
+
+404
+00:53:10.300 --> 00:53:19.440
+Matías y Joshua: tiene por plan gratuito hasta 10 gigas, al menos hasta ahora. Por lo tanto, almacenar la base de la base de datos y consultarla, Sí,
+
+405
+00:53:19.510 --> 00:53:30.459
+Matías y Joshua: para ella. N: no hay costo. Vale, exactamente. Es un archivo, la base de datos. Si la subimos y, por lo tanto, en ese lado no hay costo
+
+406
+00:53:30.950 --> 00:53:35.510
+Matías y Joshua: y el costo
+
+407
+00:53:36.290 --> 00:53:51.060
+Matías y Joshua: y subirla a la aplicación a a posit en el plan gratuito tampoco hay costo, ¿cierto? Hay hasta 10 aplicaciones gratis. Así que por ahí no el único costo que tenemos estamos teniendo ahora es el de los tokens
+
+408
+00:53:51.350 --> 00:53:56.750
+Matías y Joshua: que para ponerlo en contexto, lo cargué con 35 dólares.
+
+409
+00:53:56.980 --> 00:54:01.120
+Matías y Joshua: y esta semana, 2 semanas llevamos
+
+410
+00:54:01.620 --> 00:54:14.259
+Matías y Joshua: 27 dólares, todavía no sé cuantificar si eso es mucho o poco, diría que poco, porque la gente no lo ocupa, pero puede que sea muy óptimo en términos de de costo, ya así que todavía no no tengo esa
+
+411
+00:54:15.070 --> 00:54:16.719
+Matías y Joshua: como esa sensibilidad.
+
+412
+00:54:17.130 --> 00:54:23.319
+Matías y Joshua: pero eso no sé si te queda alguna duda, o tú dices que hay algún costo que no estoy mencionando.
+
+413
+00:54:24.080 --> 00:54:24.890
+Matías y Joshua: España.
+
+414
+00:54:25.500 --> 00:54:41.260
+daniel: No no solo tenía la duda. No No sabía que habían respecto a todos todos esos problemas, pero, claro, evidentemente, sacando la base de datos de del de las fuentes que le sirven, la la aplicación shine y el el bot.
+
+415
+00:54:41.390 --> 00:54:46.250
+daniel: Con eso ya resuelven el grueso del problema. Eso no será la duda nomás. Les agradezco.
+
+416
+00:54:46.250 --> 00:54:56.400
+Matías y Joshua: Exacto. Si la aplicación Chami tiene un es, un, digamos, un computadora, una máquina virtual donde diría 4 gigas, porque básicamente la consulta
+
+417
+00:54:56.550 --> 00:55:00.280
+Matías y Joshua: que tú escribes le hace el cómo se llama
+
+418
+00:55:01.090 --> 00:55:08.370
+Matías y Joshua: el bot lápiz, ¿cierto? Para allá viajar, tu texto te devuelven el texto. Entonces el post It
+
+419
+00:55:08.530 --> 00:55:15.400
+Matías y Joshua: que una página, digamos, humilde en términos de configuración.
+
+420
+00:55:15.710 --> 00:55:21.879
+Matías y Joshua: funciona bien y las consultas también por la la externaliza. Esta base de datos, digamos, remota.
+
+421
+00:55:22.160 --> 00:55:26.290
+Matías y Joshua: Por lo tanto, no no se pega o no vimos.
+
+422
+00:55:26.440 --> 00:55:29.860
+Matías y Joshua: Puede funcionar más rápido, claro, pero no vemos alguna.
+
+423
+00:55:30.750 --> 00:55:31.919
+Matías y Joshua: Cuando le hacemos.
+
+424
+00:55:33.270 --> 00:55:48.399
+Matías y Joshua: Cuando le hacemos consulta, nos vemos cuello de botella. Al principio la vimos obviamente cuando enviábamos harta geometría, y por eso hice hincapié en el en el paso de simplificarla, ya porque la geometría también está en la base de datos y se consulta. Entonces, cuando se consulta, se trae.
+
+425
+00:55:48.550 --> 00:55:56.050
+Matías y Joshua: obviamente tenemos unas limitaciones que hemos dicho ya: Si tú quieres poner 5 000, no no las descargas, sí por por temas de tiempo.
+
+426
+00:55:56.420 --> 00:56:04.130
+Matías y Joshua: pero de momento hemos sentido que funciona bien. No hemos tenido, obviamente, quizás tanta audiencia concurrente, Sí, al mismo tiempo para
+
+427
+00:56:04.850 --> 00:56:11.059
+Matías y Joshua: evaluar y y ver esa falencia de de de la arquitectura o los productos que estamos usando.
+
+428
+00:56:11.410 --> 00:56:13.820
+Matías y Joshua: Sí, no son una experiencia.
+
+429
+00:56:15.200 --> 00:56:16.769
+Bastián Olea: Hay una pregunta de Carolina.
+
+430
+00:56:19.280 --> 00:56:24.720
+Carolina Morales: Bueno, muchas gracias por la primera parte de la presentación. Yo tengo la pregunta, que es como
+
+431
+00:56:24.820 --> 00:56:29.299
+Carolina Morales: superfilosófica. No tiene que ver como con código ni nada.
+
+432
+00:56:29.830 --> 00:56:33.229
+Carolina Morales: Pero ¿hasta qué punto
+
+433
+00:56:34.000 --> 00:56:44.870
+Carolina Morales: cuando 1 coloca la información así disponible a un nivel tan granula granular, puede, en el fondo, exponer de una manera
+
+434
+00:56:46.140 --> 00:56:52.759
+Carolina Morales: demasiado a las personas las que estamos describiendo con estos datos, Porque cuando
+
+435
+00:56:53.710 --> 00:57:01.269
+Carolina Morales: hiciste la primera demostración de y llegamos a esta parte de la manzana sin sal. Y llegamos a información muy, pel muy como
+
+436
+00:57:01.360 --> 00:57:06.759
+Carolina Morales: granular de esa manzana. Y en el censo se recolecta información de
+
+437
+00:57:06.760 --> 00:57:26.169
+Carolina Morales: qué tanta escolaridad tienen esas personas a lo mejor como algo de ingresos. Entonces a mí me pasa de que obvio yo la yo miro esta información y digo: ah, ¿podría obtener algún tipo de índice para describir el grupo socioeconómico de los colegios que están ahí y utilizarlo para algo, entre comillas positivo. Pero también
+
+438
+00:57:26.170 --> 00:57:30.780
+Carolina Morales: puede servir para que otras personas tomen esta información y
+
+439
+00:57:30.840 --> 00:57:33.989
+Carolina Morales: para que la ocupen de alguna manera negativa, como
+
+440
+00:57:34.060 --> 00:57:36.570
+Carolina Morales: tener. Yo entiendo que cuando 1
+
+441
+00:57:37.040 --> 00:57:45.590
+Carolina Morales: pone disponible la información del Censo, si está disponible para todos, pero es poco probable que una persona se meta solamente para estigmatizar
+
+442
+00:57:45.830 --> 00:57:53.950
+Carolina Morales: a descargar estas bases de datos y revisar algo. Yo creo que esto es algo súper como de humanidad. Es súper como una conversación muy sociológica. Por eso estoy como
+
+443
+00:57:53.970 --> 00:58:08.950
+Carolina Morales: sí, como indeciso de realidad, como debería sentirme con esta exposición de la información. No sé si a ustedes les pasó cuando estaban construyendo esto, de a qué punto vamos a llegar como tan chiquitito sin pasar a llevar como la privacidad de las personas.
+
+444
+00:58:10.510 --> 00:58:15.510
+Matías y Joshua: Bueno, el el el mandato de resguardar la privacidad de las personas es un mandato que tiene que cumplir el ine.
+
+445
+00:58:15.740 --> 00:58:22.690
+Matías y Joshua: entonces ellos, precisamente por para no en
+
+446
+00:58:22.940 --> 00:58:34.939
+Matías y Joshua: por la no recuerdo la ley. Pero hay una una ley que que lo que bus el secreto estadístico. Ahí está claro el secreto estadístico, que es una ley que incluso es mucho más rigurosa que el secre El secreto tributario, que ya es algo algo bien sensible, ¿no?
+
+447
+00:58:35.110 --> 00:58:55.010
+Matías y Joshua: Entonces sí, ahí lo que yo te podría decir es que hay hay varias formas que hacen ellos como para resguardar eso. Entonces lo primero es como como arrancamos diciendo, este censo, a diferencia del anterior, no se publica a nivel de microdatos, hasta localidad
+
+448
+00:58:55.120 --> 00:59:01.979
+Matías y Joshua: o hasta manzana, sino que llega hasta áreas, o sea, hasta como una área urbana rural, y llega hasta allí
+
+449
+00:59:02.190 --> 00:59:10.050
+Matías y Joshua: más abajo. Solo está como agrupado por localidad, es decir, la fila ¿Es la la la localidad o es la manzana o en la entidad.
+
+450
+00:59:10.210 --> 00:59:23.470
+Matías y Joshua: entonces tú ahí lo único que tienes información como agrupado, como total de hombres total, mujeres en total en determinada rama, entonces como que no puedes llegar al. Y además hay como distintos
+
+451
+00:59:23.470 --> 00:59:42.209
+Matías y Joshua: criterios que se utilizan para anonimizar información. Entonces, en comunas con menos de 100 000 habitantes. Hay variables, por ejemplo, que no te entregan, no te entregan el el microato, Por ejemplo, en comunas con menos de 100 000 habitantes en edad. Tú no vas a encontrar información, pero sí vas a tener como una columna de edad quinquenal.
+
+452
+00:59:42.240 --> 00:59:48.220
+Matías y Joshua: Entonces ahí está agrupado u otra información, Así, para otras variables. Entonces, ese es el recuerdo.
+
+453
+00:59:48.740 --> 00:59:59.820
+Carolina Morales: También yo vi que, en el fondo, los modelos en general no te dicen, no sé, a menos que tú le entregues o lo entrenes para que te diga. No sé, cierto.
+
+454
+00:59:59.920 --> 01:00:17.120
+Carolina Morales: Los modelos los no sé, a menos que no los entrene para que te digan. No sé, y en general prefieren mentir y tener este tipo como de alucinaciones que suenan coherentes o que están levemente como de acuerdo con los datos antes de decirte que no sé. Entonces, en el caso, por ejemplo, de tu modelo.
+
+455
+01:00:17.120 --> 01:00:29.659
+Carolina Morales: tú crees que con el entrenamiento que le han dado. Podría decir, no sé, o te o obtendría a tomar los datos a ser modelo. Y en el fondo como a expandir información hasta llegar al nivel de manzana.
+
+456
+01:00:29.660 --> 01:00:34.020
+Carolina Morales: aunque no sea fidedigno, aunque no sea real.
+
+457
+01:00:34.090 --> 01:00:36.339
+Carolina Morales: No sé si se entiende como lo que quise preguntar.
+
+458
+01:00:37.040 --> 01:00:43.180
+Matías y Joshua: Sí, creo que sí. O sea lo cuando lo liberamos, nos preocupamos precisamente como que
+
+459
+01:00:43.320 --> 01:00:45.179
+Matías y Joshua: tratase como de no inventar.
+
+460
+01:00:45.740 --> 01:00:52.150
+Matías y Joshua: Sí. Entonces, si hay cosas que no puede hacer o si hay cosas que no entiende, debería preguntarte
+
+461
+01:00:52.560 --> 01:00:59.549
+Matías y Joshua: ya ya, claro, como que pusimos ahora eso no tiene como ninguna maravilla. Es, es texto, es promo
+
+462
+01:00:59.660 --> 01:01:02.650
+Matías y Joshua: Sí, es eso.
+
+463
+01:01:03.280 --> 01:01:17.199
+Matías y Joshua: No sé si tú quieres agregar, o sea, la guía de comportamiento en el trono que denominamos. Somos explícitos. Cierto que que no te preguntas si no la puede sacar a partir de de una consulta. Por ejemplo, se cuela
+
+464
+01:01:17.320 --> 01:01:18.030
+Matías y Joshua: ya.
+
+465
+01:01:18.670 --> 01:01:33.350
+Matías y Joshua: pero yo creo que todavía se puede forzar como para que te dé una respuesta de algo si tú quieres que te inventes. Si, por ejemplo, después que publicamos el sitio, siempre nos llega como no siempre nos llega correos de la comunidad que dijeron oye, mira.
+
+466
+01:01:33.470 --> 01:01:38.460
+Matías y Joshua: le pedimos un código de Python, igual me lo hizo, sí, o entonces igual.
+
+467
+01:01:38.660 --> 01:01:43.009
+Matías y Joshua: Si bien nosotros decimos oye, intenta focalizarte con esta información
+
+468
+01:01:43.590 --> 01:01:46.900
+Matías y Joshua: Igual el el modelo como está construido.
+
+469
+01:01:47.130 --> 01:01:53.550
+Matías y Joshua: se puede forzar así como a puro texto, entonces eventualmente puede hacerlo, pero
+
+470
+01:01:53.990 --> 01:02:00.060
+Matías y Joshua: el trabajo del día a día y del proyecto es evitar que que suceda.
+
+471
+01:02:00.650 --> 01:02:05.679
+Carolina Morales: Okay Súper es bueno.
+
+472
+01:02:05.680 --> 01:02:07.279
+Alejandro Arévalo: Una pregunta: perdón.
+
+473
+01:02:07.680 --> 01:02:24.180
+Alejandro Arévalo: matías, una cuestión mucho más básica, también, dado la calidad. Yo veo la imagen, el el diseño, el sitio, la información, el I, N, E, no se ha acercado a usted para decirle oye pucha. Me gustaría trabajar con ustedes, colaborar, tener.
+
+474
+01:02:24.290 --> 01:02:30.759
+Alejandro Arévalo: No sé que pasarlo a ser parte de de la información pública que nosotros manejamos. ¿cómo ¿Cómo ha sido esa relación.
+
+475
+01:02:32.240 --> 01:02:37.639
+Matías y Joshua: No, no, no igual. Yo trabajé en el Ine. Antes trabajé en el censo.
+
+476
+01:02:37.900 --> 01:02:44.870
+Matías y Joshua: Aj: Entonces, por eso igual conozco conozco la base, no la verdad, que no
+
+477
+01:02:45.400 --> 01:02:51.310
+Matías y Joshua: le escribimos. El Aesi hace el Ae, que el el
+
+478
+01:02:51.520 --> 01:03:08.190
+Matías y Joshua: el la rama de de la Cepal, Cierto que está a cargo de todo el la cuestión demográfica, y lo escribimos para presentarle el el proyecto Conversar, saber que en qué están ellos? ¿cómo ¿Cómo ven esto? Porque igual las interacciones con
+
+479
+01:03:08.680 --> 01:03:20.090
+Matías y Joshua: con el L M como que no las vemos como tan masivas Todavía yo creo que es porque un una institución oficial no se va a arriesgar a este problema que hablábamos antes, No, Es decir, como me aseguro que el dato que yo voy a entregar
+
+480
+01:03:20.340 --> 01:03:28.259
+Matías y Joshua: es fidedigno, o sea, una institución, como no sé, el I N, E o como la Oficina de estadística en general, como que para dar ese paso como que
+
+481
+01:03:29.310 --> 01:03:30.940
+Matías y Joshua: tendrían que pasar varias cosas.
+
+482
+01:03:31.280 --> 01:03:42.669
+Matías y Joshua: Nosotros, como somos 2 ciudadanos motivados. Tenemos más libertad, entonces, pero no, no, ojalá lo hagan.
+
+483
+01:03:42.670 --> 01:03:44.539
+Alejandro Arévalo: Mhm de la Grecia.
+
+484
+01:03:54.910 --> 01:04:04.590
+Bastián Olea: Ya chiquillos y chiquillas. Gracias por las preguntas. Ahora, antes de que sigamos con el taller, vamos a hacer un pequeño Brexit les parece matías y yo hecho unos
+
+485
+01:04:04.810 --> 01:04:09.750
+Bastián Olea: 7 minutitos de Break. Y volvemos para una actividad. Les parece.
+
+486
+01:04:10.030 --> 01:04:11.589
+Matías y Joshua: Vamos a los comerciales.
+
+487
+01:04:11.590 --> 01:04:14.549
+Bastián Olea: Vamos a comer un tecito y nos vemos.
+
+488
+01:04:15.130 --> 01:04:16.700
+Bastián Olea: Yo me llevo con la matemáticas
+
+489
+01:04:19.080 --> 01:04:20.720
+Bastián Olea: a las 8 55.
+
+490
+01:04:21.260 --> 01:04:21.820
+Matías y Joshua: Vale.
+
+491
+01:04:22.140 --> 01:04:24.140
+Carolina Morales: My. God: Sí. Perdón.
+
+492
+01:04:24.140 --> 01:04:26.240
+Matías y Joshua: A ver cómo lo vamos a ver
+
+493
+01:04:26.370 --> 01:04:31.570
+Matías y Joshua: cosas que son el corazón del proyecto. Así que para que vuelvan y
+
+494
+01:04:32.370 --> 01:04:33.839
+Matías y Joshua: y vean de qué se trata.
+
+495
+01:04:36.870 --> 01:04:37.570
+Matías y Joshua: Mhm.
+
+496
+01:04:49.000 --> 01:04:51.610
+Carolina Morales: Prepararon un trocito, un cafecito en el Break.
+
+497
+01:04:52.600 --> 01:04:53.770
+Matías y Joshua: Necesario.
+
+498
+01:05:02.160 --> 01:05:05.860
+Bastián Olea: Si ya estamos todos de vuelta, entonces yo creo que podemos continuar.
+
+499
+01:05:07.020 --> 01:05:11.340
+Matías y Joshua: Ya bueno aquí algunas precisiones.
+
+500
+01:05:12.680 --> 01:05:16.090
+Matías y Joshua: El taller, como no es.
+
+501
+01:05:21.220 --> 01:05:23.510
+Bastián Olea: Es posible que tengan que compartir la pantalla de nuevo.
+
+502
+01:05:24.940 --> 01:05:25.570
+Matías y Joshua: Sí.
+
+503
+01:05:26.600 --> 01:05:29.900
+Bastián Olea: Que le saqué la pantalla, así que tendría que compartirla de nuevo.
+
+504
+01:05:30.350 --> 01:05:31.100
+Matías y Joshua: Vaya
+
+505
+01:05:35.490 --> 01:05:36.790
+Matías y Joshua: ya ahí. Sí.
+
+506
+01:05:36.980 --> 01:05:38.120
+Bastián Olea: Sí, ahí Sí.
+
+507
+01:05:39.110 --> 01:05:50.740
+Matías y Joshua: Ya súper. Ahora, en el taller vamos a tener 2 partes, como decíamos, una, como de algunas características de elmer la librería para interactuar con los modelos
+
+508
+01:05:50.920 --> 01:06:00.209
+Matías y Joshua: y luego de China y y Chinny chat para elevar esto a dashford y chat bots.
+
+509
+01:06:00.960 --> 01:06:09.069
+Matías y Joshua: Así que, por una cuestión como de de diversificar un poco la
+
+510
+01:06:09.450 --> 01:06:13.759
+Matías y Joshua: lo que estamos haciendo nosotros, como que ahora estamos trabajando con
+
+511
+01:06:14.400 --> 01:06:17.240
+Matías y Joshua: con datos del del Banco Central.
+
+512
+01:06:17.370 --> 01:06:27.100
+Matías y Joshua: entonces parte de los ejercicios no lo vamos a hacer consultando la base de datos del censo, sino la base de datos del del banco central.
+
+513
+01:06:27.550 --> 01:06:31.689
+Matías y Joshua: Ahí el el el hoscha es una librería
+
+514
+01:06:31.810 --> 01:06:34.160
+Matías y Joshua: que básicamente lo que hace es, se conecta a la Api.
+
+515
+01:06:34.700 --> 01:06:36.260
+Matías y Joshua: ¿y
+
+516
+01:06:37.510 --> 01:06:50.649
+Matías y Joshua: ¿cuál es la la virtud de por qué hacerlo así? Primero, nos parecía más sencillo. Segundo, algo como estamos trabajando, y tercero, atraer un poco lo que hemos desarrollado y aplicarlo como
+
+517
+01:06:51.330 --> 01:06:52.619
+Matías y Joshua: a otro tipo de base.
+
+518
+01:06:53.170 --> 01:07:00.200
+Matías y Joshua: Pero en rigor la filosofía, la las funciones son son las mismas
+
+519
+01:07:01.280 --> 01:07:05.430
+Matías y Joshua: todo el Código. Nos vamos a ver todo el código.
+
+520
+01:07:05.800 --> 01:07:11.910
+Matías y Joshua: pero lo vamos a lo vamos a compartir ahí para que no se preocupen por eso
+
+521
+01:07:12.250 --> 01:07:15.940
+Matías y Joshua: y después lo puedan ver en detalle y que no nos tome demasiado tiempo.
+
+522
+01:07:16.290 --> 01:07:20.990
+Matías y Joshua: Entonces, ¿qué es lo que vamos a ver. Acá Bueno, lo primero, Lo más sencillo es como se configuran esto.
+
+523
+01:07:21.680 --> 01:07:26.690
+Matías y Joshua: En segundo lugar, lo que es un un plomo
+
+524
+01:07:26.830 --> 01:07:32.120
+Matías y Joshua: y lo que puede o no puede hacer un L. L. M: A partir de esto.
+
+525
+01:07:32.630 --> 01:07:42.419
+Matías y Joshua: y una gran herramienta que le da mucho poder son las Tolkolim, que son herramientas que el modelo dispone para resolver las consultas.
+
+526
+01:07:44.200 --> 01:07:54.049
+Matías y Joshua: Bien, Entonces, ¿cuál es la idea? Y yo creo que es como la la la tesis de todo el taller y lo que está detrás de igual sansolar que con un buen prom.
+
+527
+01:07:54.290 --> 01:07:59.000
+Matías y Joshua: y tú bien descritas como que puedes construir sistemas como, por ejemplo, sensola. ¿sí?
+
+528
+01:08:00.860 --> 01:08:01.700
+Matías y Joshua: Bien.
+
+529
+01:08:01.890 --> 01:08:09.560
+Matías y Joshua: Entonces lo primero es que las credenciales, 1 siempre la viven en el en Byron.
+
+530
+01:08:09.880 --> 01:08:17.470
+Matías y Joshua: que es como el puntito es precisamente que no es tan visible a primera en un primer vistazo.
+
+531
+01:08:17.680 --> 01:08:25.149
+Matías y Joshua: y este es como un archivo de configuración del proyecto, o puede ser también global en general para los proyectos que 1 desarrolla
+
+532
+01:08:25.660 --> 01:08:38.830
+Matías y Joshua: y la Pri, la forma de crearlo. Bueno, es como directamente, a partir de algún editor de texto o en R. Esta esta librería, si y que con esta función
+
+533
+01:08:39.450 --> 01:08:46.839
+Matías y Joshua: y este argumento, yo creo el Erem Byron dentro de este del entorno que voy a estar trabajando
+
+534
+01:08:47.410 --> 01:08:51.620
+Matías y Joshua: y ahí lo que yo tengo que hacer. Tengo que tener las claves de la Api.
+
+535
+01:08:51.729 --> 01:08:59.660
+Matías y Joshua: que en el caso de Open Eye o de Antropic o de cualquier servicio, 1 tiene que ingresar ahí,
+
+536
+01:08:59.810 --> 01:09:04.329
+Matías y Joshua: cargar eventualmente con con dinero comprar.
+
+537
+01:09:04.529 --> 01:09:12.230
+Matías y Joshua: Y ahí te va a dar la clave. Igual. Hay servicios gratuitos. Por ejemplo, Google Géminis tiene como te da
+
+538
+01:09:12.330 --> 01:09:19.120
+Matías y Joshua: te da una cierta cantidad de tokens para determinados modelos, y yo creo que alcanza para hacer ejercicio, no muy complejo.
+
+539
+01:09:19.870 --> 01:09:31.419
+Matías y Joshua: Eso, por el lado, como de los modelos y, por otro lado, en el Banco Central. Ustedes pueden poner Api, banco central y los va a tirar una página, se registran y les dan la
+
+540
+01:09:31.500 --> 01:09:41.439
+Matías y Joshua: lápi o sea, el claro el En este caso, la clave para poder conectarse y con estos mismos nombres. Esto sí es importante con estos mismos nombres.
+
+541
+01:09:41.870 --> 01:09:44.390
+Matías y Joshua: Uno pone la clave
+
+542
+01:09:44.890 --> 01:09:57.499
+Matías y Joshua: y ya está en condiciones de de de trabajar. La forma de comprobar esto, este código acá básicamente lo que hace esta función es que la imprime, y
+
+543
+01:09:57.770 --> 01:10:01.819
+Matías y Joshua: si le quitásemos la línea 9 y la 13, veríamos toda la
+
+544
+01:10:01.980 --> 01:10:04.400
+Matías y Joshua: la clave. Pero la idea mostrarla.
+
+545
+01:10:05.030 --> 01:10:09.099
+Matías y Joshua: Y eso cómo ¿Cómo? Cómo primera cosa no es, no es más complejo que eso.
+
+546
+01:10:09.580 --> 01:10:14.229
+Matías y Joshua: Obviamente, Acá antes se cargaron las librerías, elmer y la librería del Banco Central.
+
+547
+01:10:15.010 --> 01:10:32.180
+Matías y Joshua: Y bueno, eso, entonces algunos conceptos que ya son parte del cotidiano, probablemente, Así que no, no me voy a demorar mucho en eso, un algo que es necesario distinguir entre el proveedor y el modelo. El proveedor es quien ofrece el servicio que espera el modelo.
+
+548
+01:10:32.410 --> 01:10:45.260
+Matías y Joshua: El modelo puede ser un L. L. M: concreto, Por ejemplo, un chat G, P. T Luna, Un Cloud Sonet, Cinco, No sé. Eso Eso viene siendo como un modelo en particular.
+
+549
+01:10:46.150 --> 01:10:51.389
+Matías y Joshua: Bueno, el prome es el texto con la instrucción que enviamos al modelo.
+
+550
+01:10:51.830 --> 01:10:57.650
+Matías y Joshua: El turno vendría siendo un mensaje individual que ya sea del usuario o en este caso, del asistente.
+
+551
+01:10:58.140 --> 01:11:03.939
+Matías y Joshua: Lo relevante acá es que la conversación es una secuencia acumulada de turnos
+
+552
+01:11:04.330 --> 01:11:08.129
+Matías y Joshua: y que 1 puede inspeccionarlas también con las herramientas que da que da el r
+
+553
+01:11:08.470 --> 01:11:15.879
+Matías y Joshua: los tokens son la unidad básica de información y, bueno, el contexto es todo lo que se envía en cada repuesto.
+
+554
+01:11:17.450 --> 01:11:26.890
+Matías y Joshua: Bien, Y aquí Elmer nos ofrece como varias funciones, por así decirlo.
+
+555
+01:11:27.250 --> 01:11:31.629
+Matías y Joshua: en el caso de Open Ahi. Es el modelo en el cual estamos trabajando.
+
+556
+01:11:32.400 --> 01:11:39.370
+Matías y Joshua: El chat es este, pero sí van a ocupar otro
+
+557
+01:11:39.620 --> 01:11:51.160
+Matías y Joshua: otro servicio, otro proveedor de servicios hay. Hay. La función. Tiene otro nombre. Por ejemplo, No sé si en el caso de tan tropic es chat and tropic o o o Chuck cloud.
+
+558
+01:11:52.050 --> 01:11:52.470
+Bastián Olea: Sí.
+
+559
+01:11:52.470 --> 01:11:52.910
+Matías y Joshua: Pero no.
+
+560
+01:11:52.910 --> 01:11:55.420
+Bastián Olea: Antropic Chatlip, Syk, etcétera.
+
+561
+01:11:55.800 --> 01:11:57.090
+Matías y Joshua: Ya? Perfecto.
+
+562
+01:11:58.470 --> 01:12:10.739
+Matías y Joshua: Bien, Entonces, ¿qué tipo de objeto es este? No cierto? Esa es una primera pregunta que habría que hacerse? Y la respuesta no es tan intuitiva. Si nosotros hacemos esto.
+
+563
+01:12:11.300 --> 01:12:18.160
+Matías y Joshua: es un objeto que es un r 6, ¿no? Y la pregunta es: ¿Por qué Es
+
+564
+01:12:18.350 --> 01:12:21.260
+Matías y Joshua: porque es este tipo de objeto y no es otro.
+
+565
+01:12:21.700 --> 01:12:23.140
+Matías y Joshua: Y
+
+566
+01:12:23.380 --> 01:12:33.259
+Matías y Joshua: Y bueno, y básicamente la respuesta más directa es porque un objeto que es mutable, que va creciendo en el en la interacción entre cada turno, Sí,
+
+567
+01:12:35.680 --> 01:12:42.249
+Matías y Joshua: ahí si alguien quiere entrar más en detalles. Bueno, están las viñetas de la de la librería
+
+568
+01:12:42.430 --> 01:12:48.199
+Matías y Joshua: y también está un libro que recomiendo harto, que es el de re avanzado
+
+569
+01:12:48.610 --> 01:12:53.390
+Matías y Joshua: de Harley Wickham, que también en la parte como de meta programación o programación orientada
+
+570
+01:12:53.570 --> 01:12:57.639
+Matías y Joshua: objetos, está R, C y está s 3 y y y otros más que no.
+
+571
+01:12:57.840 --> 01:12:59.100
+Matías y Joshua: No recuerdo en este momento.
+
+572
+01:12:59.420 --> 01:13:05.550
+Matías y Joshua: Entonces para comenzar a interactuar con con el con el modelo.
+
+573
+01:13:05.680 --> 01:13:06.980
+Matías y Joshua: Si se fijan.
+
+574
+01:13:07.150 --> 01:13:12.750
+Matías y Joshua: Yo aquí tengo el chat, que es como lo definimos antes. Así. ¿sí?
+
+575
+01:13:14.620 --> 01:13:22.920
+Matías y Joshua: Y además tengo esto que se llama en este caso un método.
+
+576
+01:13:23.630 --> 01:13:32.129
+Matías y Joshua: Y al interior de esto ya yo puedo interactuar con el modelo. En este caso le hice una pregunta de qué es la antropología. Así muy genéricamente.
+
+577
+01:13:32.410 --> 01:13:35.570
+Matías y Joshua: Y acá me da un chorizo bien grande.
+
+578
+01:13:35.910 --> 01:13:39.980
+Matías y Joshua: Si yo le digo ahora en una sola frase.
+
+579
+01:13:40.640 --> 01:13:48.099
+Matías y Joshua: me responde mucho más conciso aquí. Simplemente, lo que quiero mostrar es que lo en esta instancia que 1 abre.
+
+580
+01:13:48.320 --> 01:13:57.469
+Matías y Joshua: se acumulan las conversaciones, entonces, como sabemos, probablemente en la medida en que cada 1 haya interactuado con los modelos que, a medida que la conversación va creciendo
+
+581
+01:13:57.770 --> 01:14:07.979
+Matías y Joshua: en cada turno, por así decirlo, como que va entrando todo el historial, entonces va creciendo los costos y va perdiendo. Se va perdiendo calidad en la en la interacción previamente. Tal
+
+582
+01:14:09.580 --> 01:14:13.669
+Matías y Joshua: bien. Ahora, si nosotros le hacemos una pregunta a esto y le decimos qué hora es.
+
+583
+01:14:13.980 --> 01:14:33.729
+Matías y Joshua: yo esperaría que me dijese la hora ¿no? Pero no por qué? Porque el modelo no está primero, no está actualizado, no tiene acceso a a la hora, entonces ya aquí nosotros, lo que podemos hacer es una función. Si cuando hablamos de las de la de las Tool colling tiene que ver con esto.
+
+584
+01:14:33.850 --> 01:14:35.530
+Matías y Joshua: Entonces hacemos una función.
+
+585
+01:14:35.950 --> 01:14:40.820
+Matías y Joshua: Y la función que está acá esa nos dice la hora
+
+586
+01:14:41.180 --> 01:14:49.340
+Matías y Joshua: dentro del Atúl. Nosotros. En este caso ponemos la función. Ponemos la descripción y, eventualmente, los argumentos, si es que la función tiene argumento.
+
+587
+01:14:49.600 --> 01:14:53.560
+Matías y Joshua: La registramos sí, dentro de esta instancia.
+
+588
+01:14:54.110 --> 01:15:14.009
+Matías y Joshua: Y si ahora nosotros le preguntamos de vuelta qué hora es, qué es lo que va a hacer el modelo sabe. Y esa es la maravilla que tiene una función, que es la hora, porque acá está la descripción, no como la metadata de la función para el modelo y va a ir a consultar la la la hora y nos va a decir: bueno, esto lo último que hicimos. Esto lo hicimos hoy día a las
+
+589
+01:15:14.330 --> 01:15:17.720
+Matías y Joshua: una 40. Así que va a aparecer esa hora.
+
+590
+01:15:17.890 --> 01:15:24.040
+Matías y Joshua: Esa es como esta. Es una idea muy sencilla, pero es muy poderosa.
+
+591
+01:15:26.370 --> 01:15:31.970
+Matías y Joshua: Bien, ahora entremos a la idea de los de los prom.
+
+592
+01:15:32.750 --> 01:15:35.830
+Matías y Joshua: lo que hemos hecho hasta acá hacer simples preguntas.
+
+593
+01:15:36.290 --> 01:15:42.160
+Matías y Joshua: Entonces, cuando nosotros le preguntamos, por ejemplo, analiza la evolución de la tasa de desocupación nacional durante el año 20, 20,
+
+594
+01:15:42.370 --> 01:15:44.640
+Matías y Joshua: incluye cifras y desocupación.
+
+595
+01:15:44.850 --> 01:15:54.249
+Matías y Joshua: ¿qué es lo que vamos a esperar que suceda? Acá No tenemos como un trompo como lo que veníamos hablando con todas las especificaciones lo que puede 1 puede hacer, sino simplemente para ver el comportamiento.
+
+596
+01:15:54.710 --> 01:16:01.420
+Matías y Joshua: Entonces, ¿qué es lo que nos va a decir acá. Bueno, durante el 2 020, la tasa de ocupación nacional de Argentina mostró bla, bla bla.
+
+597
+01:16:01.810 --> 01:16:15.769
+Matías y Joshua: lo cual tiene sentido porque en ningún momento. Nosotros le especificamos de qué país era entonces el modelo. Con todo el acervo de información que tiene nada arrojó algo, sí, pero acá, primero las respuestas muy larga, mucho más larga de lo que nosotros pusimos acá.
+
+598
+01:16:16.150 --> 01:16:21.999
+Matías y Joshua: La cifra. No tenemos de saber si es realidad o no? Y bueno, y no es el país que queremos. Entonces.
+
+599
+01:16:22.320 --> 01:16:26.620
+Matías y Joshua: ¿qué es lo que viene? Acá Bueno, los prom
+
+600
+01:16:26.820 --> 01:16:33.200
+Matías y Joshua: hay ciertas ideas bajo las cuales 1 puede diseñar un buen plan y en principio, debería tener al menos como
+
+601
+01:16:33.590 --> 01:16:35.000
+Matías y Joshua: 4 o 5 cosas.
+
+602
+01:16:35.440 --> 01:16:40.169
+Matías y Joshua: lo que sería el rol. En este caso, vamos a definir un rol que eres analista del mercado laboral.
+
+603
+01:16:41.230 --> 01:16:58.360
+Matías y Joshua: El contexto y acá dentro de este mismo paso. También queremos comentarles que los Proms se pueden parametrizar. Es decir, yo puedo ir modificando el contexto en el entorno de R, Entonces eso me da como más versatilidad con el dulce con el
+
+604
+01:16:58.530 --> 01:17:00.100
+Matías y Joshua: con el P. R o M.
+
+605
+01:17:00.280 --> 01:17:01.899
+Matías y Joshua: La tarea previamente tal
+
+606
+01:17:02.340 --> 01:17:07.200
+Matías y Joshua: Sí, la la la evidencia, los límites más o menos de como quiero que haga las cosas.
+
+607
+01:17:07.890 --> 01:17:13.210
+Matías y Joshua: Por ejemplo, acá no sé, le decimos, evita Firmar causalidad sin evidencias
+
+608
+01:17:13.480 --> 01:17:19.210
+Matías y Joshua: distingue los datos de la interpretación. Aquí es básicamente ir jugando
+
+609
+01:17:19.580 --> 01:17:29.030
+Matías y Joshua: y el formato en este caso le damos, vamos a paralimentizar la cantidad como de hallazgo de Insight que queremos que nos den cada respuesta y acá le vamos a dar
+
+610
+01:17:29.190 --> 01:17:30.949
+Matías y Joshua: algo más de información adicional.
+
+611
+01:17:31.190 --> 01:17:36.450
+Matías y Joshua: Generalmente los prom, 1 los puede tener dentro del
+
+612
+01:17:36.950 --> 01:17:41.510
+Matías y Joshua: del chat o los puede tener como un archivo de texto plano
+
+613
+01:17:41.890 --> 01:17:50.899
+Matías y Joshua: que un punto M que nosotros generalmente los directores los llamamos. Tenemos esta carpeta, o puede ser un config. No sé, y ahí está el el Promp.
+
+614
+01:17:51.220 --> 01:17:52.060
+Matías y Joshua: Bien.
+
+615
+01:17:53.690 --> 01:18:00.399
+Matías y Joshua: entonces ya acá estaríamos de vuelta en el Ere. Entonces yo acá ya sabemos que van a ser 2.
+
+616
+01:18:00.560 --> 01:18:05.189
+Matías y Joshua: Tenemos el contexto acá está la instrucción.
+
+617
+01:18:05.770 --> 01:18:13.910
+Matías y Joshua: Y usamos esta función, que es muy útil. Porque lo que hace, ¿qué es lo que hace va a tomar este este archivo.
+
+618
+01:18:14.060 --> 01:18:16.419
+Matías y Joshua: Pero además le va a sumar esto.
+
+619
+01:18:16.520 --> 01:18:19.289
+Matías y Joshua: lo que parametizamos y acá entonces
+
+620
+01:18:20.620 --> 01:18:25.789
+Matías y Joshua: nos va a dar. Así como, Bueno, si se fijan antes, no había contexto, pero el contexto se lo definimos acá
+
+621
+01:18:26.340 --> 01:18:32.079
+Matías y Joshua: y lo mismo con el el formato también. Esto no estaba antes. Hasta ahora.
+
+622
+01:18:32.320 --> 01:18:36.469
+Matías y Joshua: Esa es como la idea de la el de la parametización que 1 puede hacer.
+
+623
+01:18:36.950 --> 01:18:47.689
+Matías y Joshua: Y bien, entonces, ahora algo que no habíamos hecho hasta ahora es que 1 de los argumentos que tiene
+
+624
+01:18:48.030 --> 01:18:53.679
+Matías y Joshua: es que 1 puede agregarle texto al al al prom al system pront, por así decirlo.
+
+625
+01:18:54.090 --> 01:19:13.269
+Matías y Joshua: Entonces ahora nos va a quedar este bot ya como seteado con lo que queremos que haga con las instrucciones. Entonces, si ahora nosotros le hacemos la misma pregunta que le hicimos antes, deberíamos esperar otro comportamiento. Ya nos debería decir Argentina o cualquier otro país. Nos ha dicho lo las pruebas que información nos dijo Colombia otras veces, nos dijo Chile, cierto.
+
+626
+01:19:13.350 --> 01:19:19.939
+Matías y Joshua: pero ahora, como nosotros ya le estamos definiendo, que es del mercado laboral chileno, al menos por ese lado, podríamos tener problemas.
+
+627
+01:19:21.120 --> 01:19:36.310
+Matías y Joshua: Claro. Bueno, entonces y perdón, porque del 20 20 le preguntamos por qué está hasta el año con información hasta el año 20, 25 enero del 20, 25, Entonces, el 20 20 fue un año que pasaron cosas interesantes en términos de
+
+628
+01:19:36.550 --> 01:19:37.700
+Matías y Joshua: de desempleo.
+
+629
+01:19:38.620 --> 01:19:42.910
+Matías y Joshua: Bien, entonces le definimos como do inside acá la roja
+
+630
+01:19:43.620 --> 01:19:46.419
+Matías y Joshua: y acá da algo más descriptivo. No
+
+631
+01:19:46.900 --> 01:20:03.139
+Matías y Joshua: tenemos misma pregunta distinto comportamiento. El país correcto, pero acá se equivoca. Nos dice que pasó de 8 coma 2 a un máximo de 13 coma 1 en julio, septiembre y el máximo nos fue en julio y septiembre.
+
+632
+01:20:03.320 --> 01:20:08.309
+Matías y Joshua: sino que el máximo fue en el trimestre de mayo, julio, mayo, Junio, julio.
+
+633
+01:20:08.560 --> 01:20:10.850
+Matías y Joshua: Sí. Entonces, ¿qué es lo que pasa acá
+
+634
+01:20:11.120 --> 01:20:20.870
+Matías y Joshua: que da cifras plausibles. No es como que sí las cifras plausibles, pero que no son verificables directamente, a menos que 1 sea el trabajo de hacerlo.
+
+635
+01:20:21.180 --> 01:20:25.250
+Matías y Joshua: Entonces, cuando 1 se enfrenta a este problema, ¿cierto?
+
+636
+01:20:25.690 --> 01:20:28.650
+Matías y Joshua: Ahí entra la las Tool Colling. Ya
+
+637
+01:20:29.610 --> 01:20:37.210
+Matías y Joshua: no sé si está acá, me van siguiendo o no para pasar a lo siguiente. No sé si hay alguna duda, hasta acá
+
+638
+01:20:38.320 --> 01:20:40.710
+Matías y Joshua: ya bien.
+
+639
+01:20:42.570 --> 01:20:50.250
+Matías y Joshua: entonces esto no es recomendable, como usar el el modelo en sí mismo para preguntarle por datos. Eso no es recomendable. Hay que hacer otra cosa.
+
+640
+01:20:51.380 --> 01:21:01.469
+Matías y Joshua: Entonces hagamos la cosa malo. Vamos a llamar la la librería que la entiendo. Sebastián la acaba de la la la compartió. Parece que en el chat.
+
+641
+01:21:02.080 --> 01:21:06.290
+Matías y Joshua: Sí, acá. La cargamos
+
+642
+01:21:06.610 --> 01:21:08.349
+Bastián Olea: La del Banco Central. Te refieres.
+
+643
+01:21:08.350 --> 01:21:09.540
+Matías y Joshua: Sí, Sí, Sí, Sí, Sí.
+
+644
+01:21:09.540 --> 01:21:11.249
+Bastián Olea: Esa se instala desde crun.
+
+645
+01:21:12.300 --> 01:21:15.430
+Matías y Joshua: No. Ahora está desde Githaud.
+
+646
+01:21:16.090 --> 01:21:17.270
+Bastián Olea: Deja subir el icono.
+
+647
+01:21:17.730 --> 01:21:20.130
+Matías y Joshua: Hizo una actualización ahí, el el hotcha.
+
+648
+01:21:20.920 --> 01:21:34.439
+Matías y Joshua: Pero básicamente, ¿qué es lo que tenemos el Banco Central, como que toda la data que tiene y data de otras instituciones, por ejemplo del Ine, como que las compila y pone a disposición un servicio para consultarlas, ya
+
+649
+01:21:34.650 --> 01:21:35.980
+Matías y Joshua: que
+
+650
+01:21:36.160 --> 01:21:45.100
+Matías y Joshua: entonces 1 de de distintos lenguajes puede acceder a esa información. Es mucha información. Son 27 000 series más o menos 25 027 1 000.
+
+651
+01:21:45.460 --> 01:21:49.679
+Matías y Joshua: Entonces el desafío que tiene la fuente
+
+652
+01:21:49.990 --> 01:21:55.800
+Matías y Joshua: va a ser cómo identificar la serie correcta que tú quieres en el censo
+
+653
+01:21:55.920 --> 01:22:08.479
+Matías y Joshua: era distinto porque tú no tenías tantas variables. Entonces el desafío no era, no era encontrar la serie que tú querías, si no, que era que que hiciese bien la consulta ya y que hiciese bien la consulta
+
+654
+01:22:08.690 --> 01:22:11.160
+Matías y Joshua: era que lo hiciese en S. Q. L.
+
+655
+01:22:11.800 --> 01:22:22.020
+Matías y Joshua: Bien, entonces es, olvidémonos de los de los L. L, M: Y cómo esta cosa sería artesanalmente a mano. Yo básicamente, lo que haría es.
+
+656
+01:22:22.140 --> 01:22:31.710
+Matías y Joshua: primero llamaría esta función para buscar, si es que en todas las entradas que tengan desocupación nacional
+
+657
+01:22:32.410 --> 01:22:37.389
+Matías y Joshua: y un argumento que recibe es la frecuencia, porque pueden ser anuales, trimestrales o mensuales. Ya
+
+658
+01:22:37.480 --> 01:22:53.130
+Matías y Joshua: entonces esto me debería arrojar como todas las series que pueden que pueden existir con ese nombre ya. Y acá yo identifique la que quiero, que es la tasa de desocupación nacional no ajustada. No es estacionalizada.
+
+659
+01:22:53.820 --> 01:22:55.090
+Matías y Joshua: y
+
+660
+01:22:55.650 --> 01:23:07.470
+Matías y Joshua: aquí yo tengo la metadata con esta función. Y finalmente, con getseries obtengo descargo la base previamente. Tal. De ahí tendría mi serie completa.
+
+661
+01:23:07.660 --> 01:23:10.220
+Matías y Joshua: Aquí hay un vistazo de cómo se vería esa salida.
+
+662
+01:23:10.530 --> 01:23:14.600
+Matías y Joshua: Ya esto si 1 lo hiciese como a mano perfecto. Y
+
+663
+01:23:16.210 --> 01:23:27.049
+Matías y Joshua: si esto llamásemos una Tul. ¿cómo sería? Bueno, primero definimos una función. Si aquí vamos a ir de menos a más en grado de complejidad, vamos a poner la serie que queremos.
+
+664
+01:23:27.490 --> 01:23:34.190
+Matías y Joshua: Una vez que tenemos que tenemos la función, la vamos a envolver en la tul. ¿cierto? Aquí está la función
+
+665
+01:23:34.650 --> 01:23:40.869
+Matías y Joshua: va a la descripción para que el modelos sepan qué es lo que tiene.
+
+666
+01:23:42.030 --> 01:23:53.700
+Matías y Joshua: Llamamos al modelo. Registramos la Tul y ahora le hacemos la consulta, la consulta, la tasa de desocupación de Chile y luego explica cómo ha evolucionado desde el 20 20 usando los datos.
+
+667
+01:23:56.740 --> 01:24:05.529
+Matías y Joshua: bien. Y acá llamo a la tool y nos dice los datos desde marzo del 2 010. Si se fijan, nosotros le pedimos desde el 2 020,
+
+668
+01:24:05.750 --> 01:24:14.590
+Matías y Joshua: Esta función tiene para 1 ponerle como el argumento desde cuando la quiere, pero no al modelo. No le definimos como argumento.
+
+669
+01:24:14.630 --> 01:24:25.850
+Matías y Joshua: entonces no arrojó todo, lo cual está bien, porque no se lo especificamos nosotros. Y acá nos da una nos da esta parte. Cómo ha evolucionado desde el 20 20 usando los datos?
+
+670
+01:24:26.190 --> 01:24:34.479
+Matías y Joshua: Entonces acá ya 1 empieza a ver como como el comportamiento ya más interesante de esta cuestión.
+
+671
+01:24:36.030 --> 01:24:43.250
+Matías y Joshua: Bien, ahora ¿qué pasa si nosotros avanzamos un pasito más allá y le ponemos argumentos al asunto.
+
+672
+01:24:43.670 --> 01:24:49.299
+Matías y Joshua: Ya entonces lo mismo. Descargar serie, Acá le ponemos la descripción.
+
+673
+01:24:49.690 --> 01:24:59.189
+Matías y Joshua: Aquí va precisamente serie. Y D, si se fijan, nosotros le decimos que es lo que es y le damos como un formato de cómo vendría la serie.
+
+674
+01:24:59.540 --> 01:25:07.300
+Matías y Joshua: Ya después, nuevamente generamos la instancia, registramos la tool.
+
+675
+01:25:07.850 --> 01:25:13.410
+Matías y Joshua: Construimos la pregunta en este caso, vamos a preguntar por ti, ya no por desocupación.
+
+676
+01:25:13.730 --> 01:25:17.770
+Matías y Joshua: Y le vamos a preguntar al chat cómo es que se ve esto?
+
+677
+01:25:18.920 --> 01:25:20.460
+Matías y Joshua: Bien, ya.
+
+678
+01:25:20.630 --> 01:25:23.780
+Matías y Joshua: Y se equivocó. Sí, ¿por qué se equivocó?
+
+679
+01:25:24.780 --> 01:25:34.380
+Matías y Joshua: Porque ¿cómo sabe el modelo que sería extraer? ¿se acuerdan que acá? Nosotros cuando lo hicimos a mano.
+
+680
+01:25:34.680 --> 01:25:46.890
+Matías y Joshua: teníamos primero una función para identificar el número de la serie. Una vez que lo conseguíamos, buscamos la metadata. Y una vez que teníamos la el el nombre y teníamos más información. Recién ahí
+
+681
+01:25:47.230 --> 01:25:56.070
+Matías y Joshua: ya va. Descargamos la la C, acá perdón, Tac Acá
+
+682
+01:25:56.300 --> 01:26:01.539
+Matías y Joshua: le dimos solamente la tool, la función para descargar la serie.
+
+683
+01:26:01.730 --> 01:26:08.459
+Matías y Joshua: Entonces, ¿qué es lo que hizo él? Él inventó acá. Una serie y obviamente, el Banco le dijo: no sabe qué esa serie no existe.
+
+684
+01:26:08.640 --> 01:26:12.169
+Matías y Joshua: Entonces, ¿cómo salimos de este de este límite?
+
+685
+01:26:12.970 --> 01:26:16.910
+Matías y Joshua: Bueno, quizás tenemos que registrar más series. Entonces
+
+686
+01:26:17.640 --> 01:26:20.770
+Matías y Joshua: habíamos arrancado con 3 series que hicimos a mano.
+
+687
+01:26:21.130 --> 01:26:35.850
+Matías y Joshua: Y esas 3 series, las 3 se las ingresamos como Tool al chat, ¿cierto? Una para buscar otra, para inspeccionar otra, para descargar Hasta el momento el solo tenía las la la función para descargar ya.
+
+688
+01:26:36.690 --> 01:26:44.979
+Matías y Joshua: Entonces, si ahora nosotros le mantenemos la misma pregunta: ¿qué es lo que va a suceder? Voil? Cierto, llamó a esta función.
+
+689
+01:26:45.760 --> 01:26:50.860
+Matías y Joshua: Sí, obtuvo la el nombre de la serie
+
+690
+01:26:51.050 --> 01:26:55.670
+Matías y Joshua: y listo, y nos tiró lo que nosotros le estamos pidiendo. Sí,
+
+691
+01:26:57.240 --> 01:27:05.259
+Matías y Joshua: Entonces ahí encontró la serie válida y fundamenta la respuesta con su dato, la respuesta un poquito más grande, acá la cortamos a modo de hacer más fácil la lectura.
+
+692
+01:27:06.010 --> 01:27:10.230
+Bastián Olea: Entonces en el fondo, usó una herramienta para poder usar bien la otra herramienta.
+
+693
+01:27:10.550 --> 01:27:13.630
+Matías y Joshua: Exactamente. Sí, esa es la maravilla del asunto. No
+
+694
+01:27:14.500 --> 01:27:25.500
+Matías y Joshua: como que no sé si acá. Les gusta cocinar, pero este concepto del missan place, es decir, cuando 1 prepara, como va va a cocinar y como que deja todos los ingredientes para después llegar y como armarlo más
+
+695
+01:27:25.790 --> 01:27:30.309
+Matías y Joshua: aquí como que 1 le da, hace como eso como que le da, como toda la herramienta
+
+696
+01:27:30.460 --> 01:27:32.889
+Matías y Joshua: para que él pueda resolver sí.
+
+697
+01:27:33.040 --> 01:27:41.039
+Matías y Joshua: Y una vez que ya tiene, todo eso empieza la interacción, y él va en función de la descripción. ¿cierto? Él va viendo que puede
+
+698
+01:27:41.630 --> 01:27:49.259
+Matías y Joshua: que puede emplear en función de lo que tú le estás consultando. Y en función, obviamente, del del P, R o M: Hay
+
+699
+01:27:49.280 --> 01:28:02.769
+Matías y Joshua: tú vuelves al Promp. Nosotros vimos algunas cosas, pero tú le puedes especificar, mira, tiene esta función o tiene esta tul hace esto. Estos son los límites. ¿tienes estas otras sí. Si 1, por ejemplo, también eso mejora también mucho, mucho la performance.
+
+700
+01:28:03.000 --> 01:28:07.519
+Matías y Joshua: En fin. Ya entonces, como se fijan con con 3 tulios.
+
+701
+01:28:08.090 --> 01:28:16.500
+Matías y Joshua: nada nos ahorro esto a un a un analista. Probablemente le toma un buen rato, no bien.
+
+702
+01:28:16.780 --> 01:28:25.139
+Matías y Joshua: Entonces la si se fijan la pregunta y el chat lo mantuvimos igual, solo cambiamos lo que el modelo puede hacer con las tuya. Ok.
+
+703
+01:28:27.000 --> 01:28:37.319
+Matías y Joshua: Ahora nosotros vamos a promover que se equivoque simplemente para ingresar una idea que es muy buena ya. Entonces nosotros le vamos a acá que busque el Pib.
+
+704
+01:28:37.500 --> 01:28:40.130
+Matías y Joshua: pero que por frecuencia use trimestral.
+
+705
+01:28:40.290 --> 01:28:42.900
+Matías y Joshua: ¿qué es lo que va a suceder ya?
+
+706
+01:28:43.180 --> 01:28:44.889
+Matías y Joshua: Entonces, ¿qué es lo que va a hacer Él
+
+707
+01:28:45.150 --> 01:28:51.149
+Matías y Joshua: va a ir a buscar. La serie acá. Está usando este argumento. Si se fijan muy evidente.
+
+708
+01:28:51.450 --> 01:28:52.590
+Matías y Joshua: Pero qué pasó?
+
+709
+01:28:53.370 --> 01:28:54.400
+Matías y Joshua: Se equivocó?
+
+710
+01:28:54.600 --> 01:28:56.719
+Matías y Joshua: Porque trimestral no existe.
+
+711
+01:28:57.230 --> 01:28:58.050
+Matías y Joshua: ¿sí?
+
+712
+01:28:58.410 --> 01:29:01.290
+Matías y Joshua: Entonces él, en vez de detenerse ahí,
+
+713
+01:29:01.480 --> 01:29:05.050
+Matías y Joshua: va a seguir esperando. Va a probar con otra cosa, ¿sí?
+
+714
+01:29:05.290 --> 01:29:11.520
+Matías y Joshua: Y esa es una maravilla que igual tienen. No sé si se fijaron en el ejemplo cuando nosotros vimos la demo de de Censolaf
+
+715
+01:29:11.810 --> 01:29:30.339
+Matías y Joshua: arribita, aparecen como las consul como he estado trabajando, el el chat, y a veces, como que va repitiendo cosas como que igual se cae y lo sigue intentando. Eso es como la la la tuol iteration. Entonces acá él sigue intentando, y ahí en la en después ya se da cuenta que encuentra. Y ahí no arroja
+
+716
+01:29:30.570 --> 01:29:35.620
+Matías y Joshua: en el resultado. Entonces ahí los descargo.
+
+717
+01:29:37.500 --> 01:29:41.720
+Matías y Joshua: entonces, por así decirlo, es como muy inteligente, no con estas
+
+718
+01:29:42.330 --> 01:29:45.650
+Matías y Joshua: con esta simple tools que le hemos definido.
+
+719
+01:29:47.600 --> 01:29:56.350
+Matías y Joshua: Bueno, yo le decía tul y derecho, pero parece que es Tul, lo parece ya como como funciona. Esto Esto es como una idea. Entonces, arranca el modelo.
+
+720
+01:29:57.520 --> 01:30:01.139
+Matías y Joshua: solicita un atúl. El coordina la ejecución del R
+
+721
+01:30:01.450 --> 01:30:15.880
+Matías y Joshua: da un resultado o error que entra al historial. Y acá el modelo decide si es que te entrega o no o sigue iterando o sigue probando con otra tour o con otro argumento, hasta que más o menos identifica qué es lo que tú estás buscando y te da la respuesta.
+
+722
+01:30:18.900 --> 01:30:27.549
+Matías y Joshua: Bien, ahora hagamos un chrome de analista un poquito más sofisticado de lo que hemos veníamos viendo entonces. Ahora le decimos: era un analista económico senior.
+
+723
+01:30:28.220 --> 01:30:36.160
+Matías y Joshua: Vas al análisis de las tools, prefiere una serie desestacionalizada, no confundas flujo de producción con stock de riqueza y resume la evolución
+
+724
+01:30:36.570 --> 01:30:38.160
+Matías y Joshua: en 4 a 6 etapas.
+
+725
+01:30:38.830 --> 01:30:49.330
+Matías y Joshua: Acá está y que que cuando dice Pip, en volumen e identifica las etapas.
+
+726
+01:30:49.850 --> 01:30:51.799
+Matías y Joshua: Entonces acá. Él busca la serie.
+
+727
+01:30:51.940 --> 01:30:52.790
+Matías y Joshua: ¿sí?
+
+728
+01:30:53.810 --> 01:30:57.010
+Matías y Joshua: Después llama a a la metadata de la serie
+
+729
+01:30:57.550 --> 01:31:01.140
+Matías y Joshua: para tener más antecedentes y finalmente descarga la serie.
+
+730
+01:31:01.370 --> 01:31:11.020
+Matías y Joshua: Y una vez que descarga la serie, ya puede puede ver los datos. Entonces, en función de eso, nos armó nuestro análisis si tenemos desde el 96
+
+731
+01:31:11.320 --> 01:31:15.379
+Matías y Joshua: hasta ahora, y nos generó 6 etapas.
+
+732
+01:31:15.760 --> 01:31:19.159
+Matías y Joshua: Todo lo que son los 90: expansión fuerte y posterior freno.
+
+733
+01:31:19.730 --> 01:31:24.470
+Matías y Joshua: recuperación y expansión prologada hasta el 2 008, ¿cierto? Había de la crisis en fin.
+
+734
+01:31:25.130 --> 01:31:32.530
+Matías y Joshua: crecimiento bajo o meseta ascendente este, el estancamiento de la productividad que le llaman algunos. Cierto que parte en este año.
+
+735
+01:31:33.160 --> 01:31:37.880
+Matías y Joshua: la pandemia y en la que estamos ahora
+
+736
+01:31:38.010 --> 01:31:44.200
+Matías y Joshua: ven como en muy poquitos pasos como que igual, tenemos, capturamos hasta harta información.
+
+737
+01:31:44.930 --> 01:31:58.560
+Matías y Joshua: Entonces nosotros hicimos esto con una serie. Imagínense un prompt o un interés por hacer un análisis juntando más información, o sea, el alcance, la capacidad que te da a ti de multiplicar el alcance de tu análisis es muy grande
+
+738
+01:31:58.940 --> 01:32:01.320
+Matías y Joshua: o de lo que quieres hacer, No necesariamente el análisis.
+
+739
+01:32:02.650 --> 01:32:07.850
+Matías y Joshua: Entonces, ¿qué es lo que tenemos que pasamos de una conversación con
+
+740
+01:32:07.990 --> 01:32:11.630
+Matías y Joshua: con un pron donde definimos el rol, los límites y la forma de responder.
+
+741
+01:32:11.800 --> 01:32:16.950
+Matías y Joshua: le entregamos las herramientas que en este caso buscan, validan y consultan datos reales
+
+742
+01:32:17.980 --> 01:32:30.249
+Matías y Joshua: que son, como vimos piezas pequeñitas, pero que en conjunto pueden construir un sistema bastante robusto para, en este caso, consultar la serie del
+
+743
+01:32:30.390 --> 01:32:38.920
+Matías y Joshua: del Banco Central, Sí, Y y
+
+744
+01:32:39.890 --> 01:32:50.430
+Matías y Joshua: así es como construimos el solab. Básicamente, no es como con un supercrón, sino básicamente coordinando la conducta, lo que sería el el el prom previamente, tal y las capacidades, las tuya.
+
+745
+01:32:51.650 --> 01:32:55.900
+Matías y Joshua: Esto que lo hicimos acá como en un mini taller. Si 1 lo empieza a escalar.
+
+746
+01:32:56.160 --> 01:33:02.519
+Matías y Joshua: puede construir cosas como como sensola, hay más elementos, obviamente, pero a grandes rasgos esto sería como el corazón del asunto.
+
+747
+01:33:03.200 --> 01:33:12.439
+Matías y Joshua: Y yo llego a esta calle. Ahora viene ochoa a comentarles más de de de Charney. No sé si haces una breve ronda de preguntas o en función del tiempo, seguimos
+
+748
+01:33:12.750 --> 01:33:13.910
+Matías y Joshua: seguimos.
+
+749
+01:33:17.600 --> 01:33:22.010
+Bastián Olea: Teoría que seguimos. Y si hay preguntas, las podemos ir haciendo en el chat para ir juntándolas.
+
+750
+01:33:26.860 --> 01:33:27.840
+Matías y Joshua: Cuánto tiempo?
+
+751
+01:33:29.410 --> 01:33:41.350
+Matías y Joshua: Bien, entonces vamos, obviamente, con la integración de la aplicación, ya como para hacer instalar el ciclo entre la creación del bot y digámosle producto aplicación como tal.
+
+752
+01:33:41.530 --> 01:33:47.820
+Matías y Joshua: Ya Entonces vamos a ver 5 aplicaciones.
+
+753
+01:33:47.950 --> 01:33:54.709
+Matías y Joshua: Training ya una ejemplo básico para ver el contexto de cómo funciona para la gente que no conoce Training
+
+754
+01:33:55.040 --> 01:34:04.210
+Matías y Joshua: y la gracia en particular acá de Chaning, es que 1 permite hacer aplicaciones web con pocas líneas. Ya hay muchas cosas con ya por detrás cuando hago clases de esto, siempre lo menciono.
+
+755
+01:34:04.660 --> 01:34:11.529
+Matías y Joshua: y eso da resultado de que una aplicación como tal sea en pocas líneas, y ya te puede hacer un chat.
+
+756
+01:34:12.050 --> 01:34:16.520
+Matías y Joshua: Tampoco son muchas. Así que Esa es la la motivación de mostrar esta parte.
+
+757
+01:34:17.590 --> 01:34:25.890
+Matías y Joshua: Entonces vamos a montar un ejemplo básicos sin nada de chat, nada nada con el ejemplo básico
+
+758
+01:34:26.180 --> 01:34:35.860
+Matías y Joshua: para entender cómo funciona y dar contexto. Luego vamos cuando hizo matías, ver el, digamos, la consulta.
+
+759
+01:34:36.010 --> 01:34:38.239
+Matías y Joshua: mano como si era una aplicación a mano.
+
+760
+01:34:38.940 --> 01:34:46.700
+Matías y Joshua: y luego una chat sin tu cierto con cuando te responde como con la memoria y luego la integración
+
+761
+01:34:46.960 --> 01:34:52.990
+Matías y Joshua: con la Tul y un atún mejorada ya. Y luego la vamos a ir viendo cómo funciona y probándola.
+
+762
+01:34:53.310 --> 01:35:01.619
+Matías y Joshua: Y el código obviamente va a estar acá en la Slight, y también tendrán acceso por si quieren copiar y pegar. Y y partir de ahí, o o probar, es la idea.
+
+763
+01:35:02.380 --> 01:35:05.929
+Matías y Joshua: Entonces, una aplicación Chaning, pueden ver que
+
+764
+01:35:06.400 --> 01:35:18.289
+Matías y Joshua: E. T A ya están dando ¿cierto? Entonces vamos a hablar de bien rápido de inputs, cierto, Un dashboard tradicional sería una aplicación de input, cosa que 1 puede controlar
+
+765
+01:35:18.450 --> 01:35:27.819
+Matías y Joshua: y outputs que son lo que en la aplicación retorna ya por ejemplo, acá yo hay 3, 2 outputs, ¿cierto? Y si yo acá, cambio otro título
+
+766
+01:35:28.760 --> 01:35:44.010
+Matías y Joshua: va a cambiar, acá, ¿cierto? Y si, por ejemplo, y se cambia Acá la cantidad. Observaciones, estos 2 inputs impactan en ese auto, ¿vale? Entonces puedo tener una aplicación
+
+767
+01:35:44.550 --> 01:35:50.010
+Matías y Joshua: que hace algo tan simple, no tan simple, porque predice y no un ejercicio
+
+768
+01:35:50.130 --> 01:35:57.730
+Matías y Joshua: trivial, pero con poco control. Le puedo hacer una aplicación que que haga eso Ya como eso se traduce en en una aplicación.
+
+769
+01:35:57.990 --> 01:36:07.439
+Matías y Joshua: Son 39 líneas. No hay mucho para una aplicación que predice una serie y mostrarles que
+
+770
+01:36:08.100 --> 01:36:17.400
+Matías y Joshua: primero 1 carga los paquetes que va a utilizar en este caso Chainning Ves Elif para la Interfaz Chainning para, digamos, el framework
+
+771
+01:36:17.870 --> 01:36:26.730
+Matías y Joshua: y forecast, 1 en particular para para hacer predicciones. Obviamente, se imaginarán que enciensolab Ocupamos otro cierto
+
+772
+01:36:27.740 --> 01:36:34.830
+Matías y Joshua: para graficar para el mapa serán una 10 paquetes más ya.
+
+773
+01:36:34.950 --> 01:36:39.169
+Matías y Joshua: Y tenemos una interfaz de usuario que
+
+774
+01:36:40.010 --> 01:36:43.360
+Matías y Joshua: que acá tiene cierto parámetro el título
+
+775
+01:36:43.590 --> 01:36:48.800
+Matías y Joshua: y Acá 1 pone los inputs y out, y atrás está la lógica
+
+776
+01:36:49.070 --> 01:36:54.749
+Matías y Joshua: ya básicamente, el cerebro de la aplicación. Ya no vamos a detenernos tanto
+
+777
+01:36:54.850 --> 01:37:04.829
+Matías y Joshua: porque integrar un chat, nos ahorramos mucho de esta parte. Sí. ¿por qué? Porque la gracia del chat es que interpreta
+
+778
+01:37:04.950 --> 01:37:10.509
+Matías y Joshua: lo que 1 quiera hacer entonces? Quizás la ventaja en este caso.
+
+779
+01:37:10.790 --> 01:37:13.669
+Matías y Joshua: En el escenario de que el chat funcione bien.
+
+780
+01:37:13.990 --> 01:37:17.279
+Matías y Joshua: ¿Podemos, por ejemplo, en un restaurante adicional. Podemos tener
+
+781
+01:37:17.420 --> 01:37:28.749
+Matías y Joshua: 5 inputs donde yo puedo seleccionar, filtrar por algo, filtrar por otra cosa, etcétera, etcétera. Pero eso todo lo puedo cambiar por un chat y que el chat interprete los filtros que yo quiero hacer
+
+782
+01:37:28.930 --> 01:37:33.099
+Matías y Joshua: ya Entonces esa sería una ventaja como estos nuevos tipos de aplicaciones.
+
+783
+01:37:34.210 --> 01:37:43.490
+Matías y Joshua: Bien, entonces vamos a ver el explorador manual. Acá Si me permiten, voy a probar
+
+784
+01:37:45.820 --> 01:37:51.790
+Matías y Joshua: el chat y quisiera mostrarle lo que primero
+
+785
+01:37:52.160 --> 01:38:03.900
+Matías y Joshua: es bueno hacer ejercicio manual, ¿cierto? Porque 1 ve el paso a paso, y ahí se va imaginando qué herramientas son útiles para el desarrollo de de una aplicación, entonces, repitiendo como el paso manual de
+
+786
+01:38:04.170 --> 01:38:11.630
+Matías y Joshua: querer. Espero que ahí se vea de querer descargar una serie del
+
+787
+01:38:11.740 --> 01:38:16.980
+Matías y Joshua: Banco Central con la información que nos dan la siguiente.
+
+788
+01:38:17.210 --> 01:38:27.550
+Matías y Joshua: Por ejemplo, un ejemplo podría ser este bueno Consola está tomada con sólo ya cargamos el token, ¿cierto?
+
+789
+01:38:28.550 --> 01:38:31.639
+Matías y Joshua: No tengo. Es Token, ¿Por qué no?
+
+790
+01:38:32.470 --> 01:38:40.190
+Matías y Joshua: Bueno, sí voy a intentar de nuevo cosas de hacer el envío.
+
+791
+01:38:40.800 --> 01:38:41.870
+Bastián Olea: No se ve el R.
+
+792
+01:38:42.530 --> 01:38:44.390
+Matías y Joshua: No se ve que se ve.
+
+793
+01:38:44.710 --> 01:38:45.800
+Bastián Olea: La diapositiva.
+
+794
+01:38:46.760 --> 01:38:51.410
+Matías y Joshua: Porque está por cantar, pero muy bien. Muy bien. Muy bien, voy a dejar de compartir.
+
+795
+01:38:52.100 --> 01:38:54.499
+Matías y Joshua: Puse toda la pantallapa? Dos.
+
+796
+01:38:57.540 --> 01:39:00.960
+Matías y Joshua: Bueno, no sé qué se se ve ahí o no. Qué se ve.
+
+797
+01:39:02.160 --> 01:39:03.389
+Bastián Olea: Se ve el zoom.
+
+798
+01:39:08.010 --> 01:39:12.699
+Matías y Joshua: Vamos a intentar con otra ahí. Sí, ahí sí, ¿cierto? ¿cierto?
+
+799
+01:39:13.690 --> 01:39:15.850
+Bastián Olea: La tercera es la densidad. Sí.
+
+800
+01:39:16.710 --> 01:39:19.790
+Matías y Joshua: ya se puede hacer por fin. Perfecto.
+
+801
+01:39:19.960 --> 01:39:23.830
+Matías y Joshua: Ya Entonces el el lápiz
+
+802
+01:39:24.580 --> 01:39:33.230
+Matías y Joshua: y esto es bueno mencionarlo. Acá. Generalmente, cuando 1 accede a 1, a una A, P. I P. Que entrega información.
+
+803
+01:39:33.790 --> 01:39:36.790
+Matías y Joshua: Hay como una.
+
+804
+01:39:37.770 --> 01:39:42.350
+Matías y Joshua: No sé si es una estructura, el de la cual 1
+
+805
+01:39:42.940 --> 01:39:57.349
+Matías y Joshua: 1 construye un paquete para conectarse. Sapi que básicamente son 3 pasos, como mirar todo el catálogo, luego una función para resolver y seleccionar una serie y luego la descarga como tal. Ya Entonces.
+
+806
+01:39:57.650 --> 01:40:04.859
+Matías y Joshua: por una parte está la App que ofrece cierto Tempoins para descargar la información y consultar en la metadata
+
+807
+01:40:05.390 --> 01:40:06.180
+Matías y Joshua: y
+
+808
+01:40:06.510 --> 01:40:20.919
+Matías y Joshua: el paquete construyen estas funciones para ocupar el lápiz. Vale, Entonces hay hartas capas. Primero está el servicio del Banco Central. Luego está este paquete y luego vamos a construir
+
+809
+01:40:21.600 --> 01:40:25.049
+Matías y Joshua: Blacktooth para que use estas funciones.
+
+810
+01:40:25.190 --> 01:40:31.080
+Matías y Joshua: Entonces está esta función de aerosol series, ¿Cierto? Donde a 1 le da un stream.
+
+811
+01:40:32.010 --> 01:40:34.330
+Matías y Joshua: Y luego de ejecutar.
+
+812
+01:40:36.300 --> 01:40:42.099
+Matías y Joshua: se van a ejecutar, buscar por las 4 frecuencias. Sí, el lápiz está un poco antigua. Entonces
+
+813
+01:40:42.670 --> 01:40:52.040
+Matías y Joshua: hay que buscar por frecuencia anual mensual trimestral y diaria. Entonces estamos buscando desocupación ine en esas 4
+
+814
+01:40:52.580 --> 01:40:58.639
+Matías y Joshua: se está demorando un poco lento. Así que el ejercicio, Luego, cuando mostremos la aplicación Chaning, lo que hacemos es
+
+815
+01:40:59.030 --> 01:41:10.330
+Matías y Joshua: descargar el catálogo completo y consultar localmente las series ya. Y luego, teniendo este código, que es el I D de la serie, esa la vamos a consultar con el Api.
+
+816
+01:41:10.830 --> 01:41:14.500
+Matías y Joshua: Ya acá. Ahí terminó.
+
+817
+01:41:14.630 --> 01:41:16.990
+Matías y Joshua: De hecho, es muy lento ya.
+
+818
+01:41:17.470 --> 01:41:22.029
+Matías y Joshua: ¿y qué nos devuelve candidatos candidatos, como pueden ver
+
+819
+01:41:22.630 --> 01:41:38.610
+Matías y Joshua: 80 y un series, qué tienen y desocupación e ine, ya acá la misma que utilizó matías. Vamos a ocupar esta la dieseme que es la total ocupar estacionalmente mensual porcentaje Ya entonces definiendo
+
+820
+01:41:38.780 --> 01:41:40.460
+Matías y Joshua: la el I D.
+
+821
+01:41:41.300 --> 01:41:47.710
+Matías y Joshua: Lo que hacemos es, Ok, seleccionamos ese código Y luego vamos a obtener las series
+
+822
+01:41:47.910 --> 01:41:53.080
+Matías y Joshua: ya ahí la descargo con el A, D I y la clasificamos ya
+
+823
+01:41:53.590 --> 01:41:57.960
+Matías y Joshua: perfecto. Y ahí está el gráfico. Entonces hicimos el ejercicio manual
+
+824
+01:41:59.140 --> 01:42:04.259
+Matías y Joshua: y vimos que herramientas obviamente tendría que tener nuestra aplicación.
+
+825
+01:42:05.100 --> 01:42:14.850
+Matías y Joshua: nuestra aplicación para que resolviera cuando alguien le pregunta algo resolviera qué serie identificarla y luego descargarla, vale
+
+826
+01:42:17.080 --> 01:42:23.990
+Matías y Joshua: okay. Entonces esta serie, esta es la el explorador manual.
+
+827
+01:42:24.290 --> 01:42:33.960
+Matías y Joshua: Ya tiene una lógica un poco compleja, particularmente por ese paso que hay que seleccionar
+
+828
+01:42:34.190 --> 01:42:43.230
+Matías y Joshua: el catálogo y luego ver cuál serie y luego, teniendo la serie cada una de las series tiene su inicio y su final. Ya entonces
+
+829
+01:42:43.660 --> 01:42:47.840
+Matías y Joshua: esta es la aplicación, no la aplicación 2.
+
+830
+01:42:48.030 --> 01:43:03.460
+Matías y Joshua: Voy a hacer es play y debería funcionar ya. Entonces esto sería Entonces ponemos desempleo y ya con desempleo.
+
+831
+01:43:04.120 --> 01:43:06.560
+Matías y Joshua: Nos da una serie de opciones.
+
+832
+01:43:07.020 --> 01:43:17.590
+Matías y Joshua: Seleccionamos una Francia y luego la fecha y consultar ya.
+
+833
+01:43:17.910 --> 01:43:24.689
+Matías y Joshua: Y la Iso. Ok. Entonces tenemos una aplicación que hace lo mismo, que la búsqueda manual por etapas vale
+
+834
+01:43:24.790 --> 01:43:43.500
+Matías y Joshua: entonces en este caso en particular engorroso, se podría simplificar, claro, pero este la idea es ejemplificar esta etapa y ver que cada tool resuelve tal cual como es una función, resuelve algo en particular. Entonces hay que darle esas herramientas
+
+835
+01:43:44.060 --> 01:43:49.060
+Matías y Joshua: al bueno pensando a futuro cuando se desarrolle Bien. Entonces
+
+836
+01:43:49.510 --> 01:43:53.550
+Matías y Joshua: sí, ahí está la lógica. No nos vamos a entrar.
+
+837
+01:43:53.660 --> 01:43:59.029
+Matías y Joshua: Siento que ha sido larga la jornada, entonces nos vamos a ir al tiro, al a lo entretenido.
+
+838
+01:44:00.390 --> 01:44:11.089
+Matías y Joshua: ¿Cómo integramos un chat viction chaining acá hay que llamar a Elmer y Channy chat. Estos son los protagonistas para implementar un bot en change
+
+839
+01:44:11.530 --> 01:44:19.540
+Matías y Joshua: y la interfaz se simplifica. En vez de colocar tantas opciones, cierto que tiene la ventaja de que esas opciones son bien
+
+840
+01:44:19.670 --> 01:44:32.260
+Matías y Joshua: para ser como determinista. ¿cierto? Porque si yo pongo entre 2 009, hasta el 2 015. Y esta serie, Y luego, con ese argumento, llama la función. La función va a ser lo que 1 espera y se va a retornar
+
+841
+01:44:32.760 --> 01:44:37.829
+Matías y Joshua: ya, pero con Cheni, con un chat, nos ahorramos la definición de todas esas cosas
+
+842
+01:44:38.920 --> 01:44:42.899
+Matías y Joshua: y simplemente la incorporamos en la interfaz usuario
+
+843
+01:44:43.190 --> 01:44:45.790
+Matías y Joshua: llamando a la función chat uy, ¿cierto?
+
+844
+01:44:46.260 --> 01:44:52.979
+Matías y Joshua: Un texto de bienvenida y un texto así. Pregunta por una serie invitándolo a
+
+845
+01:44:54.860 --> 01:45:02.710
+Matías y Joshua: a escribir y cómo sería la implementación sencilla que sería esto
+
+846
+01:45:03.450 --> 01:45:07.599
+Matías y Joshua: definir el objeto chat tal cual lo hizo matías.
+
+847
+01:45:08.160 --> 01:45:08.970
+Matías y Joshua: Y
+
+848
+01:45:10.450 --> 01:45:18.880
+Matías y Joshua: acá es una función. Básicamente. Esta función está escuchando. Cuando el usuario escribe algo. Entonces cuando escribe, hola, ¿cómo estás
+
+849
+01:45:19.030 --> 01:45:25.770
+Matías y Joshua: ese? Hola, ¿cómo estás que escribí en el chat va acá al objeto chat, y luego el chat
+
+850
+01:45:26.200 --> 01:45:32.440
+Matías y Joshua: devuelve el texto. Sí, estas son como esas cosas más técnicas del funcionamiento, pero ya con eso.
+
+851
+01:45:32.800 --> 01:45:37.220
+Matías y Joshua: como pueden ver, acá son 44 líneas, y con 44 líneas.
+
+852
+01:45:38.450 --> 01:45:46.840
+Matías y Joshua: Ya tenemos una, bueno, con 44 líneas y un Api, cierto importante con saldo ahí,
+
+853
+01:45:47.280 --> 01:45:50.699
+Matías y Joshua: a menos que lo tengan local, obviamente que sería ideal.
+
+854
+01:45:51.970 --> 01:45:56.230
+Matías y Joshua: Ya tenemos una aplicación concha, ¿sí?
+
+855
+01:45:57.090 --> 01:46:01.460
+Matías y Joshua: Entonces acá básicamente le podemos graficar el desempleo
+
+856
+01:46:03.740 --> 01:46:12.729
+Matías y Joshua: ya, y ahí nos vamos a al mismo problema que matías. Comentó que no tienen para decir oye desempleo. De qué grafica, cómo no puedo.
+
+857
+01:46:12.920 --> 01:46:17.100
+Matías y Joshua: sí, pero le podemos hacer las preguntas que 1 podría
+
+858
+01:46:17.600 --> 01:46:21.049
+Matías y Joshua: pedir un chat, así como Standalone, así como
+
+859
+01:46:22.540 --> 01:46:27.600
+Matías y Joshua: incluso me invita a escribirlo por Paypal, no en R. Por favor.
+
+860
+01:46:27.970 --> 01:46:28.730
+Matías y Joshua: Sí,
+
+861
+01:46:29.400 --> 01:46:36.390
+Matías y Joshua: entonces esto sería como un chef normal, entonces falta el las tour. Ya Entonces, para allá vamos con las tools.
+
+862
+01:46:37.020 --> 01:46:43.120
+Matías y Joshua: déjeme que se entretenga respondiendo en R Bueno, ahí te respondio entonces.
+
+863
+01:46:44.600 --> 01:46:49.330
+Matías y Joshua: Así no, no hay ganancias. Obviamente, las aplicaciones van a ser bien.
+
+864
+01:46:49.660 --> 01:46:56.279
+Matías y Joshua: Va a resolver un problema en particular que generalmente el chat por sí solo no puede y hay que entregarle las herramientas.
+
+865
+01:46:57.010 --> 01:47:03.280
+Matías y Joshua: Ok. Entonces vamos a dar unas tools para actualizar la aplicación ya.
+
+866
+01:47:03.770 --> 01:47:10.149
+Matías y Joshua: Entonces, Acá obviamente hay que dar cierta información. Vamos a
+
+867
+01:47:11.270 --> 01:47:20.960
+Matías y Joshua: agregar y Stringer para primero displayer, manipulación filtro y stringer para manipulación de String. ¿cierto? Porque cuando nos diga.
+
+868
+01:47:21.390 --> 01:47:31.560
+Matías y Joshua: quiero el desempleo, le vamos a dar una herramienta y al bot para que pueda
+
+869
+01:47:32.770 --> 01:47:40.110
+Matías y Joshua: responder, y esa función obviamente funciona en base a filtros de string Ya
+
+870
+01:47:41.220 --> 01:47:49.969
+Matías y Joshua: entonces no me quiero detener con esto. Digamos elementos reactivos que son como el lado de Chaning, sino que
+
+871
+01:47:50.210 --> 01:47:52.630
+Matías y Joshua: ejemplificar el espíritu de la aplicación.
+
+872
+01:47:52.900 --> 01:47:56.150
+Matías y Joshua: ¿qué es es esto?
+
+873
+01:47:56.370 --> 01:48:03.420
+Matías y Joshua: Que son 2 funciones que luego más abajo vamos a compartir un tool y la función
+
+874
+01:48:04.330 --> 01:48:05.840
+Matías y Joshua: para buscar una serie
+
+875
+01:48:06.160 --> 01:48:15.860
+Matías y Joshua: va a recibir un texto y le vamos a decir que oye si al vodka, si te preguntan por algo, tú ocupa la función buscar sería poner el texto, por ejemplo, desempleo
+
+876
+01:48:16.690 --> 01:48:22.430
+Matías y Joshua: y nuestra lógica. Esto lo programamos nosotros. Obviamente nosotros gusta
+
+877
+01:48:23.740 --> 01:48:29.769
+Matías y Joshua: Toma el texto, lo separa. Por ejemplo, puede ser desempleo. Ine Entonces lo que hace es
+
+878
+01:48:29.970 --> 01:48:31.710
+Matías y Joshua: tener un vector de términos.
+
+879
+01:48:32.150 --> 01:48:35.320
+Matías y Joshua: Y luego el catálogo, que es un data frame, una tabla.
+
+880
+01:48:35.420 --> 01:48:42.349
+Matías y Joshua: Acá Lo estamos haciendo local. Pero imagínense en el sensola que es una secuela, ¿sí? Filtra. Pero el ejercicio es el mismo
+
+881
+01:48:43.230 --> 01:48:55.210
+Matías y Joshua: catálogo. Crea un texto de búsqueda que significa que acá el Series Id, el título en español y el título en inglés como que se junta, entonces compara ese texto de búsqueda
+
+882
+01:48:55.560 --> 01:49:01.960
+Matías y Joshua: con desempleo, entonces se hace más desempleo por España, Python o
+
+883
+01:49:02.590 --> 01:49:04.520
+Matías y Joshua: o por el título en inglés
+
+884
+01:49:04.770 --> 01:49:09.619
+Matías y Joshua: va a coincidir y se va a conseguir, ¿Lo va a devolver. Vale.
+
+885
+01:49:10.090 --> 01:49:14.069
+Matías y Joshua: Entonces acá. Hacemos el filtro, ¿cierto? Digamos.
+
+886
+01:49:14.200 --> 01:49:16.579
+Matías y Joshua: manual de lo que podría ser.
+
+887
+01:49:16.850 --> 01:49:21.839
+Matías y Joshua: Y lo que va a devolver es un data frame los 10 primeros resultados.
+
+888
+01:49:22.740 --> 01:49:25.839
+Matías y Joshua: Y luego hay una función actualizar Daksware.
+
+889
+01:49:26.380 --> 01:49:30.730
+Matías y Joshua: que ahí lo que la herramienta hace es que dado un código
+
+890
+01:49:32.370 --> 01:49:43.779
+Matías y Joshua: verifica que esa ese código exista, ¿cierto? Entonces acá. Estamos intentando, como dijimos en la tours, aparte de darle como superpoderes
+
+891
+01:49:44.480 --> 01:49:48.319
+Matías y Joshua: al al bot, también ayuda como a que no invente sí,
+
+892
+01:49:48.610 --> 01:49:50.739
+Matías y Joshua: porque lo que vamos a hacer oye. ¿qué
+
+893
+01:49:50.840 --> 01:50:01.150
+Matías y Joshua: si el bot entrega un código y ese código no existe. Vamos a ir código no encontrado. Y él no va a tener con qué inventar en ese aspecto, ya, pero en caso de que
+
+894
+01:50:01.620 --> 01:50:08.850
+Matías y Joshua: a través de buscar series, encontró un código que es válido, va a pasar. Acá va a descargar la serie tal cual vimos el ejemplo a mano.
+
+895
+01:50:09.230 --> 01:50:13.149
+Matías y Joshua: Y lo que va a hacer es actualizar el dato.
+
+896
+01:50:13.420 --> 01:50:14.250
+Matías y Joshua: Sí,
+
+897
+01:50:14.990 --> 01:50:21.780
+Matías y Joshua: con esta función, ¿Cómo funciona esto, ya quizá en Matt Chaining. Pero acá en datos actuales, por ejemplo, acá se descargan
+
+898
+01:50:21.940 --> 01:50:27.629
+Matías y Joshua: Si hablamos en piel, desempleo, van ir un código, ese código va a estar acá
+
+899
+01:50:28.010 --> 01:50:38.990
+Matías y Joshua: Esto se va a transformar en un data frame, y ese data frame, va a actualizar esta variable y si acaricia datos actuales, entonces 1 va haciendo así como el
+
+900
+01:50:40.050 --> 01:50:42.380
+Matías y Joshua: datos actuales.
+
+901
+01:50:42.710 --> 01:50:44.140
+Matías y Joshua: Como pueden ver, acá
+
+902
+01:50:45.200 --> 01:50:52.490
+Matías y Joshua: tanto el gráfico como la tabla dependen de esa variable datos actuales. Entonces se va a actualizar ya.
+
+903
+01:50:53.250 --> 01:50:57.900
+Matías y Joshua: Pero vamos a ver que acá el bot
+
+904
+01:50:58.850 --> 01:51:01.530
+Matías y Joshua: lo que va a recibir va a ser actualizado
+
+905
+01:51:01.920 --> 01:51:05.399
+Matías y Joshua: como que para él no va a conocer
+
+906
+01:51:06.410 --> 01:51:11.059
+Matías y Joshua: los datos que se enviaron al daschool y el gráfico que se envió, simplemente
+
+907
+01:51:11.440 --> 01:51:21.090
+Matías y Joshua: le va a llegar esto. Y va a decir, Ok, te actualizo el Dashhort, porque ese mensaje le llegó ya. Y el registro de tus está, cual lo vieron anteriormente.
+
+908
+01:51:21.410 --> 01:51:24.150
+Matías y Joshua: Sí, Lo bueno es ser explicito.
+
+909
+01:51:24.460 --> 01:51:28.449
+Matías y Joshua: Y claro, obviamente, en qué es lo que hace cada tool.
+
+910
+01:51:29.010 --> 01:51:29.790
+Matías y Joshua: ¿vale?
+
+911
+01:51:30.040 --> 01:51:31.300
+Matías y Joshua: Entonces.
+
+912
+01:51:31.300 --> 01:51:36.439
+Bastián Olea: De hecho, en la función anterior era entonces como por los efectos secundarios de la de que ejecutara.
+
+913
+01:51:38.260 --> 01:51:39.850
+Matías y Joshua: Uno.
+
+914
+01:51:40.200 --> 01:51:47.690
+Bastián Olea: Ahí en la actualizar Dashboard al bot le llega dashboard actualizados. Son como las anteriores, por los efectos secundarios que tienen o no.
+
+915
+01:51:47.690 --> 01:51:50.499
+Matías y Joshua: Exacto. O sea, esto: esta capilla es que el.
+
+916
+01:51:50.500 --> 01:51:50.900
+Bastián Olea: Claro.
+
+917
+01:51:50.900 --> 01:52:03.399
+Matías y Joshua: Efectivamente se actualice. Si actualizar Dashboard. Para él va a decir con desempleo y le va a llegar actualizado. Es como si tuviera ciego y va a decir, oye te lo actualicé porque me llegó este mensaje.
+
+918
+01:52:03.790 --> 01:52:07.200
+Matías y Joshua: Pero esto, como lógica de de Change, cierto.
+
+919
+01:52:08.150 --> 01:52:15.960
+Matías y Joshua: y eso lo vamos a mejorar después en la otra aplicación. Entonces quiero que veamos simplemente como verían esto.
+
+920
+01:52:17.830 --> 01:52:20.369
+Matías y Joshua: Entonces acá iría nuestra aplicación 4
+
+921
+01:52:20.980 --> 01:52:25.579
+Matías y Joshua: y le echamos a correr. Y ah, no tenemos catálogo. Por favor.
+
+922
+01:52:26.000 --> 01:52:27.270
+Matías y Joshua: Funciona.
+
+923
+01:52:28.410 --> 01:52:30.079
+Matías y Joshua: Creo que sí. Mira.
+
+924
+01:52:33.230 --> 01:52:42.700
+Matías y Joshua: esperemos que son los dedos. Cierto, estamos desarrollando en conjunto, todo acá. Nosotros, esta aplicación. Entonces gráfica el
+
+925
+01:52:44.300 --> 01:52:48.869
+Matías y Joshua: el dólar? T, no a ver si la la encuentra. Estoy.
+
+926
+01:52:50.120 --> 01:52:53.460
+Matías y Joshua: si se equivoca mejor. ¿por qué? Porque ahí tenemos que mejorar el trauma.
+
+927
+01:52:53.820 --> 01:52:55.979
+Matías y Joshua: Ahí ocupa un atún, ¿cierto?
+
+928
+01:52:56.190 --> 01:52:59.859
+Matías y Joshua: Realmente el atour dice buscar serie y 1 dice, ah, mira.
+
+929
+01:53:00.870 --> 01:53:13.829
+Matías y Joshua: y eso le tiró como resultado. ¿por qué? Porque puso dólar. Entonces toda esa que este es el resultado de la función. ¿se acuerdan que dijimos que devuelve un dato a frame? Bueno, internamente, lo que es ese data frame se transforma Json: ¿cierto?
+
+930
+01:53:14.870 --> 01:53:23.130
+Matías y Joshua: Y como pueden ver, todos los títulos son dólares. Porque como él, yo le pedí el dólar. Él puso como argumento.
+
+931
+01:53:23.580 --> 01:53:29.460
+Matías y Joshua: Bueno, acá sale arriba. ¿para qué vamos a inventar? Dice, Ocupo esto, texto dólar
+
+932
+01:53:29.880 --> 01:53:33.399
+Matías y Joshua: y que le retornó el data frame de las 10 primeras
+
+933
+01:53:33.740 --> 01:53:40.060
+Matías y Joshua: con dólar, ¿cierto? Y como él encontró harta, me
+
+934
+01:53:40.870 --> 01:53:46.379
+Matías y Joshua: me dice eso y a ver, dice Estados Unidos, Estados Unidos y va. Entonces vamos a jugar contra
+
+935
+01:53:47.860 --> 01:53:52.790
+Matías y Joshua: una que no está Acá Canadá.
+
+936
+01:53:54.600 --> 01:53:57.660
+Matías y Joshua: Yo siempre soy educado. Yo gato. Toquen en decirle, por favor.
+
+937
+01:54:02.380 --> 01:54:03.970
+Matías y Joshua: vamos a ver si la encuentra.
+
+938
+01:54:04.160 --> 01:54:07.430
+Matías y Joshua: Entonces mira, encontró una papá, la encontró
+
+939
+01:54:07.970 --> 01:54:14.390
+Matías y Joshua: O quizá estará definida de arriba porque no hizo el el no, no llamó la tul.
+
+940
+01:54:15.650 --> 01:54:20.260
+Matías y Joshua: Ah, quizás mira, yo creo que como devolvió, 10, encontró las primeras 5
+
+941
+01:54:20.370 --> 01:54:26.230
+Matías y Joshua: y la tienen memoria como se acuerdan, que tiene memoria. Yo creo que sería interesante averiguarlo.
+
+942
+01:54:27.030 --> 01:54:31.890
+Matías y Joshua: Ah, no podemos ver. Acá Ah, no, acá el australiano.
+
+943
+01:54:32.100 --> 01:54:33.660
+Matías y Joshua: Dos horas voy a buscar.
+
+944
+01:54:33.930 --> 01:54:37.049
+Matías y Joshua: Sería interesante que la haya dejado No puedo buscar.
+
+945
+01:54:37.490 --> 01:54:46.959
+Matías y Joshua: pero seguramente acá. Decía Bahamas, soy brasileño boliviano, permúas argentino, no no veo canadá.
+
+946
+01:54:47.110 --> 01:54:50.849
+Matías y Joshua: Yo asumí que el canada porque mostró 5. Y como devolvemos 10.
+
+947
+01:54:51.150 --> 01:54:56.310
+Matías y Joshua: Bueno, la encontró, y le decimos que qué rango quieres
+
+948
+01:54:56.750 --> 01:54:59.010
+Matías y Joshua: si no dice fecha. Dale Dale.
+
+949
+01:55:01.630 --> 01:55:07.329
+Matías y Joshua: Y ahí debería llamar al actualizar Dakhboard con el código que ya tiene listo
+
+950
+01:55:08.210 --> 01:55:20.860
+Matías y Joshua: y no comenta nada. ¿por qué? Porque lo que hace con ojos cerrados, dice Ok, ando a buscar la serie con este código y el código. Él cataliza el dato, y ahí le llega el mensaje de dato actualizado. Entonces él dice: Ok, confío.
+
+951
+01:55:21.080 --> 01:55:27.470
+Matías y Joshua: te mostraré un dato. Vale, entonces no tiene con, no tiene como el contexto de la respuesta.
+
+952
+01:55:27.870 --> 01:55:32.120
+Matías y Joshua: Y ahí vamos simplemente a acomodarle esa
+
+953
+01:55:33.520 --> 01:55:38.009
+Matías y Joshua: para que sea como una respuesta más íntegra de de alguna forma decirle.
+
+954
+01:55:38.590 --> 01:55:42.090
+Matías y Joshua: Y ahí vamos como la tos que devuelve el contexto. Ya
+
+955
+01:55:42.810 --> 01:55:49.020
+Matías y Joshua: se imaginarán que si nosotros pedimos las 300 comunas, por ejemplo, el sensolar.
+
+956
+01:55:49.390 --> 01:55:55.710
+Matías y Joshua: Él hace la consulta, le llega, y después con esas 300
+
+957
+01:55:55.920 --> 01:56:01.520
+Matías y Joshua: comunas, él decide elegir la herramienta y ocuparla. No sé, ya sea para hacer un gráfico
+
+958
+01:56:01.710 --> 01:56:06.260
+Matías y Joshua: o para hacer una tabla o para enviarla al mapa ya.
+
+959
+01:56:06.940 --> 01:56:09.850
+Matías y Joshua: Entonces, por eso nosotros le hemos configurado
+
+960
+01:56:10.920 --> 01:56:14.419
+Matías y Joshua: herramientas según qué es lo que queremos que haga?
+
+961
+01:56:15.060 --> 01:56:16.189
+Matías y Joshua: Se en su voz.
+
+962
+01:56:16.310 --> 01:56:23.239
+Matías y Joshua: Y pero obviamente, darle las 300 en este caso.
+
+963
+01:56:24.100 --> 01:56:28.819
+Matías y Joshua: información la que sientan comunas con sus datos, quizá
+
+964
+01:56:29.100 --> 01:56:34.530
+Matías y Joshua: gato de contexto gato de Token, y quizás no bastaría simplemente que
+
+965
+01:56:35.060 --> 01:56:40.910
+Matías y Joshua: no tener esa respuesta. En este caso particular, la aplicación es la misma.
+
+966
+01:56:41.920 --> 01:56:44.490
+Matías y Joshua: Volviendo al ejemplo, ya.
+
+967
+01:56:45.020 --> 01:56:51.969
+Matías y Joshua: y esto era el actualizar Dashboard. Como pueden ver, buscar series sigue tal cual actualizar. Dashboard
+
+968
+01:56:52.150 --> 01:56:55.880
+Matías y Joshua: sigue imprimiendo validando que exista el código.
+
+969
+01:56:56.020 --> 01:56:58.160
+Matías y Joshua: Ya si existe.
+
+970
+01:56:58.310 --> 01:57:06.290
+Matías y Joshua: Descarga los datos, actualiza la información de la serie y actualiza los datos ya, pero que hemos agregado. Ahora
+
+971
+01:57:08.540 --> 01:57:12.790
+Matías y Joshua: sacamos un resumen. Podríamos enviarle toda la serie.
+
+972
+01:57:13.140 --> 01:57:17.009
+Matías y Joshua: Sí, todas las series los los no sé si cargamos 10 años lo
+
+973
+01:57:17.260 --> 01:57:20.400
+Matías y Joshua: los 3 000 valores, si es que la serie diaria.
+
+974
+01:57:20.580 --> 01:57:28.890
+Matías y Joshua: pero que saca, Le resumimos un poco de información para enviársela, particularmente en términos de datos. En este ejemplo particular
+
+975
+01:57:29.210 --> 01:57:39.529
+Matías y Joshua: tomamos los datos, sacamos el valor mínimo, sacamos el valor máximo ya y luego enviamos una raíz, que sería el promedio.
+
+976
+01:57:39.930 --> 01:57:46.890
+Matías y Joshua: el valor mínimo, el máximo y la fecha en que sucedieron ese mínimo máximo como para que tuviera algo que decir.
+
+977
+01:57:47.080 --> 01:57:54.100
+Matías y Joshua: ¿sí? Obviamente, 1 puede mirarlo así. Si se revisa los 300 datos, los que sean ya pero
+
+978
+01:57:54.830 --> 01:57:58.209
+Matías y Joshua: el cielo tiene como referencia y te lo mencionas.
+
+979
+01:57:58.400 --> 01:57:59.910
+Matías y Joshua: Podría ser de utilidad.
+
+980
+01:58:00.350 --> 01:58:03.800
+Matías y Joshua: Y adicionalmente, en este caso, como estamos viendo en imagen.
+
+981
+01:58:04.440 --> 01:58:10.680
+Matías y Joshua: 1 puede enviarle la la imagen sí. Obviamente, 1 no le pega la foto, sino que
+
+982
+01:58:11.170 --> 01:58:17.380
+Matías y Joshua: no sé si internamente la pa la pasará así a binaria. Se la envía así como código hexacilmal. Quizás.
+
+983
+01:58:17.600 --> 01:58:19.350
+Matías y Joshua: pero se le puede enviar
+
+984
+01:58:19.970 --> 01:58:32.390
+Matías y Joshua: como texto tal cual como 1 también podría enviar Pdfs cuando trabaja con con chat dermal. Entonces acá nos estamos devolviendo actualiz El Dashford ha sido actualizado, sino que devolvemos tanto el resumen
+
+985
+01:58:33.050 --> 01:58:41.919
+Matías y Joshua: como la imagen, el Dj club y se actualiza el deshor.
+
+986
+01:58:42.030 --> 01:58:48.570
+Matías y Joshua: Vale, y acá decimos, devuelve el resumen y el gráfico para interpretarlo ahí, devolvimos. Damos.
+
+987
+01:58:48.960 --> 01:58:53.039
+Matías y Joshua: No quiero decir contexto ya, pero dame definimos bien
+
+988
+01:58:53.670 --> 01:58:59.309
+Matías y Joshua: lo que devuelve. Entonces él ya sabe, sabría cómo 8 metal.
+
+989
+01:59:01.240 --> 01:59:09.519
+Bastián Olea: Que no todos los modelos tienen capacidad de visión para poder ver el gráfico. Hay algunos nada más que tienen capacidad de visión.
+
+990
+01:59:09.990 --> 01:59:14.310
+Matías y Joshua: Perfecto relevante. Sí, entonces hay que tenerlo en consideración.
+
+991
+01:59:16.410 --> 01:59:17.260
+Matías y Joshua: Muy bien.
+
+992
+01:59:18.510 --> 01:59:23.880
+Matías y Joshua: De hecho, no lo obviamente no lo tenía considerado para el ejemplo, pero muy útil
+
+993
+01:59:24.950 --> 01:59:32.340
+Matías y Joshua: y tiempo. Veamos qué pasa ahora a ver si nos ayuda.
+
+994
+01:59:37.510 --> 01:59:41.589
+Matías y Joshua: Ok, partimos al desempleo. Desempleo.
+
+995
+01:59:42.820 --> 01:59:48.650
+Matías y Joshua: Chile total porcentaje siempre gráfica.
+
+996
+01:59:48.770 --> 01:59:54.549
+Matías y Joshua: Estoy pidiendo esa serie en particular. Entonces le estoy dando como el texto simplemente para avanzar En el ejemplo.
+
+997
+01:59:55.840 --> 01:59:59.320
+Matías y Joshua: Parece que encontró una. No me preguntó ahí. Está iterando
+
+998
+02:00:00.620 --> 02:00:09.819
+Matías y Joshua: ahí. No encontró nada. Le di mucha información. Y quizás Chile, la serie chilena no dicen Chile. Por eso se está equivocando porque está está intentando buscar por Chile
+
+999
+02:00:11.250 --> 02:00:15.699
+Matías y Joshua: y se va a cansar y va a decir, ah mira, no encontré discusión.
+
+1000
+02:00:16.120 --> 02:00:21.329
+Matías y Joshua: región antártica y chilena, encontró chilena. Sí, fue mala mía.
+
+1001
+02:00:21.760 --> 02:00:24.030
+Matías y Joshua: ¿por qué? Porque el
+
+1002
+02:00:24.680 --> 02:00:29.910
+Matías y Joshua: las series del del ine nombran países cuando son de otro y no de Chile. Entonces voy a decir
+
+1003
+02:00:30.260 --> 02:00:33.849
+Matías y Joshua: así, que el desampleo total porcentaje, Voy a quitar el Chile
+
+1004
+02:00:34.210 --> 02:00:40.640
+Matías y Joshua: tenga poco que esperar o no no gráfica desempleo total, porcentaje
+
+1005
+02:00:42.210 --> 02:00:48.689
+Matías y Joshua: de desempleo o desocupación. Se supone que si le digo desocupación y el modelo es.
+
+1006
+02:00:49.500 --> 02:00:55.889
+Matías y Joshua: va a ocupar la Tul, Iba a decir. Ok, Ese ejemplo no funcionó. Quizás sea qué ocurre esta no.
+
+1007
+02:00:56.350 --> 02:01:06.950
+Matías y Joshua: y no la encontró, qué? ¿qué papel le doy siempre estacionalizada, total desempleo total
+
+1008
+02:01:07.370 --> 02:01:10.030
+Matías y Joshua: de esa estación del pueblo? Ya?
+
+1009
+02:01:10.460 --> 02:01:13.010
+Matías y Joshua: Bueno, ahí ahí el problema. Obviamente de
+
+1010
+02:01:13.830 --> 02:01:15.959
+Matías y Joshua: yo me hago responsable de que no.
+
+1011
+02:01:16.910 --> 02:01:20.560
+Matías y Joshua: Mi mi prom fue, no fue lo no fue lo mejor.
+
+1012
+02:01:21.070 --> 02:01:25.439
+Matías y Joshua: Vamos a ocupar cualquier serie, porque la idea es que.
+
+1013
+02:01:28.200 --> 02:01:31.619
+Matías y Joshua: obviamente, to parte del del del proceso
+
+1014
+02:01:32.390 --> 02:01:36.440
+Matías y Joshua: últimos 5 años y que tuvieron, o sea.
+
+1015
+02:01:37.740 --> 02:01:47.940
+Matías y Joshua: en parte del proceso, ver de que no funcione y y ver darle básicamente la herramienta, literalmente, para que funcione.
+
+1016
+02:01:49.470 --> 02:01:53.630
+Matías y Joshua: Ahí encontré algo. Ah, bueno, no encontré algo, sino que estoy jugando eso.
+
+1017
+02:01:53.920 --> 02:02:00.309
+Matías y Joshua: Y pueden ver que eso fue lo que devolvió la la turba, devolvió el promedio. Y la imagen.
+
+1018
+02:02:00.820 --> 02:02:13.039
+Matías y Joshua: Ya entonces ahí tienes un comentar 5, 9, el mínimo, el máximo, cierto, el mínimo y el máximo.
+
+1019
+02:02:13.150 --> 02:02:19.350
+Matías y Joshua: acá sería bueno preguntarle algo de la imagen, Esto no, no donde
+
+1020
+02:02:20.120 --> 02:02:25.609
+Matías y Joshua: para ver si la pueden interpretar. Porque ahí, como hay calidad, obviamente, o particularidad del truco del modelo, si sabe
+
+1021
+02:02:25.920 --> 02:02:31.640
+Matías y Joshua: primero consumir imagen, como decía batiani y lo otro que también lo hace, Pues, ¿
+
+1022
+02:02:32.050 --> 02:02:39.049
+Matías y Joshua: ¿dónde fue el segundo más a ver si lo puedo interpretar.
+
+1023
+02:02:47.760 --> 02:02:55.109
+Matías y Joshua: y no sé si debería. Este fue el primer cierto. El 24 del 5 sería ese, y el otro debería ser este en 2 006.
+
+1024
+02:02:56.220 --> 02:02:59.330
+Matías y Joshua: Claro, la misma.
+
+1025
+02:03:01.900 --> 02:03:06.070
+Matías y Joshua: Bueno, pero pueden ver que ya al menos dice que ve la imagen.
+
+1026
+02:03:08.200 --> 02:03:10.319
+Matías y Joshua: Y y así funciona.
+
+1027
+02:03:10.870 --> 02:03:19.140
+Matías y Joshua: Y así. Escala ¿cierto? Más funcionalidades acá no es un gráfico, sino que en sensor es un mapa.
+
+1028
+02:03:19.660 --> 02:03:20.730
+Matías y Joshua: Y así.
+
+1029
+02:03:22.540 --> 02:03:24.020
+Matías y Joshua: Mhm.
+
+1030
+02:03:24.340 --> 02:03:25.510
+Carolina Morales: Hola Yoshua.
+
+1031
+02:03:26.060 --> 02:03:27.939
+Matías y Joshua: Diga, diga, hola, Carolina.
+
+1032
+02:03:27.940 --> 02:03:29.839
+Carolina Morales: Pregunta. Mira en.
+
+1033
+02:03:29.840 --> 02:03:30.380
+Matías y Joshua: De los.
+
+1034
+02:03:30.380 --> 02:03:35.619
+Carolina Morales: Que quizás es porque dice desempleo y la serie lo llaman desocupación.
+
+1035
+02:03:37.040 --> 02:03:42.830
+Matías y Joshua: Exactamente. Sí. Sí. Ahora, de hecho.
+
+1036
+02:03:43.110 --> 02:03:51.979
+Matías y Joshua: hacemos nosotros eso de que si hablan de algo darle como sinónimo ahora desocupación, porcentaje total.
+
+1037
+02:03:52.820 --> 02:03:56.709
+Matías y Joshua: tu muy buen comentario. Muchas gracias. Muchas gracias.
+
+1038
+02:03:59.020 --> 02:04:07.319
+Matías y Joshua: Lo malo es que no, no leyó bien la la imagen, o sea, al menos no me respondió buscar series desempleo. Chile, de nuevo pone Chile.
+
+1039
+02:04:08.290 --> 02:04:17.409
+Matías y Joshua: pero hay que decirle: obviamente, 1 conoce mejor la herramienta más que él y decirle: oye, busca todo por
+
+1040
+02:04:17.780 --> 02:04:19.630
+Matías y Joshua: cuánto hay que buscar por desocupación.
+
+1041
+02:04:23.500 --> 02:04:28.620
+Matías y Joshua: entonces obviamente total
+
+1042
+02:04:30.120 --> 02:04:40.819
+Matías y Joshua: todavía le falta esto para mandarlo a producción, pero ya sabemos el espíritu y y como irlo afinando, al menos ya teníamos un chat funcionando que nos responde.
+
+1043
+02:04:41.030 --> 02:04:48.430
+Matías y Joshua: no lo que quisiéramos, pero responde, y ya al menos está interactuando. Y ahí está la nueva vida.
+
+1044
+02:04:48.960 --> 02:04:56.970
+Matías y Joshua: Sí, la opción 2 desde 2 019 en adelante.
+
+1045
+02:04:57.710 --> 02:05:11.220
+Matías y Joshua: Muchas gracias por ese tipo. Así que actualizar el trompo todos, y así terán entonces, diga.
+
+1046
+02:05:11.540 --> 02:05:29.280
+Bastián Olea: A mí me pasó haciendo este tipo de herramientas que a veces 1 tenía que pensar, así como realmente vale la pena hacer una herramienta para esto, o simplemente puedo tirar la tabla del contexto completa. La tabla de todas las opciones, por ejemplo, si es que no son varios cientos. Por ejemplo, si son entre decenas y 101 igual, las puedes dejar en el contexto
+
+1047
+02:05:29.280 --> 02:05:34.169
+Bastián Olea: para no para no para que no sea una herramienta. Por ejemplo, ¿cómo tomar la decisión en realidad.
+
+1048
+02:05:34.500 --> 02:05:44.839
+Matías y Joshua: Exactamente sí, todas las aplicaciones van a ser distintas y en ese caso particular, donde es más agotado su conjunto, sí envíala. Y si si el bot se la el modelo se la puede
+
+1049
+02:05:45.280 --> 02:05:54.670
+Matías y Joshua: mejor exacto, Estoy de acuerdo, sí, pero en general sí.
+
+1050
+02:05:54.670 --> 02:05:56.980
+Bastián Olea: La herramienta más divertida, más versátil también.
+
+1051
+02:05:57.630 --> 02:05:59.820
+Matías y Joshua: Exacto tú mismo. Dijiste.
+
+1052
+02:06:01.160 --> 02:06:13.999
+Matías y Joshua: bien, y eso era presentarle el el proyecto como tal, y obviamente lo que pasa en las entrañas ahí por por debajo y que se hiciera una idea y motivarlo, obviamente a
+
+1053
+02:06:14.900 --> 02:06:22.920
+Matías y Joshua: a que también cualquiera lo puede hacer si se documenta y el tuyo venga, venga.
+
+1054
+02:06:23.610 --> 02:06:26.269
+Bastián Olea: Oye buenísima buenísima presentación.
+
+1055
+02:06:26.480 --> 02:06:34.709
+Matías y Joshua: Bueno, y quería decir que de verdad me puso feliz de que hubiera gente de muchas partes que se interesara por el proyecto. Y si tienes dudas.
+
+1056
+02:06:35.010 --> 02:06:36.010
+Matías y Joshua: ¿
+
+1057
+02:06:37.230 --> 02:06:44.839
+Matías y Joshua: O inclu yo lo he visto, lo hicieron también por por el amor al área. Así que si alguien tiene un proyecto y quiere, tiene una idea.
+
+1058
+02:06:44.950 --> 02:06:48.060
+Matías y Joshua: conversamos. Así que eso.
+
+1059
+02:06:48.060 --> 02:06:52.689
+Bastián Olea: Cómo ¿Cómo podrían ponerse en contacto con ustedes personas que estén escuchando esto o viendo el video.
+
+1060
+02:06:52.690 --> 02:06:59.450
+Matías y Joshua: Ah, sí. En en en la página de cuarto en sensola 11.
+
+1061
+02:06:59.770 --> 02:07:03.099
+Bastián Olea: En Sensolab, Punto. C. Le pueden encontrar entonces su.
+
+1062
+02:07:03.100 --> 02:07:03.730
+Matías y Joshua: Gracias.
+
+1063
+02:07:03.730 --> 02:07:04.270
+Bastián Olea: A en el.
+
+1064
+02:07:04.810 --> 02:07:12.549
+Matías y Joshua: Sí nuestra per nuestro gusto. Así que no, ¿Qué hacemos ahí? Bueno.
+
+1065
+02:07:12.850 --> 02:07:14.489
+Bastián Olea: Pongan las fotitos, coquetas, siempre.
+
+1066
+02:07:15.470 --> 02:07:21.630
+Matías y Joshua: Este. Bueno, falta eso ya otra otra cosa. Otra, un dicho para mejorar
+
+1067
+02:07:22.420 --> 02:07:28.210
+Matías y Joshua: sí. Gracias por la la posibilidad de mostrar.
+
+1068
+02:07:29.260 --> 02:07:32.529
+Bastián Olea: Y Carolina también, que también organizó esto. Oye
+
+1069
+02:07:34.660 --> 02:07:43.900
+Bastián Olea: en la presentación que hicieron, porque en realidad estuvo súper buena, súper completa y el taller lo encontré buenísimo, completo y también bien detallado.
+
+1070
+02:07:43.950 --> 02:07:56.759
+Bastián Olea: Esto va a quedar grabado y va a poder ser compartido por las redes sociales del grupo de usuarios y usuarios de red de Santiago Chile. Y también vamos a poner el código que y las diapositivas que nos van a compartir matías y Jochua.
+
+1071
+02:07:56.780 --> 02:08:15.649
+Bastián Olea: Así que que nada, pues, agradecerles por lo que acaban de hacer, que es súper valioso. Con toda esta información podemos replicar parte de lo que hicieron ustedes, quizá no a la calidad. Lo Lo procuraremos hacerlo, pero tenemos al menos las herramientas. Y sabemos que se puede. No es cierto. Y eso eso es muy, muy valioso. Así que se lo agradezco muchísimo
+
+1072
+02:08:15.650 --> 02:08:17.959
+Bastián Olea: Carolina, ¿Quieres decir algo también para cerrar.
+
+1073
+02:08:19.640 --> 02:08:30.290
+Carolina Morales: Reiterar las gracias, Estuvo demasiado interesante tanto la presentación del proyecto como el mini workshop. Agradezco demasiado que nos hayan
+
+1074
+02:08:30.290 --> 02:08:41.679
+Carolina Morales: presentado esto. Y muchas felicitaciones. Está demasiado hermoso. A mí que me encanta como todo lo de la estética. Lo encuentro hermoso. Así que eso. Muchas felicitaciones. Chicos.
+
+1075
+02:08:41.910 --> 02:08:43.960
+Carolina Morales: Lo hemos de estar hablando porque además.
+
+1076
+02:08:44.100 --> 02:08:50.329
+Carolina Morales: a mí me encanta, o sea, ya ya tengo como 20 000 ideas que me encantaría presentárselas. Voy a contactar.
+
+1077
+02:08:50.330 --> 02:08:54.580
+Matías y Joshua: No de nuestra parte, agradecerlo y un
+
+1078
+02:08:55.080 --> 02:08:59.449
+Matías y Joshua: valoro alto el el espacio, así que agradecerle a ambos el interés
+
+1079
+02:08:59.580 --> 02:09:02.980
+Matías y Joshua: y nada. Sigamos en contacto con Sigamos creando comunidad.
+
+1080
+02:09:03.280 --> 02:09:04.140
+Matías y Joshua: No importa.
+
+1081
+02:09:05.030 --> 02:09:15.189
+Bastián Olea: Muchas gracias a todas y todos por existir, que estén súper bien y seguimos en contacto con las redes sociales del grupo y atentas porque cada mes hacemos actividades. Así que muchas gracias que estén súper bien.
+
+1082
+02:09:15.560 --> 02:09:17.130
+Matías y Joshua: Chao, show.
+
