@@ -4,10 +4,10 @@ author: "Grupo de usuari@s de R"
 date: "2026-08-27"
 image: "censolab_2.jpeg"
 categories: [talleres, presentaciones]
-description: "En la regunión mensual del pasado 26 de agosto, Joshua Kunst y Matías Parra presentaron CensoLab, una plataforma abierta para explorar datos geográficos y censales de Chile mediante mapas interactivos, dashboards y un asistente de IA conversacional. Además, impartieron un taller práctico sobre cómo construir agentes de IA en R con `{ellmer}` e integrarlos en aplicaciones `{shiny}`."
+description: "En la reunión mensual de agosto, Joshua Kunst y Matías Parra presentaron CensoLab, una plataforma abierta para explorar datos geográficos y censales de Chile mediante mapas interactivos, dashboards y un asistente de IA conversacional. Además, impartieron un taller práctico sobre cómo construir agentes de IA en R con `{ellmer}` e integrarlos en aplicaciones `{shiny}`."
 ---
 
-En la regunión mensual del pasado 26 de agosto, [Joshua Kunst](https://www.linkedin.com/in/joshuakunst/) y [Matías Parra](https://www.linkedin.com/in/matias-parra-rojas) presentaron **[CensoLab](http://censolab.cl)**, una plataforma abierta para explorar datos geográficos y censales de Chile mediante mapas interactivos, dashboards y un asistente de IA conversacional. Además, impartieron un **taller práctico** sobre cómo construir agentes de IA en R con `{ellmer}` e integrarlos en aplicaciones `{shiny}`. 
+En la reunión mensual de agosto, [Joshua Kunst](https://www.linkedin.com/in/joshuakunst/) y [Matías Parra](https://www.linkedin.com/in/matias-parra-rojas) presentaron **[CensoLab](http://censolab.cl)**, una plataforma abierta para explorar datos geográficos y censales de Chile mediante mapas interactivos, dashboards y un asistente de IA conversacional. Además, impartieron un **taller práctico** sobre cómo construir agentes de IA en R con `{ellmer}` e integrarlos en aplicaciones `{shiny}`. 
 
 ![](censolab_1.jpg)
 
