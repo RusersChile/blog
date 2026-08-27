@@ -44,7 +44,7 @@
   {
     "objectID": "posts/2026-08-26/index.html",
     "href": "posts/2026-08-26/index.html",
-    "title": "CensoLab: explorar el Censo con mapas, dashboards e inteligencia artificial hecha en R",
+    "title": "Resumen del taller: explorar el Censo con mapas, dashboards e inteligencia artificial con CensoLab y R",
     "section": "",
     "text": "En la regunión mensual del pasado 26 de agosto, Joshua Kunst y Matías Parra presentaron CensoLab, una plataforma abierta para explorar datos geográficos y censales de Chile mediante mapas interactivos, dashboards y un asistente de IA conversacional. Además, impartieron un taller práctico sobre cómo construir agentes de IA en R con {ellmer} e integrarlos en aplicaciones {shiny}."
   },
@@ -355,54 +355,5 @@
     "title": "Acerca del grupo",
     "section": "Código de conducta",
     "text": "Código de conducta\nNos adherimos al código de conducta de ROpenSci. Al contribuir o participar de este grupo, aceptas adherirte a sus términos."
-  },
-  {
-    "objectID": "posts/2026-08-26/index.html#el-problema-que-buscaron-resolver",
-    "href": "posts/2026-08-26/index.html#el-problema-que-buscaron-resolver",
-    "title": "CensoLab: explorar el Censo con mapas, dashboards e inteligencia artificial hecha en R",
-    "section": "El problema que buscaron resolver",
-    "text": "El problema que buscaron resolver\nAcceder a información del Censo suele significar elegir entre dos extremos: productos simples de usar pero limitados, como tablas o dashboards oficiales, o bien acceder a los microdatos, que son flexibles pero exigen conocimientos técnicos de R, Python, SQL o GIS. CensoLab busca ocupar ese espacio intermedio: conservar la granularidad del microdato, integrar distintas herramientas en un mismo entorno, y ofrecer capacidades de visualización y análisis para la exploración siga el hilo de las preguntas.\nEn la demostración se mostraron casos como el envejecimiento poblacional por comuna, la construcción de tipologías territoriales combinando rama de actividad económica, ocupación y escolaridad (revelando fenómenos como la gentrificación rural en zonas agrícolas), la comparación entre territorios, y el cálculo de índices de concentración económica (Herfindahl) por comuna. Todo esto se puede pedir en lenguaje natural al asistente conversacional integrado, sin dejar de tener el mapa y las tablas como respaldo verificable."
-  },
-  {
-    "objectID": "posts/2026-08-26/index.html#arquitectura-tres-componentes-tres-repositorios",
-    "href": "posts/2026-08-26/index.html#arquitectura-tres-componentes-tres-repositorios",
-    "title": "CensoLab: explorar el Censo con mapas, dashboards e inteligencia artificial hecha en R",
-    "section": "Arquitectura: tres componentes, tres repositorios",
-    "text": "Arquitectura: tres componentes, tres repositorios\nCensoLab separa responsabilidades en tres repositorios independientes, cada uno documentado por su cuenta:\n\n\n\n\n\nflowchart LR\n    A[\"censolab-data&lt;br/&gt;DuckDB / MotherDuck\"] --&gt; B[\"censolab&lt;br/&gt;Shiny + CensoBot (ellmer)\"]\n    B --&gt; C[\"censolab-web&lt;br/&gt;Quarto + GitHub Pages\"]\n\n\n\n\n\n\nEl componente de datos descarga, limpia e integra el Censo 2024, la cartografía censal y datos de establecimientos de educación y salud, con las fuentes y opciones del pipeline definidas en un YAML versionado. El resultado se almacena en DuckDB, una base de datos analítica, orientada a columnas, sin servidor y con soporte geoespacial nativo, que puede publicarse en MotherDuck para consultarse de forma remota. Es una elección que refleja bien el espíritu de la comunidad R/open source: sin licencias, con un ecosistema de paquetes ({duckdb}, {duckplyr}) que permite trabajar con datos que no caben cómodamente en memoria sin salir de R.\nLa aplicación es un Shiny que combina un explorador centrado en el mapa, un perfil territorial (inspirado en DataChile) y un agente conversacional que interpreta preguntas, consulta los datos mediante tools y devuelve mapas, gráficos, tablas o informes dentro de la misma interfaz. Se despliega en Posit Connect Cloud con dos entornos —uno estable y uno de desarrollo— que se actualizan automáticamente según los cambios en el repositorio.\nEl sitio web, construido con Quarto y publicado en GitHub Pages, no solo documenta el proyecto: también publica de forma pública los resultados de las evaluaciones de calidad del asistente, generadas con {vitals} como parte del desarrollo de la aplicación. Que Quarto pueda convertir esos resultados en un resumen navegable de cobertura y desempeño es un buen ejemplo de cómo un mismo lenguaje sostiene datos, aplicación y comunicación con muy poca fricción entre etapas."
-  },
-  {
-    "objectID": "posts/2026-08-26/index.html#desafíos-costo-calidad-y-sostenibilidad",
-    "href": "posts/2026-08-26/index.html#desafíos-costo-calidad-y-sostenibilidad",
-    "title": "CensoLab: explorar el Censo con mapas, dashboards e inteligencia artificial hecha en R",
-    "section": "Desafíos: costo, calidad y sostenibilidad",
-    "text": "Desafíos: costo, calidad y sostenibilidad\nUn dato concreto que compartieron los autores: la base de 1.5 GB se aloja gratis en MotherDuck, y la app corre en el plan gratuito de Posit Connect Cloud. El único costo real es el consumo de tokens de modelos de lenguaje —cerca de 35 dólares para partir y 27 dólares en las dos semanas siguientes—, lo que llevó a migrar de Claude 4 a Claude 3.5 Sonnet, buscando un mejor balance entre costo y capacidad para manejar herramientas. Es un recordatorio útil: el costo de construir infraestructura de datos y aplicaciones con software libre es prácticamente nulo; el costo marginal recurrente que sí importa es el de la inferencia de IA.\nLos presentadores insistieron en que agregar funcionalidades es “adictivo”, pero la prueba real de una plataforma como esta es si la información que entrega es correcta y fidedigna. Por eso construyeron una suite de evaluación con {vitals}, definiendo preguntas, respuestas esperadas y criterios de evaluación para medir automáticamente si el modelo cumple lo esperado, moviendo el control de calidad de lo informal a un proceso más riguroso. También abordaron la privacidad: CensoLab trabaja solo con datos censales públicos y agregados (el Censo 2024 no libera microdatos a nivel de manzana), y el asistente está instruido para declarar incertidumbre en vez de inventar cifras. La sostenibilidad económica del proyecto —cómo cubrir el costo de tokens sin cobrar suscripción— sigue siendo un tema abierto."
-  },
-  {
-    "objectID": "posts/2026-08-26/index.html#el-taller-construir-un-agente-de-ia-con-ellmer",
-    "href": "posts/2026-08-26/index.html#el-taller-construir-un-agente-de-ia-con-ellmer",
-    "title": "CensoLab: explorar el Censo con mapas, dashboards e inteligencia artificial hecha en R",
-    "section": "El taller: construir un agente de IA con {ellmer}",
-    "text": "El taller: construir un agente de IA con {ellmer}\nLa parte práctica usó datos del Banco Central de Chile (vía {bcchr}) como ejemplo, con una progresión pensada para mostrar por qué un chatbot conectado a datos no es magia, sino ingeniería de prompts y de herramientas:\n\nUn chat sin más. chat_openai() crea un objeto Chat (R6) con el que se conversa directamente, pero que no conoce nada más allá de su entrenamiento: no sabe ni la hora.\nEl prompt importa. Preguntar por la desocupación sin un system prompt estructurado produjo una respuesta larga, con cifras no verificables y ¡de otro país! Un prompt con rol, contexto, tarea, límites explícitos (“evita afirmar causalidad sin evidencia”) y formato —construido como un archivo Markdown parametrizado con glue() e interpolate_file()— cambió por completo el comportamiento, aunque el modelo todavía se equivocó en una cifra puntual.\nLas tools cierran la brecha de verificabilidad. Envolver una función R con tool() le da al modelo la capacidad de consultar datos reales en lugar de inventarlos. Con una sola tool fija a una serie, el modelo puede describir su evolución con datos reales; con tools para buscar, describir y descargar series, el modelo puede resolver tareas de varios pasos, e incluso recuperarse de errores (por ejemplo, un argumento de frecuencia inválido) reintentando con el valor correcto, porque el error mismo vuelve al historial de la conversación.\nEl tool loop. Todo esto ocurre en un ciclo: el modelo pide ejecutar una tool, {ellmer} la corre en R, el resultado (o error) entra al historial, y el modelo decide si continúa pidiendo otra tool o entrega la respuesta final. Ese ciclo, coordinado enteramente por R, es el corazón técnico detrás del asistente de CensoLab.\n\nLa lección conceptual: conducta (prompt) + capacidad (tools) = sistema. No se trata de escribir un prompt gigante, sino de coordinar piezas pequeñas y verificables."
-  },
-  {
-    "objectID": "posts/2026-08-26/index.html#de-la-consola-a-la-aplicación-shiny-shinychat",
-    "href": "posts/2026-08-26/index.html#de-la-consola-a-la-aplicación-shiny-shinychat",
-    "title": "CensoLab: explorar el Censo con mapas, dashboards e inteligencia artificial hecha en R",
-    "section": "De la consola a la aplicación: {shiny} + {shinychat}",
-    "text": "De la consola a la aplicación: {shiny} + {shinychat}\nLa segunda mitad mostró cómo llevar ese patrón a una interfaz web, con cinco aplicaciones de complejidad creciente: una app Shiny básica (interfaz, servidor, reactividad) para pronosticar una serie de tiempo; un explorador manual donde la persona usuaria busca, selecciona y consulta una serie con {bcchr}; un chat integrado con {shinychat} pero sin acceso a datos; un chat con tools que puede buscar series y actualizar el dashboard directamente; y finalmente una versión donde las tools no solo actualizan la interfaz, sino que devuelven contexto al propio modelo —un resumen numérico y una imagen del gráfico generado— para que pueda interpretar lo que la persona usuaria está viendo y comentarlo con propiedad.\nEse último patrón es clave para entender CensoLab: las herramientas no son solo un canal de un sentido (el modelo actúa sobre la app), sino también de vuelta (la app le devuelve contexto al modelo), lo que permite un asistente que efectivamente “ve” y comenta lo que hay en pantalla."
-  },
-  {
-    "objectID": "posts/2026-08-26/index.html#por-qué-r-para-todo-esto",
-    "href": "posts/2026-08-26/index.html#por-qué-r-para-todo-esto",
-    "title": "CensoLab: explorar el Censo con mapas, dashboards e inteligencia artificial hecha en R",
-    "section": "¿Por qué R para todo esto?",
-    "text": "¿Por qué R para todo esto?\nLo notable del taller no fue solo la plataforma, sino que todo el ciclo —datos, análisis geoespacial, modelos de lenguaje, aplicación web e infraestructura de evaluación— se sostiene en R y herramientas gratuitas y de código abierto: {duckdb} para datos a escala sin servidores propios, {ellmer} para hablar con cualquier proveedor de LLMs con la misma interfaz, {shiny} y {shinychat} para la interfaz, {vitals} para evaluar la calidad de las respuestas, y Quarto para documentar y publicar todo. Ninguna pieza individual es exótica; lo que hace único a CensoLab es cómo R permite combinarlas en un solo flujo de trabajo reproducible, sin necesitar múltiples lenguajes ni licencias de software.\nEsa es quizás la invitación más concreta que dejó el taller para la comunidad: los mismos paquetes usados para construir CensoLab están disponibles para cualquier organización que quiera explorar sus propios datos —territoriales o no— combinando visualización tradicional con agentes de IA bien acotados, sin más costo que el consumo de tokens."
-  },
-  {
-    "objectID": "posts/2026-08-26/index.html#diapositivas-y-más-información",
-    "href": "posts/2026-08-26/index.html#diapositivas-y-más-información",
-    "title": "CensoLab: explorar el Censo con mapas, dashboards e inteligencia artificial hecha en R",
-    "section": "Diapositivas y más información",
-    "text": "Diapositivas y más información\nLas diapositivas completas del taller, con todo el código de los ejemplos, están disponibles en la publicación original de la presentación y en censolab.cl. Gracias a Joshua y Matías por compartir su trabajo con la comunidad."
   }
 ]
