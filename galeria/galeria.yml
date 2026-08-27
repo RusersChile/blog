@@ -89,6 +89,13 @@
   description: Plataformas y herramientas para estimaciones hidrológicas
   categories: [ciencias, apps, paquetes, datos]
   
+- title: Open Redatam
+  path: https://github.com/pachadotdev/open-redatam
+  author: Lital Barkai, Mauricio Vargas Sepúlveda
+  description: Open Redatam is an open source software for extracting raw information from REDATAM databases.
+  image: "galeria/redatam.jpg"
+  categories: [social, paquetes, datos]
+
 - title: ismtchile
   path: https://ismtchile.geocoded.dev/home
   image: "galeria/ismtchile.jpeg"
