@@ -230,6 +230,7 @@ font-style: inherit;
   border-radius: 7px;
   padding: 6px;
   background-color: #FBD0E450;
+  border-color: #EEBCD3;
 }
 
 /* imagen en galería */
@@ -240,14 +241,20 @@ font-style: inherit;
 
 /* autores en galería */
 .grid .quarto-grid-item .card-attribution {
-  color: #59395780;
-  font-size: .7rem;
+  color: #593957AA;
+  font-size: .8rem;
 }
 
 /* título de tarjeta en galería */
 .grid .listing-title {
   padding-bottom: 8px;
   margin-top: -8px;
+}
+
+/* buscador */
+.input-group-text {
+  background-color: #fad0e4;
+  border: 1px solid #EEBCD3;
 }
 
 /* mermaid */

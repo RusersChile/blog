@@ -9,7 +9,10 @@ listing:
   sort: false
   categories: true
   sort-ui: false
-  filter-ui: false
+  filter-ui: true
+  feed: true
+  image-lazy-loading: true
+  page-size: 100
   image-height: "180px"
 page-layout: full
 ---

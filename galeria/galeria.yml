@@ -40,6 +40,13 @@
   description: Herramientas para limpiar y facilitar el trabajo con datos de comunas y regiones de Chile
   categories: [paquetes, datos]
   
+- title: Monitor de Noticias Chile
+  path: "https://bibliotecadebabel.net/analisis-noticias-chile"
+  author: Matías Carmach
+  description: Seguimiento de tendencias en prensa (2018-2026). Análisis de las palabras que dominan los titulares de los principales medios chilenos
+  categories: [noticias, social, apps]
+  image: "galeria/monitor_noticias.jpeg"
+  
 - title: "Índice de Brechas de Género"
   path: "https://www.descentralizachile.cl/ibg/"
   author: "Subsecretaría de Desarrollo Regional y Administrativo"
@@ -123,3 +130,10 @@
   description: App web interactiva que muestra de manera didáctica los costes fiscales y humanos de la Crisis de la Vivienda en Chile
   image: "galeria/costo_vivienda.jpg"
   categories: [social, género, mapas, apps]
+  
+- title: Indicadores económicos de Chile
+  path: https://bastianoleah.shinyapps.io/economia_chile/
+  description: Indicadores económicos de Chile, actualizados automáticamente cada día, incluyendo PIB, IPSA, IMACEC, IPC, UF, precio del cobre, inversión extranjera, y más
+  author: Bastián Olea Herrera
+  categories: [economia, apps]
+  image: "galeria/economia_chile.jpeg"
