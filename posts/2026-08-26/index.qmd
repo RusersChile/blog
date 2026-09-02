@@ -49,7 +49,14 @@ Los presentadores insistieron en que agregar funcionalidades es "adictivo", pero
 
 ![](censolab_4.jpeg)
 
-## Diapositivas
+
+## Taller: construir un agente de IA con R y `{ellmer}`
+
+La parte práctica de la presentación usó datos del Banco Central de Chile (vía el [paquete de R `{bcchr}`](https://jkunst.com/bcchr/)) como ejemplo. El objetivo del taller fue demostrar la utilidad de un *chatbot conectado a datos* en base a una planificación para la construcción de herramientas y el contexto apropiado.
+
+![](taller_censolab_2.jpeg)
+
+### Diapositivas
 
 A continuación dejamos las diapositivas del taller, que incluyen código para aprender a crear herramientas para IA con R, y luego integrarlas en aplicaciones Shiny:
 
@@ -59,11 +66,13 @@ src="https://censolab.cl/slides/202608-taller-usuarios-R/#/title-slide"></iframe
 
 _Usa las flechas de tu teclado para cambiar las diapositivas_
 
-## Taller: construir un agente de IA con R y `{ellmer}`
+### Grabación del taller
 
-La parte práctica de la presentación usó datos del Banco Central de Chile (vía el [paquete de R `{bcchr}`](https://jkunst.com/bcchr/)) como ejemplo. El objetivo del taller fue demostrar la utilidad de un *chatbot conectado a datos* en base a una planificación para la construcción de herramientas y el contexto apropiado.
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/tcXRM5oyybw?si=HePUDy2e2U_rC5Zt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-![](taller_censolab_2.jpeg)
+----
+
+En resumen, lo que se abarcó en la primera parte del taller práctico fue entender a grandes rasgos las piezas que componen la plataforma CensoLab:
 
 1. La función `chat_openai()` del [paquete `{ellmer}`](https://ellmer.tidyverse.org) (o `chat_anthropic()`, dependiendo te tu proveedor de IA) crea un objeto `chat` (`R6`) con el que se conversa directamente, pero que no conoce nada más allá de su entrenamiento: literal no sabe ni la hora.
 2. **La importancia del _prompt_:** Preguntar por la desocupación laboral sin un *system prompt* estructurado produjo una respuesta larga, con cifras no verificables y ¡de otro país! Un prompt con rol, contexto, tarea, límites explícitos ("evita afirmar causalidad sin evidencia"), y construido como un archivo Markdown parametrizado, cambió por completo el comportamiento. Sin embargo, el modelo igual se equivocó en una cifra puntual: le falta acceso a datos reales.

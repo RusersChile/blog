@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -14,10 +14,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -42,10 +45,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-e897c956b4d9ec89600048603f220bea.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-38d1c0b67f0ffb0a6d98fe2f33ef6832.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-6.7.2/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-6.7.2/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -244,17 +247,23 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="censolab_4.jpeg" class="img-fluid"></p>
 </section>
 </section>
-<section id="diapositivas" class="level2">
-<h2 class="anchored" data-anchor-id="diapositivas">Diapositivas</h2>
+<section id="taller-construir-un-agente-de-ia-con-r-y-ellmer" class="level2">
+<h2 class="anchored" data-anchor-id="taller-construir-un-agente-de-ia-con-r-y-ellmer">Taller: construir un agente de IA con R y <code>{ellmer}</code></h2>
+<p>La parte práctica de la presentación usó datos del Banco Central de Chile (vía el <a href="https://jkunst.com/bcchr/">paquete de R <code>{bcchr}</code></a>) como ejemplo. El objetivo del taller fue demostrar la utilidad de un <em>chatbot conectado a datos</em> en base a una planificación para la construcción de herramientas y el contexto apropiado.</p>
+<p><img src="taller_censolab_2.jpeg" class="img-fluid"></p>
+<section id="diapositivas" class="level3">
+<h3 class="anchored" data-anchor-id="diapositivas">Diapositivas</h3>
 <p>A continuación dejamos las diapositivas del taller, que incluyen código para aprender a crear herramientas para IA con R, y luego integrarlas en aplicaciones Shiny:</p>
 <iframe width="100%" height="420" style="border-radius:6px;" title="Diapositivas" frameborder="0" src="https://censolab.cl/slides/202608-taller-usuarios-R/#/title-slide">
 </iframe>
 <p><em>Usa las flechas de tu teclado para cambiar las diapositivas</em></p>
 </section>
-<section id="taller-construir-un-agente-de-ia-con-r-y-ellmer" class="level2">
-<h2 class="anchored" data-anchor-id="taller-construir-un-agente-de-ia-con-r-y-ellmer">Taller: construir un agente de IA con R y <code>{ellmer}</code></h2>
-<p>La parte práctica de la presentación usó datos del Banco Central de Chile (vía el <a href="https://jkunst.com/bcchr/">paquete de R <code>{bcchr}</code></a>) como ejemplo. El objetivo del taller fue demostrar la utilidad de un <em>chatbot conectado a datos</em> en base a una planificación para la construcción de herramientas y el contexto apropiado.</p>
-<p><img src="taller_censolab_2.jpeg" class="img-fluid"></p>
+<section id="grabación-del-taller" class="level3">
+<h3 class="anchored" data-anchor-id="grabación-del-taller">Grabación del taller</h3>
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/tcXRM5oyybw?si=HePUDy2e2U_rC5Zt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+<hr>
+<p>En resumen, lo que se abarcó en la primera parte del taller práctico fue entender a grandes rasgos las piezas que componen la plataforma CensoLab:</p>
 <ol type="1">
 <li>La función <code>chat_openai()</code> del <a href="https://ellmer.tidyverse.org">paquete <code>{ellmer}</code></a> (o <code>chat_anthropic()</code>, dependiendo te tu proveedor de IA) crea un objeto <code>chat</code> (<code>R6</code>) con el que se conversa directamente, pero que no conoce nada más allá de su entrenamiento: literal no sabe ni la hora.</li>
 <li><strong>La importancia del <em>prompt</em>:</strong> Preguntar por la desocupación laboral sin un <em>system prompt</em> estructurado produjo una respuesta larga, con cifras no verificables y ¡de otro país! Un prompt con rol, contexto, tarea, límites explícitos (“evita afirmar causalidad sin evidencia”), y construido como un archivo Markdown parametrizado, cambió por completo el comportamiento. Sin embargo, el modelo igual se equivocó en una cifra puntual: le falta acceso a datos reales.</li>
@@ -263,6 +272,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>En resumen: <strong>conducta (prompt) + capacidad (tools) = sistema</strong>. La clave es coordinar piezas pequeñas y verificables para que el sistema, apoyado en el <em>prompt</em>, se comporte como es esperado.</p>
 <p><img src="diagrama_1.jpeg" class="img-fluid"></p>
+</section>
 <section id="implementación-interactiva-shiny-shinychat" class="level3">
 <h3 class="anchored" data-anchor-id="implementación-interactiva-shiny-shinychat">Implementación interactiva: <code>{shiny}</code> + <code>{shinychat}</code></h3>
 <p>La segunda mitad del taller mostró cómo llevar lo anterior a una interfaz web, con cinco aplicaciones de complejidad creciente:</p>

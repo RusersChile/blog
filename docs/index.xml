@@ -9,7 +9,7 @@
 <link>https://santiagoRusers.github.io/</link>
 <atom:link href="https://santiagoRusers.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Sitio web de la comunidad de usuarias y usuarios de R en Santiago de Chile</description>
-<generator>quarto-1.9.38</generator>
+<generator>quarto-1.10.18</generator>
 <lastBuildDate>Thu, 27 Aug 2026 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Resumen del taller: explorar el Censo con mapas, dashboards e inteligencia artificial con CensoLab y R</title>
@@ -61,17 +61,23 @@
 <p><img src="https://santiagoRusers.github.io/posts/2026-08-26/censolab_4.jpeg" class="img-fluid"></p>
 </section>
 </section>
-<section id="diapositivas" class="level2">
-<h2 class="anchored" data-anchor-id="diapositivas">Diapositivas</h2>
+<section id="taller-construir-un-agente-de-ia-con-r-y-ellmer" class="level2">
+<h2 class="anchored" data-anchor-id="taller-construir-un-agente-de-ia-con-r-y-ellmer">Taller: construir un agente de IA con R y <code>{ellmer}</code></h2>
+<p>La parte práctica de la presentación usó datos del Banco Central de Chile (vía el <a href="https://jkunst.com/bcchr/">paquete de R <code>{bcchr}</code></a>) como ejemplo. El objetivo del taller fue demostrar la utilidad de un <em>chatbot conectado a datos</em> en base a una planificación para la construcción de herramientas y el contexto apropiado.</p>
+<p><img src="https://santiagoRusers.github.io/posts/2026-08-26/taller_censolab_2.jpeg" class="img-fluid"></p>
+<section id="diapositivas" class="level3">
+<h3 class="anchored" data-anchor-id="diapositivas">Diapositivas</h3>
 <p>A continuación dejamos las diapositivas del taller, que incluyen código para aprender a crear herramientas para IA con R, y luego integrarlas en aplicaciones Shiny:</p>
 <iframe width="100%" height="420" style="border-radius:6px;" title="Diapositivas" frameborder="0" src="https://censolab.cl/slides/202608-taller-usuarios-R/#/title-slide">
 </iframe>
 <p><em>Usa las flechas de tu teclado para cambiar las diapositivas</em></p>
 </section>
-<section id="taller-construir-un-agente-de-ia-con-r-y-ellmer" class="level2">
-<h2 class="anchored" data-anchor-id="taller-construir-un-agente-de-ia-con-r-y-ellmer">Taller: construir un agente de IA con R y <code>{ellmer}</code></h2>
-<p>La parte práctica de la presentación usó datos del Banco Central de Chile (vía el <a href="https://jkunst.com/bcchr/">paquete de R <code>{bcchr}</code></a>) como ejemplo. El objetivo del taller fue demostrar la utilidad de un <em>chatbot conectado a datos</em> en base a una planificación para la construcción de herramientas y el contexto apropiado.</p>
-<p><img src="https://santiagoRusers.github.io/posts/2026-08-26/taller_censolab_2.jpeg" class="img-fluid"></p>
+<section id="grabación-del-taller" class="level3">
+<h3 class="anchored" data-anchor-id="grabación-del-taller">Grabación del taller</h3>
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/tcXRM5oyybw?si=HePUDy2e2U_rC5Zt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+<hr>
+<p>En resumen, lo que se abarcó en la primera parte del taller práctico fue entender a grandes rasgos las piezas que componen la plataforma CensoLab:</p>
 <ol type="1">
 <li>La función <code>chat_openai()</code> del <a href="https://ellmer.tidyverse.org">paquete <code>{ellmer}</code></a> (o <code>chat_anthropic()</code>, dependiendo te tu proveedor de IA) crea un objeto <code>chat</code> (<code>R6</code>) con el que se conversa directamente, pero que no conoce nada más allá de su entrenamiento: literal no sabe ni la hora.</li>
 <li><strong>La importancia del <em>prompt</em>:</strong> Preguntar por la desocupación laboral sin un <em>system prompt</em> estructurado produjo una respuesta larga, con cifras no verificables y ¡de otro país! Un prompt con rol, contexto, tarea, límites explícitos (“evita afirmar causalidad sin evidencia”), y construido como un archivo Markdown parametrizado, cambió por completo el comportamiento. Sin embargo, el modelo igual se equivocó en una cifra puntual: le falta acceso a datos reales.</li>
@@ -80,6 +86,7 @@
 </ol>
 <p>En resumen: <strong>conducta (prompt) + capacidad (tools) = sistema</strong>. La clave es coordinar piezas pequeñas y verificables para que el sistema, apoyado en el <em>prompt</em>, se comporte como es esperado.</p>
 <p><img src="https://santiagoRusers.github.io/posts/2026-08-26/diagrama_1.jpeg" class="img-fluid"></p>
+</section>
 <section id="implementación-interactiva-shiny-shinychat" class="level3">
 <h3 class="anchored" data-anchor-id="implementación-interactiva-shiny-shinychat">Implementación interactiva: <code>{shiny}</code> + <code>{shinychat}</code></h3>
 <p>La segunda mitad del taller mostró cómo llevar lo anterior a una interfaz web, con cinco aplicaciones de complejidad creciente:</p>
@@ -141,6 +148,12 @@
 <iframe width="100%" height="420" style="border-radius:6px;" title="Diapositivas" frameborder="0" src="https://censolab.cl/slides/202608-taller-usuarios-R/#/title-slide">
 </iframe>
 <p><em>Usa las flechas de tu teclado para cambiar las diapositivas</em></p>
+</section>
+<section id="grabación-del-taller" class="level2">
+<h2 class="anchored" data-anchor-id="grabación-del-taller">Grabación del taller</h2>
+<p>Más información sobre los <a href="../../posts/2026-08-26/">contenidos del taller en esta publicación.</a></p>
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/tcXRM5oyybw?si=HePUDy2e2U_rC5Zt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
 <!---
 ¡Lxs dejamos cordialmente invitados a esta nueva reunión de _R Users Santiago_! 
 --->

@@ -42,6 +42,13 @@ src="https://censolab.cl/slides/202608-taller-usuarios-R/#/title-slide"></iframe
 
 _Usa las flechas de tu teclado para cambiar las diapositivas_
 
+
+## Grabación del taller
+
+Más información sobre los [contenidos del taller en esta publicación.](/posts/2026-08-26/)
+
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/tcXRM5oyybw?si=HePUDy2e2U_rC5Zt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 <!---
 ¡Lxs dejamos cordialmente invitados a esta nueva reunión de _R Users Santiago_! 
 --->
