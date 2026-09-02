@@ -12,7 +12,7 @@
 <generator>quarto-1.10.18</generator>
 <lastBuildDate>Thu, 27 Aug 2026 04:00:00 GMT</lastBuildDate>
 <item>
-  <title>Resumen del taller: explorar el Censo con mapas, dashboards e inteligencia artificial con CensoLab y R</title>
+  <title>Taller: Explorando datos censales con mapas, dashboards e inteligencia artificial con R</title>
   <dc:creator>Grupo de usuari@s de R</dc:creator>
   <link>https://santiagoRusers.github.io/posts/2026-08-26/</link>
   <description><![CDATA[ 
@@ -115,6 +115,7 @@
  ]]></description>
   <category>talleres</category>
   <category>presentaciones</category>
+  <category>videos</category>
   <guid>https://santiagoRusers.github.io/posts/2026-08-26/</guid>
   <pubDate>Thu, 27 Aug 2026 04:00:00 GMT</pubDate>
   <media:content url="https://santiagoRusers.github.io/posts/2026-08-26/censolab_2.jpeg" medium="image" type="image/jpeg"/>
